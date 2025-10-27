@@ -1,3 +1,7 @@
+---
+layout: ../../../layouts/DocsLayout.astro
+---
+
 # EditMemory
 
 Edit an existing memory FILE to add, modify, or replace content while maintaining [[concept]] connections to the knowledge graph. This tool provides safe editing operations with checksum validation to prevent conflicting changes and ensures all edits contribute to the Maenifold graph structure.
@@ -42,7 +46,9 @@ Adds new content to the end of the existing file.
 {
   "identifier": "memory://documents/machine-learning.md",
   "operation": "append",
-  "content": "## Recent Discoveries\n\nNew research in [[Deep Learning]] shows promising results with [[Transformer Architecture]]."
+  "content": "## Recent Discoveries
+
+New research in [[Deep Learning]] shows promising results with [[Transformer Architecture]]."
 }
 ```
 
@@ -52,7 +58,11 @@ Adds new content to the beginning of the existing file.
 {
   "identifier": "memory://documents/machine-learning.md", 
   "operation": "prepend",
-  "content": "# Prerequisites\n\nThis document assumes familiarity with [[Statistics]] and [[Linear Algebra]].\n\n"
+  "content": "# Prerequisites
+
+This document assumes familiarity with [[Statistics]] and [[Linear Algebra]].
+
+"
 }
 ```
 
@@ -86,7 +96,9 @@ Replaces content under a specific markdown section header.
 {
   "identifier": "research-notes",
   "operation": "append", 
-  "content": "## Latest Findings\n\nDiscovered important connection between [[Attention Mechanisms]] and [[Memory Networks]]."
+  "content": "## Latest Findings
+
+Discovered important connection between [[Attention Mechanisms]] and [[Memory Networks]]."
 }
 ```
 Adds new section to the end of the research-notes file.

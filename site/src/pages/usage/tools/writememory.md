@@ -1,3 +1,7 @@
+---
+layout: ../../../layouts/DocsLayout.astro
+---
+
 # WriteMemory
 
 Create new knowledge files in the Maenifold memory system with automatic knowledge graph integration. This tool builds your persistent knowledge base through [[WikiLink]] concepts that automatically connect related information. REQUIRES at least one [[concept]] in double brackets to ensure knowledge graph connectivity.
@@ -47,7 +51,11 @@ Creates a basic memory file with automatic concept extraction and graph integrat
 ```json
 {
   "title": "Transformer Architecture Deep Dive",
-  "content": "The [[Transformer]] architecture revolutionized [[Natural Language Processing]] through [[Self-Attention]] mechanisms. Key components include [[Multi-Head Attention]], [[Positional Encoding]], and [[Layer Normalization]].\n\n## Key Insights\n- [[Attention]] allows parallel processing unlike [[RNN]] sequential approach\n- [[BERT]] and [[GPT]] are both [[Transformer]]-based but use different training objectives",
+  "content": "The [[Transformer]] architecture revolutionized [[Natural Language Processing]] through [[Self-Attention]] mechanisms. Key components include [[Multi-Head Attention]], [[Positional Encoding]], and [[Layer Normalization]].
+
+## Key Insights
+- [[Attention]] allows parallel processing unlike [[RNN]] sequential approach
+- [[BERT]] and [[GPT]] are both [[Transformer]]-based but use different training objectives",
   "folder": "research/deep-learning",
   "tags": ["transformers", "nlp", "architecture", "research"]
 }
@@ -58,7 +66,12 @@ Creates an organized research file with folder structure and comprehensive taggi
 ```json
 {
   "title": "Debugging Memory Leaks in C# Applications", 
-  "content": "Encountered [[Memory Leak]] in [[C# Application]] during [[Performance Testing]]. Root cause: [[Event Handlers]] not properly unsubscribed in [[Observer Pattern]] implementation.\n\n## Solution\n- Use [[Weak References]] for event subscriptions\n- Implement [[IDisposable]] pattern properly\n- Apply [[RAII]] principles from [[Resource Management]]",
+  "content": "Encountered [[Memory Leak]] in [[C# Application]] during [[Performance Testing]]. Root cause: [[Event Handlers]] not properly unsubscribed in [[Observer Pattern]] implementation.
+
+## Solution
+- Use [[Weak References]] for event subscriptions
+- Implement [[IDisposable]] pattern properly
+- Apply [[RAII]] principles from [[Resource Management]]",
   "folder": "solutions/performance",
   "tags": ["debugging", "performance", "csharp", "memory-management"]
 }

@@ -1,3 +1,7 @@
+---
+layout: ../../../layouts/DocsLayout.astro
+---
+
 # ExtractConceptsFromFile
 
 ## Purpose
@@ -72,7 +76,8 @@ Validate that a newly created file contains proper [[concept]] links before runn
 - **Issue**: Extraction shows fewer concepts than expected
 - **Solutions**:
   - Check for proper [[double bracket]] formatting (not [single] or ((double parens)))
-  - Verify concepts aren't split across lines: [[Concept]] not [[\nConcept]]
+  - Verify concepts aren't split across lines: [[Concept]] not [[
+Concept]]
   - Look for typos in bracket formatting: [[Concept]]] (extra bracket) won't match
 
 ### Performance with Large Files

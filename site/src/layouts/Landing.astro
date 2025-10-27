@@ -3,118 +3,183 @@ import Base from './Base.astro';
 ---
 
 <Base>
-  <style>
-    .hero { position: relative; padding: 48px 0 24px; }
-    .grid { display:grid; grid-template-columns: 1.1fr .9fr; gap: 28px; align-items:center; }
-    .eyebrow { color: var(--muted); letter-spacing: 1px; text-transform: uppercase; font-size: 12px; }
-    .title { font-size: clamp(36px, 4.5vw, 64px); font-weight: 800; letter-spacing: .4px; margin: 10px 0 8px; }
-    .subtitle { color: var(--muted); font-size: clamp(16px, 2.2vw, 20px); max-width: 48ch; }
-    .cta { margin-top: 16px; display:flex; gap: 12px; }
-    .cta a { padding: 10px 14px; border-radius: 12px; background: rgba(84,174,255,0.12); border:1px solid rgba(84,174,255,0.25); }
-    .card { padding: 16px; border-radius: 14px; border: 1px solid rgba(255,255,255,0.06); background: rgba(255,255,255,0.04); }
-    .scene { height: 480px; border-radius: 16px; overflow: hidden; border:1px solid rgba(255,255,255,0.06); background: radial-gradient(1200px 600px at 20% 10%, rgba(84,174,255,0.08), transparent); }
-  </style>
+    <style>
+        .hero {
+            position: relative;
+            padding: 48px 0 48px;
+            text-align: center;
+        }
+        .hero-card {
+            display: flex;
+            flex-direction: column;
+            gap: 18px;
+            padding: 36px 40px;
+            border-radius: 28px;
+            border: 1px solid rgba(91, 177, 255, 0.24);
+            background: linear-gradient(
+                145deg,
+                rgba(12, 28, 42, 0.88),
+                rgba(8, 18, 28, 0.92)
+            );
+            box-shadow: 0 40px 80px rgba(6, 14, 24, 0.55);
+            position: relative;
+            overflow: hidden;
+            max-width: 1000px;
+            margin: 0 auto;
+            align-items: center;
+        }
+        .hero-card::before {
+            content: '';
+            position: absolute;
+            inset: -1px;
+            border-radius: inherit;
+            background: linear-gradient(
+                140deg,
+                rgba(84, 174, 255, 0.35),
+                rgba(194, 151, 255, 0.18),
+                rgba(74, 194, 107, 0.2)
+            );
+            opacity: 0.35;
+            z-index: -1;
+            pointer-events: none;
+        }
+        .eyebrow {
+            color: rgba(135, 153, 173, 0.92);
+            letter-spacing: 1.8px;
+            text-transform: uppercase;
+            font-size: 12px;
+        }
+        .title {
+            font-size: clamp(42px, 5vw, 68px);
+            font-weight: 800;
+            letter-spacing: 0.4px;
+            margin: 0;
+        }
+        .subtitle {
+            color: rgba(200, 214, 230, 0.92);
+            font-size: clamp(17px, 2.1vw, 22px);
+            max-width: 46ch;
+            line-height: 1.7;
+        }
+        .cta {
+            display: flex;
+            gap: 14px;
+            margin-top: 8px;
+            justify-content: center;
+        }
+        .cta a {
+            padding: 8px 12px;
+            border-radius: 999px;
+            background: rgba(84, 174, 255, 0.12);
+            border: 1px solid rgba(84, 174, 255, 0.25);
+            color: var(--text);
+            transition: all 0.2s ease;
+        }
+        .cta a:hover {
+            background: rgba(84, 174, 255, 0.22);
+            border-color: rgba(84, 174, 255, 0.5);
+            text-decoration: none;
+        }
+        @media (max-width: 720px) {
+            .hero-card {
+                padding: 28px 24px;
+                border-radius: 20px;
+            }
+            .cta {
+                flex-wrap: wrap;
+            }
+        }
+        .content-section {
+            padding: 32px 0 80px;
+        }
+        .content-card {
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 48px 56px;
+            border-radius: 24px;
+            border: 1px solid rgba(255, 255, 255, 0.08);
+            background: linear-gradient(
+                145deg,
+                rgba(14, 27, 42, 0.85),
+                rgba(11, 21, 32, 0.9)
+            );
+            box-shadow: 0 20px 60px rgba(0, 0, 0, 0.4);
+            text-align: left;
+        }
+        .content-card :global(h2) {
+            font-size: clamp(28px, 3.5vw, 36px);
+            font-weight: 700;
+            margin-top: 40px;
+            margin-bottom: 16px;
+            color: var(--text);
+        }
+        .content-card :global(h2:first-child) {
+            margin-top: 0;
+        }
+        .content-card :global(h3) {
+            font-size: clamp(20px, 2.5vw, 24px);
+            font-weight: 600;
+            margin-top: 32px;
+            margin-bottom: 12px;
+            color: var(--text);
+        }
+        .content-card :global(p) {
+            color: rgba(200, 214, 230, 0.92);
+            line-height: 1.8;
+            margin-bottom: 16px;
+        }
+        .content-card :global(ul) {
+            color: rgba(200, 214, 230, 0.92);
+            line-height: 1.8;
+            margin-bottom: 16px;
+        }
+        .content-card :global(img) {
+            max-width: 100%;
+            border-radius: 12px;
+            border: 1px solid rgba(255, 255, 255, 0.06);
+            margin: 24px 0;
+        }
+        .content-card :global(code) {
+            background: rgba(84, 174, 255, 0.1);
+            padding: 2px 6px;
+            border-radius: 4px;
+            font-size: 0.9em;
+        }
+        .content-card :global(pre) {
+            background: #0a0f14;
+            border-radius: 12px;
+            padding: 20px;
+            overflow-x: auto;
+            margin: 20px 0;
+            border: 1px solid rgba(255, 255, 255, 0.06);
+        }
+        @media (max-width: 720px) {
+            .content-card {
+                padding: 32px 28px;
+            }
+        }
+    </style>
 
-  <section class="hero container">
-    <div class="grid">
-      <div>
-        <div class="eyebrow">Persistent Graph-of-Thoughts</div>
-        <h1 class="title">Your AI is ephemeral. Your knowledge shouldn't be.</h1>
-        <p class="subtitle">maenifold transforms isolated AI sessions into a persistent knowledge graph with WikiLinks, vectors, and emergent structure. Test-time reasoning that compounds.</p>
-        <div class="cta">
-          <a href="#wow">Explore the graph</a>
-          <a href={`${import.meta.env.BASE_URL}usage/`}>Usage & Docs</a>
+    <section class="hero container">
+        <div class="hero-card">
+            <div class="eyebrow">Persistent Graph-of-Thoughts</div>
+            <h1 class="title">Your Agent is ephemeral.</h1>
+            <h1 class="title">Knowledge persists.</h1>
+            <p class="subtitle">
+                maenifold transforms isolated AI sessions into a persistent
+                knowledge graph with WikiLinks, vectors, and emergent structure.
+                Test-time reasoning that compounds.
+            </p>
+            <div class="cta">
+                <a href="#wow">Get Started</a>
+                <a href={`${import.meta.env.BASE_URL}usage/`}>Usage & Docs</a>
+            </div>
         </div>
-      </div>
-      <div class="scene">
-        <div id="graph" style="width:100%; height:100%"></div>
-        <script type="module">
-          const [{ default: ForceGraph3D }, THREE] = await Promise.all([
-            import('3d-force-graph'),
-            import('three')
-          ]);
+    </section>
 
-          const el = document.getElementById('graph');
-          const N = 90;
-          const gData = {
-            nodes: [...Array(N).keys()].map(i => ({ id: i, group: (i % 4) + 1 })),
-            links: [...Array(N).keys()].filter(id => id).map(id => ({ source: id, target: Math.round(Math.random()* (id-1)) }))
-          };
-
-          const Graph = ForceGraph3D()(el)
-            .backgroundColor('#0b1520')
-            .nodeLabel(n => String(n.id))
-            .nodeThreeObject(node => new THREE.Mesh(
-              new THREE.SphereGeometry(4.2, 16, 16),
-              new THREE.MeshStandardMaterial({ color: '#54aeff', roughness: 0.6, metalness: 0.05, emissive: 0x0b0b0b })
-            ))
-            .linkColor(() => 'rgba(255,255,255,0.12)')
-            .linkOpacity(0.85)
-            .linkWidth(0.6)
-            .linkDirectionalParticles(2)
-            .linkDirectionalParticleSpeed(0.006)
-            .linkDirectionalParticleWidth(0.8)
-            .d3VelocityDecay(0.25)
-            .graphData(gData);
-
-          const renderer = Graph.renderer();
-          renderer.setPixelRatio(Math.min(window.devicePixelRatio || 1, 2));
-          renderer.outputEncoding = THREE.sRGBEncoding;
-          renderer.setSize(el.clientWidth, el.clientHeight, false);
-
-          Graph.scene().fog = new THREE.FogExp2(0x0b1520, 0.0008);
-          Graph.scene().add(new THREE.AmbientLight(0xffffff, 0.35));
-          const dirLight = new THREE.DirectionalLight(0x88ccff, 0.6);
-          dirLight.position.set(1, 2, 1);
-          Graph.scene().add(dirLight);
-
-          const controls = Graph.controls();
-          controls.autoRotate = true;
-          controls.autoRotateSpeed = 0.6;
-          controls.enableDamping = true;
-          controls.dampingFactor = 0.08;
-
-          const cam = Graph.camera();
-          cam.position.set(260, 80, 0);
-          controls.update();
-
-          window.addEventListener('resize', () => {
-            const w = el.clientWidth, h = el.clientHeight;
-            renderer.setSize(w, h, false);
-            const c = Graph.camera();
-            if (c && typeof c.aspect !== 'undefined') {
-              c.aspect = w / h;
-              c.updateProjectionMatrix();
-            }
-          }, { passive: true });
-
-          const base = import.meta.env.BASE_URL || '/';
-          fetch(`${base}graph-data.json`).then(r => r.ok ? r.json() : null).then(data => {
-            if (data && data.nodes?.length) {
-              Graph
-                .nodeThreeObject(node => new THREE.Mesh(
-                  new THREE.SphereGeometry(3.6, 16, 16),
-                  new THREE.MeshStandardMaterial({ color: '#54aeff', roughness: 0.6, metalness: 0.05, emissive: 0x0b0b0b })
-                ))
-                .graphData(data)
-                .onNodeClick(node => {
-                  const slug = String(node.id || '')
-                    .toLowerCase()
-                    .replace(/\s+/g, '')
-                    .replace(/[^a-z0-9-]/g, '');
-                  if (!slug) return;
-                  window.location.href = `${base}usage/tools/${slug}/`;
-                });
-            }
-          }).catch(() => {});
-        </script>
-      </div>
-    </div>
-  </section>
-
-  <section class="container" id="wow">
-    <div class="card">
-      <slot />
-    </div>
-  </section>
+    <section class="content-section container" id="wow">
+        <div class="content-card">
+            <slot />
+        </div>
+    </section>
 </Base>

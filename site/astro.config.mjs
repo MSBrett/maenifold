@@ -8,6 +8,11 @@ export default defineConfig({
   base: '/maenifold/',
   integrations: [mdx(), sitemap()],
   output: 'static',
+  markdown: {
+    shikiConfig: {
+      theme: 'github-dark'
+    }
+  },
   vite: {
     build: { target: 'es2020' }
   }
