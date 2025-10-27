@@ -1,3 +1,8 @@
+Here's an updated workflow that adds your explicit Restore and Build step and removes the autobuild step. The explicit build runs after the CodeQL initialization (init) and before analyze — that's the recommended ordering for compiled languages like C#.
+
+Updated workflow:
+
+```yaml
 name: CodeQL
 
 on:
@@ -37,8 +42,10 @@ jobs:
           languages: ${{ matrix.language }}
           config-file: ./.github/codeql/codeql-config.yml
 
-      - name: Autobuild
-        uses: github/codeql-action/autobuild@v3
+      - name: Restore and Build (explicit)
+        run: |
+          dotnet restore Maenifold.sln
+          dotnet build Maenifold.sln -c Release --no-restore
 
       - name: Perform CodeQL Analysis
         uses: github/codeql-action/analyze@v3
@@ -55,3 +62,8 @@ jobs:
           echo "::warning::To fix this: Go to Settings → Security → Code security and analysis → Enable Code scanning."
           echo "::warning::Enable GitHub Advanced Security (Code scanning) to enforce this check."
           echo "::notice::The security analysis was performed successfully, only the upload to GitHub failed."
+```
+
+Notes:
+- Ensure the solution filename Maenifold.sln is correct (typo might cause build to fail).
+- We removed the autobuild step because you are providing an explicit build. If you prefer, you can keep autobuild instead of the explicit steps — but for .NET it's often more reliable to run dotnet restore/dotnet build explicitly after init.
