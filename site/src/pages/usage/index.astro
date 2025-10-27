@@ -1,0 +1,14 @@
+---
+import Base from '../../layouts/Base.astro'
+layout: Base
+---
+
+# Usage
+
+Browse the tool guides:
+
+<ul>
+{(await Astro.glob('./tools/*.md')).map(p => (
+  <li><a href={p.url}>{p.file.split('/').pop()?.replace('.md','')}</a></li>
+))}
+</ul>

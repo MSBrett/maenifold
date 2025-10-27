@@ -1,0 +1,43 @@
+```astro
+---
+layout: ./Base.astro
+---
+
+<style>
+  .hero { position: relative; padding: 48px 0 24px; }
+  .grid { display:grid; grid-template-columns: 1.1fr .9fr; gap: 28px; align-items:center; }
+  .eyebrow { color: var(--muted); letter-spacing: 1px; text-transform: uppercase; font-size: 12px; }
+  .title { font-size: clamp(36px, 4.5vw, 64px); font-weight: 800; letter-spacing: .4px; margin: 10px 0 8px; }
+  .subtitle { color: var(--muted); font-size: clamp(16px, 2.2vw, 20px); max-width: 48ch; }
+  .cta { margin-top: 16px; display:flex; gap: 12px; }
+  .cta a { padding: 10px 14px; border-radius: 12px; background: rgba(84,174,255,0.12); border:1px solid rgba(84,174,255,0.25); }
+  .card { padding: 16px; border-radius: 14px; border: 1px solid rgba(255,255,255,0.06); background: rgba(255,255,255,0.04); }
+  .scene { height: 480px; border-radius: 16px; overflow: hidden; border:1px solid rgba(255,255,255,0.06); background: radial-gradient(1200px 600px at 20% 10%, rgba(84,174,255,0.08), transparent); }
+</style>
+
+<section class="hero container">
+  <div class="grid">
+    <div>
+      <div class="eyebrow">Persistent Graph-of-Thoughts</div>
+      <h1 class="title">Your AI is ephemeral. Your knowledge shouldn't be.</h1>
+      <p class="subtitle">maenifold transforms isolated AI sessions into a persistent knowledge graph with WikiLinks, vectors, and emergent structure. Test-time reasoning that compounds.</p>
+      <div class="cta">
+        <a href="#wow">Explore the graph</a>
+        <a href="/usage/">Usage & Docs</a>
+      </div>
+    </div>
+    <div class="scene">
+      <ForceGraph3D />
+    </div>
+  </div>
+</section>
+
+<section class="container" id="wow">
+  <div class="card">
+    <slot />
+  </div>
+</section>
+
+---
+import ForceGraph3D from "../components/ForceGraph3D.astro";
+```

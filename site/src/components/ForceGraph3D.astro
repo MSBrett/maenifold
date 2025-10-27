@@ -1,0 +1,117 @@
+Nice — thanks for sharing your update. You’re almost there; a few small but important fixes will remove bugs and avoid perf traps. Key points:
+
+- Don’t mix nodeAutoColorBy with nodeThreeObject. nodeAutoColorBy is redundant when you supply custom meshes and can conflict. Remove the initial nodeAutoColorBy or only call it when you aren’t using nodeThreeObject.
+- Don’t call Graph.cameraPosition(...) every frame. That function starts a tween on each call and will accumulate memory/tweens. Either use controls.autoRotate or set the camera position directly each frame and call controls.update().
+- Configure the renderer (pixel ratio, encoding, initial size) and add a resize handler so the canvas is crisp and the projection remains correct.
+- Use MeshStandardMaterial (PBR) for nicer lighting; if you replace materials later, set material.needsUpdate = true.
+- linkDirectionalParticles is expensive at scale — lower or disable for large graphs.
+
+Minimal corrected version (adapted from your update):
+
+```js
+// assume ForceGraph3D and THREE available
+const Graph = ForceGraph3D()(el)
+  .backgroundColor('#0b1520')
+  .nodeLabel(n => String(n.id))
+  // remove nodeAutoColorBy since we provide a nodeThreeObject:
+  .nodeThreeObject(node => new THREE.Mesh(
+    new THREE.SphereGeometry(4.2, 16, 16),
+    // prefer MeshStandardMaterial for nicer PBR lighting
+    new THREE.MeshStandardMaterial({ color: '#54aeff', roughness: 0.6, metalness: 0.05, emissive: 0x0b0b0b })
+  ))
+  .linkColor(() => 'rgba(255,255,255,0.12)')
+  .linkOpacity(0.85)
+  .linkWidth(0.6)
+  .linkDirectionalParticles(2)          // watch cost on large graphs
+  .linkDirectionalParticleSpeed(0.006)
+  .linkDirectionalParticleWidth(0.8)
+  .d3VelocityDecay(0.25)
+  .graphData(gData);
+
+// renderer tweaks
+const renderer = Graph.renderer();
+renderer.setPixelRatio(Math.min(window.devicePixelRatio || 1, 2));
+renderer.outputEncoding = THREE.sRGBEncoding;
+renderer.setSize(el.clientWidth, el.clientHeight, false);
+
+// subtle fog and lighting
+Graph.scene().fog = new THREE.FogExp2(0x0b1520, 0.0008);
+Graph.scene().add(new THREE.AmbientLight(0xffffff, 0.35));
+const dirLight = new THREE.DirectionalLight(0x88ccff, 0.6);
+dirLight.position.set(1, 2, 1);
+Graph.scene().add(dirLight);
+
+// controls: prefer autoRotate or update camera directly each frame
+const controls = Graph.controls();
+controls.autoRotate = true;
+controls.autoRotateSpeed = 0.6;
+controls.enableDamping = true;
+controls.dampingFactor = 0.08;
+
+// set initial camera directly (no tween)
+const cam = Graph.camera();
+cam.position.set(260, 80, 0);
+controls.update();
+
+// handle resize so canvas/textures remain crisp & projection stays right
+window.addEventListener('resize', () => {
+  const w = el.clientWidth, h = el.clientHeight;
+  renderer.setSize(w, h, false);
+  const c = Graph.camera();
+  if (c && typeof c.aspect !== 'undefined') {
+    c.aspect = w / h;
+    c.updateProjectionMatrix();
+  }
+}, { passive: true });
+
+// dynamic data load (if you want to use different node appearance for the fetched data)
+// note: set nodeThreeObject then call graphData so nodes are created with the new accessor
+const base = import.meta.env.BASE_URL || '/';
+fetch(`${base}graph-data.json`)
+  .then(r => r.ok ? r.json() : null)
+  .then(data => {
+    if (data && data.nodes?.length) {
+      Graph
+        // no nodeAutoColorBy here either
+        .nodeThreeObject(node => new THREE.Mesh(
+          new THREE.SphereGeometry(3.6, 16, 16),
+          new THREE.MeshStandardMaterial({ color: '#54aeff', roughness: 0.6, metalness: 0.05, emissive: 0x0b0b0b })
+        ))
+        .graphData(data)
+        .onNodeClick(node => {
+          const slug = String(node.id || '')
+            .toLowerCase()
+            .replace(/\s+/g, '')
+            .replace(/[^a-z0-9-]/g, '');
+          if (!slug) return;
+          window.location.href = `${base}usage/tools/${slug}/`;
+        });
+    }
+  })
+  .catch(() => {});
+
+// If you prefer a scripted orbit: DO NOT call Graph.cameraPosition in a tight loop.
+// Instead set cam.position directly and call controls.update():
+let t = 0;
+function animateOrbit() {
+  t += 0.004;
+  const distance = 260;
+  const cam = Graph.camera();
+  cam.position.set(Math.cos(t) * distance, 80, Math.sin(t) * distance);
+  controls.update(); // tell orbit controls the camera moved
+  requestAnimationFrame(animateOrbit);
+}
+// animateOrbit(); // enable if you want scripted orbit instead of autoRotate
+```
+
+Extra notes:
+- If you must animate a tweened camera movement occasionally, call Graph.cameraPosition(...) sparingly (not every frame) — it accepts a transitionDuration param if you need a smooth move.
+- If you change materials on existing objects, mark material.needsUpdate = true so three.js recompiles shaders.
+- For large graphs: consider disabling linkDirectionalParticles, lowering particle counts, merging static geometries, or LOD strategies.
+
+Want me to:
+- add CSS2D (HTML) labels for readable labels,
+- show how to size nodes by a numeric property,
+- or demonstrate profiling / LOD strategies for very large graphs?
+
+Which would you like next?
