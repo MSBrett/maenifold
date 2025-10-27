@@ -1,3 +1,4 @@
+```xml
 <Project Sdk="Microsoft.NET.Sdk">
   <PropertyGroup>
     <TargetFramework>net9.0</TargetFramework>
@@ -50,12 +51,8 @@
 
   <!-- Build documentation after successful build -->
   <Target Name="BuildDocs" AfterTargets="Build" Condition="'$(Configuration)' == 'Release'">
-    <Exec Command="bash $(MSBuildProjectDirectory)/../scripts/build-docs.sh"
-          WorkingDirectory="$(MSBuildProjectDirectory)/.."
-          Condition="'$(OS)' != 'Windows_NT'" />
-    <Exec Command="powershell -ExecutionPolicy Bypass -File $(MSBuildProjectDirectory)/../scripts/build-docs.ps1"
-          WorkingDirectory="$(MSBuildProjectDirectory)/.."
-          Condition="'$(OS)' == 'Windows_NT'" />
-    <Message Text="Documentation built successfully in /docs" Importance="high" />
+    <!-- Disabled legacy docs build; Astro site handled by GitHub Actions -->
+    <Message Text="Skipping legacy docs build; Astro site handles documentation" Importance="high" />
   </Target>
 </Project>
+```
