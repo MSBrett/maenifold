@@ -5,7 +5,7 @@
       "name": "knowledge-graph",
       "occurrences": 235,
       "position": [
-        801.3433,
+        791.39716,
         0
       ]
     },
@@ -14,8 +14,8 @@
       "name": "ma-protocol",
       "occurrences": 204,
       "position": [
-        815.17834,
-        5.7165184
+        800.9078,
+        5.616445
       ]
     },
     {
@@ -23,8 +23,8 @@
       "name": "maenifold",
       "occurrences": 180,
       "position": [
-        784.4979,
-        11.003279
+        823.3621,
+        11.548384
       ]
     },
     {
@@ -32,8 +32,8 @@
       "name": "concept",
       "occurrences": 155,
       "position": [
-        824.1414,
-        17.340393
+        797.6358,
+        16.7827
       ]
     },
     {
@@ -41,8 +41,8 @@
       "name": "mcp",
       "occurrences": 138,
       "position": [
-        783.5391,
-        21.983988
+        788.8429,
+        22.132797
       ]
     },
     {
@@ -50,8 +50,8 @@
       "name": "workflow",
       "occurrences": 114,
       "position": [
-        796.48737,
-        27.938223
+        805.3787,
+        28.250103
       ]
     },
     {
@@ -59,8 +59,8 @@
       "name": "sequential-thinking",
       "occurrences": 104,
       "position": [
-        782.6342,
-        32.9487
+        779.98065,
+        32.836987
       ]
     },
     {
@@ -68,8 +68,8 @@
       "name": "code-quality",
       "occurrences": 69,
       "position": [
-        797.424,
-        39.17493
+        793.4298,
+        38.978706
       ]
     },
     {
@@ -77,8 +77,8 @@
       "name": "tool",
       "occurrences": 64,
       "position": [
-        802.0816,
-        45.043934
+        801.5784,
+        45.01568
       ]
     },
     {
@@ -86,8 +86,8 @@
       "name": "refactoring",
       "occurrences": 63,
       "position": [
-        817.595,
-        51.66896
+        783.7389,
+        49.52938
       ]
     },
     {
@@ -95,8 +95,8 @@
       "name": "codenav",
       "occurrences": 52,
       "position": [
-        805.5968,
-        56.58513
+        784.5412,
+        55.106182
       ]
     },
     {
@@ -104,8 +104,8 @@
       "name": "complexity",
       "occurrences": 50,
       "position": [
-        807.62964,
-        62.42224
+        808.5329,
+        62.492054
       ]
     },
     {
@@ -113,8 +113,8 @@
       "name": "wikilink",
       "occurrences": 48,
       "position": [
-        796.9797,
-        67.224434
+        793.26685,
+        66.911255
       ]
     },
     {
@@ -122,8 +122,8 @@
       "name": "code-metrics",
       "occurrences": 46,
       "position": [
-        802.6604,
-        73.37573
+        798.31036,
+        72.97807
       ]
     },
     {
@@ -131,8 +131,8 @@
       "name": "testing-philosophy",
       "occurrences": 46,
       "position": [
-        789.09155,
-        77.718735
+        773.6675,
+        76.1996
       ]
     },
     {
@@ -140,8 +140,8 @@
       "name": "trademark",
       "occurrences": 46,
       "position": [
-        801.47894,
-        84.61768
+        817.80035,
+        86.34084
       ]
     },
     {
@@ -149,8 +149,8 @@
       "name": "aicontextprovider",
       "occurrences": 43,
       "position": [
-        809.66516,
-        91.22735
+        774.87866,
+        87.30786
       ]
     },
     {
@@ -158,8 +158,8 @@
       "name": "machine-learning",
       "occurrences": 43,
       "position": [
-        788.5677,
-        94.45478
+        813.7855,
+        97.47538
       ]
     },
     {
@@ -167,8 +167,8 @@
       "name": "process",
       "occurrences": 42,
       "position": [
-        774.5263,
-        98.2869
+        797.3416,
+        101.182144
       ]
     },
     {
@@ -176,8 +176,8 @@
       "name": "wikilinks",
       "occurrences": 42,
       "position": [
-        802.9824,
-        107.62473
+        816.59717,
+        109.44953
       ]
     },
     {
@@ -185,8 +185,8 @@
       "name": "deep-learning",
       "occurrences": 41,
       "position": [
-        803.7969,
-        113.47726
+        789.81244,
+        111.50298
       ]
     },
     {
@@ -194,8 +194,8 @@
       "name": "rtm",
       "occurrences": 41,
       "position": [
-        790.0081,
-        117.18664
+        791.79156,
+        117.45119
       ]
     },
     {
@@ -203,8 +203,8 @@
       "name": "test-documentation",
       "occurrences": 41,
       "position": [
-        805.3332,
-        125.23765
+        798.93506,
+        124.24267
       ]
     },
     {
@@ -212,8 +212,8 @@
       "name": "knowledge",
       "occurrences": 40,
       "position": [
-        768.63324,
-        125.05692
+        810.62146,
+        131.88841
       ]
     },
     {
@@ -221,8 +221,8 @@
       "name": "analysis",
       "occurrences": 39,
       "position": [
-        787.83344,
-        133.85828
+        784.48425,
+        133.28923
       ]
     },
     {
@@ -230,8 +230,8 @@
       "name": "test-coverage",
       "occurrences": 39,
       "position": [
-        770.59375,
-        136.49564
+        787.90393,
+        139.5618
       ]
     },
     {
@@ -239,8 +239,8 @@
       "name": "memory",
       "occurrences": 38,
       "position": [
-        799.3769,
-        147.38278
+        779.3662,
+        143.69339
       ]
     },
     {
@@ -248,8 +248,8 @@
       "name": "neural-networks",
       "occurrences": 38,
       "position": [
-        798.9274,
-        153.10043
+        797.9378,
+        152.9108
       ]
     },
     {
@@ -257,8 +257,8 @@
       "name": "sync",
       "occurrences": 38,
       "position": [
-        787.5144,
-        156.64635
+        796.8555,
+        158.50443
       ]
     },
     {
@@ -266,8 +266,8 @@
       "name": "test",
       "occurrences": 38,
       "position": [
-        799.60596,
-        164.88884
+        795.9038,
+        164.12541
       ]
     },
     {
@@ -275,8 +275,8 @@
       "name": "testing",
       "occurrences": 38,
       "position": [
-        768.72296,
-        164.14848
+        766.4507,
+        163.66327
       ]
     },
     {
@@ -284,8 +284,8 @@
       "name": "graph-rag",
       "occurrences": 36,
       "position": [
-        782.93317,
-        172.9322
+        789.21875,
+        174.32054
       ]
     },
     {
@@ -293,8 +293,8 @@
       "name": "performance",
       "occurrences": 36,
       "position": [
-        797.5416,
-        182.03366
+        788.34485,
+        179.93457
       ]
     },
     {
@@ -302,8 +302,8 @@
       "name": "buildcontext",
       "occurrences": 35,
       "position": [
-        775.8978,
-        182.8273
+        785.0523,
+        184.9844
       ]
     },
     {
@@ -311,8 +311,8 @@
       "name": "diagnostics",
       "occurrences": 35,
       "position": [
-        761.81415,
-        185.15698
+        789.5281,
+        191.89276
       ]
     },
     {
@@ -320,8 +320,8 @@
       "name": "sequentialthinking",
       "occurrences": 35,
       "position": [
-        766.8242,
-        192.07947
+        759.2514,
+        190.18259
       ]
     },
     {
@@ -329,8 +329,8 @@
       "name": "unused-code",
       "occurrences": 35,
       "position": [
-        795.3537,
-        205.1636
+        794.8671,
+        205.0381
       ]
     },
     {
@@ -338,8 +338,8 @@
       "name": "code-clones",
       "occurrences": 34,
       "position": [
-        778.7617,
-        206.71875
+        791.16254,
+        210.01048
       ]
     },
     {
@@ -347,8 +347,8 @@
       "name": "cyclomatic-complexity",
       "occurrences": 34,
       "position": [
-        768.2712,
-        209.71202
+        780.66595,
+        213.09538
       ]
     },
     {
@@ -356,8 +356,8 @@
       "name": "sqlite",
       "occurrences": 34,
       "position": [
-        758.3772,
-        212.73672
+        777.3883,
+        218.06964
       ]
     },
     {
@@ -365,8 +365,8 @@
       "name": "concurrency",
       "occurrences": 33,
       "position": [
-        786.2408,
-        226.51207
+        761.2611,
+        219.31555
       ]
     },
     {
@@ -374,8 +374,8 @@
       "name": "array",
       "occurrences": 32,
       "position": [
-        757.68677,
-        224.05179
+        748.82666,
+        221.43182
       ]
     },
     {
@@ -383,8 +383,8 @@
       "name": "smoke-test",
       "occurrences": 32,
       "position": [
-        776.2513,
-        235.47325
+        760.0772,
+        230.56691
       ]
     },
     {
@@ -392,8 +392,8 @@
       "name": "architecture",
       "occurrences": 31,
       "position": [
-        760.88434,
-        236.65092
+        748.82074,
+        232.8989
       ]
     },
     {
@@ -401,8 +401,8 @@
       "name": "cli",
       "occurrences": 31,
       "position": [
-        741.5785,
-        236.36232
+        737.8964,
+        235.18874
       ]
     },
     {
@@ -410,8 +410,8 @@
       "name": "scamper",
       "occurrences": 31,
       "position": [
-        743.0371,
-        242.58005
+        762.47034,
+        248.92442
       ]
     },
     {
@@ -419,8 +419,8 @@
       "name": "graph-of-thoughts",
       "occurrences": 30,
       "position": [
-        767.15283,
-        256.4199
+        770.11145,
+        257.40884
       ]
     },
     {
@@ -428,8 +428,8 @@
       "name": "tests",
       "occurrences": 30,
       "position": [
-        777.134,
-        265.82892
+        745.8155,
+        255.11601
       ]
     },
     {
@@ -437,8 +437,8 @@
       "name": "validation",
       "occurrences": 30,
       "position": [
-        742.4699,
-        259.80145
+        763.8524,
+        267.28354
       ]
     },
     {
@@ -446,8 +446,8 @@
       "name": "chain-of-thought",
       "occurrences": 29,
       "position": [
-        735.1318,
-        263.03436
+        732.3646,
+        262.04425
       ]
     },
     {
@@ -455,8 +455,8 @@
       "name": "smoke-tests",
       "occurrences": 29,
       "position": [
-        764.0197,
-        279.42953
+        769.6547,
+        281.49045
       ]
     },
     {
@@ -464,8 +464,8 @@
       "name": "agent-framework",
       "occurrences": 28,
       "position": [
-        760.8449,
-        284.33313
+        755.63904,
+        282.38766
       ]
     },
     {
@@ -473,8 +473,8 @@
       "name": "blue-hat",
       "occurrences": 27,
       "position": [
-        755.7189,
-        288.47302
+        763.37823,
+        291.39676
       ]
     },
     {
@@ -482,8 +482,8 @@
       "name": "database",
       "occurrences": 27,
       "position": [
-        761.44183,
-        296.79175
+        750.0131,
+        292.33713
       ]
     },
     {
@@ -491,8 +491,8 @@
       "name": "error-handling",
       "occurrences": 27,
       "position": [
-        722.8192,
-        287.5925
+        754.4843,
+        300.1913
       ]
     },
     {
@@ -500,8 +500,8 @@
       "name": "wal-mode",
       "occurrences": 27,
       "position": [
-        757.3471,
-        307.49927
+        732.42725,
+        297.3813
       ]
     },
     {
@@ -509,8 +509,8 @@
       "name": "ma-core",
       "occurrences": 26,
       "position": [
-        742.7737,
-        307.66693
+        760.24384,
+        314.9033
       ]
     },
     {
@@ -518,8 +518,8 @@
       "name": "wave-1",
       "occurrences": 26,
       "position": [
-        755.78503,
-        319.28384
+        749.89453,
+        316.7954
       ]
     },
     {
@@ -527,8 +527,8 @@
       "name": "fts5",
       "occurrences": 25,
       "position": [
-        734.7108,
-        316.47076
+        723.53613,
+        311.65735
       ]
     },
     {
@@ -536,8 +536,8 @@
       "name": "emergence",
       "occurrences": 24,
       "position": [
-        711.98425,
-        312.61862
+        719.6576,
+        315.98785
       ]
     },
     {
@@ -545,8 +545,8 @@
       "name": "persistence",
       "occurrences": 24,
       "position": [
-        729.56915,
-        326.4612
+        741.5586,
+        331.82614
       ]
     },
     {
@@ -554,8 +554,8 @@
       "name": "benchmark",
       "occurrences": 23,
       "position": [
-        715.3585,
-        326.1423
+        715.1675,
+        326.0552
       ]
     },
     {
@@ -563,8 +563,8 @@
       "name": "implementation",
       "occurrences": 23,
       "position": [
-        743.35803,
-        345.2243
+        732.24384,
+        340.0627
       ]
     },
     {
@@ -572,8 +572,8 @@
       "name": "ai",
       "occurrences": 22,
       "position": [
-        718.80945,
-        339.97156
+        706.3841,
+        334.09482
       ]
     },
     {
@@ -581,8 +581,8 @@
       "name": "collective-intelligence",
       "occurrences": 22,
       "position": [
-        706.2604,
-        340.11707
+        708.1094,
+        341.0075
       ]
     },
     {
@@ -590,8 +590,8 @@
       "name": "persistent-memory",
       "occurrences": 22,
       "position": [
-        718.18555,
-        352.0853
+        711.2782,
+        348.69904
       ]
     },
     {
@@ -599,8 +599,8 @@
       "name": "parameter",
       "occurrences": 21,
       "position": [
-        728.97754,
-        363.73853
+        709.0073,
+        353.77396
       ]
     },
     {
@@ -608,8 +608,8 @@
       "name": "episodic-memory",
       "occurrences": 20,
       "position": [
-        712.37213,
-        361.71414
+        732.43915,
+        371.90338
       ]
     },
     {
@@ -617,8 +617,8 @@
       "name": "files",
       "occurrences": 20,
       "position": [
-        711.9914,
-        367.82346
+        731.456,
+        377.87912
       ]
     },
     {
@@ -626,8 +626,8 @@
       "name": "institutional-memory",
       "occurrences": 20,
       "position": [
-        687.0895,
-        361.08524
+        704.76373,
+        370.37357
       ]
     },
     {
@@ -635,8 +635,8 @@
       "name": "lateral-thinking",
       "occurrences": 20,
       "position": [
-        699.0973,
-        373.6753
+        692.80255,
+        370.31067
       ]
     },
     {
@@ -644,8 +644,8 @@
       "name": "maintainability",
       "occurrences": 20,
       "position": [
-        710.48364,
-        386.1913
+        694.8655,
+        377.70187
       ]
     },
     {
@@ -653,8 +653,8 @@
       "name": "maintainability-index",
       "occurrences": 20,
       "position": [
-        713.8652,
-        394.53934
+        685.7047,
+        378.9756
       ]
     },
     {
@@ -662,8 +662,8 @@
       "name": "agents",
       "occurrences": 19,
       "position": [
-        707.8805,
-        397.73734
+        684.60583,
+        384.65997
       ]
     },
     {
@@ -671,8 +671,8 @@
       "name": "compound-knowledge",
       "occurrences": 19,
       "position": [
-        709.6527,
-        405.30658
+        673.2656,
+        384.52466
       ]
     },
     {
@@ -680,8 +680,8 @@
       "name": "documentation",
       "occurrences": 19,
       "position": [
-        697.889,
-        405.10443
+        704.4752,
+        408.92755
       ]
     },
     {
@@ -689,8 +689,8 @@
       "name": "no-fake-tests",
       "occurrences": 19,
       "position": [
-        698.6268,
-        412.1094
+        693.3108,
+        408.97357
       ]
     },
     {
@@ -698,8 +698,8 @@
       "name": "orchestration",
       "occurrences": 19,
       "position": [
-        686.35077,
-        411.3828
+        689.11017,
+        413.03674
       ]
     },
     {
@@ -707,8 +707,8 @@
       "name": "product-naming",
       "occurrences": 19,
       "position": [
-        673.5511,
-        410.15833
+        677.26953,
+        412.42264
       ]
     },
     {
@@ -716,8 +716,8 @@
       "name": "file",
       "occurrences": 18,
       "position": [
-        684.18506,
-        423.2391
+        672.4137,
+        415.9573
       ]
     },
     {
@@ -725,8 +725,8 @@
       "name": "nuget",
       "occurrences": 18,
       "position": [
-        694.9642,
-        436.67493
+        680.6986,
+        427.71127
       ]
     },
     {
@@ -734,8 +734,8 @@
       "name": "rtm-compliance",
       "occurrences": 18,
       "position": [
-        672.5182,
-        429.17838
+        678.75867,
+        433.16086
       ]
     },
     {
@@ -743,8 +743,8 @@
       "name": "runfullbenchmark",
       "occurrences": 18,
       "position": [
-        688.9267,
-        446.47897
+        685.7513,
+        444.42108
       ]
     },
     {
@@ -752,8 +752,8 @@
       "name": "searchmemories",
       "occurrences": 18,
       "position": [
-        684.78375,
-        450.6442
+        652.9713,
+        429.70898
       ]
     },
     {
@@ -761,8 +761,8 @@
       "name": "semantic-validation",
       "occurrences": 18,
       "position": [
-        647.94635,
-        432.9439
+        656.461,
+        438.6332
       ]
     },
     {
@@ -770,8 +770,8 @@
       "name": "serena",
       "occurrences": 18,
       "position": [
-        677.5334,
-        459.61823
+        663.15814,
+        449.8665
       ]
     },
     {
@@ -779,8 +779,8 @@
       "name": "visualize",
       "occurrences": 18,
       "position": [
-        656.8061,
-        452.3151
+        642.35815,
+        442.3654
       ]
     },
     {
@@ -788,8 +788,8 @@
       "name": "algorithms",
       "occurrences": 17,
       "position": [
-        648.58026,
-        453.3881
+        649.6867,
+        454.16153
       ]
     },
     {
@@ -797,8 +797,8 @@
       "name": "cc",
       "occurrences": 17,
       "position": [
-        652.7165,
-        463.12704
+        655.394,
+        465.02682
       ]
     },
     {
@@ -806,8 +806,8 @@
       "name": "consistency",
       "occurrences": 17,
       "position": [
-        648.87115,
-        467.27393
+        647.2126,
+        466.07953
       ]
     },
     {
@@ -815,8 +815,8 @@
       "name": "findsimilarconcepts",
       "occurrences": 17,
       "position": [
-        657.2009,
-        480.3067
+        641.02795,
+        468.48694
       ]
     },
     {
@@ -824,8 +824,8 @@
       "name": "markdown",
       "occurrences": 17,
       "position": [
-        648.81433,
-        481.1935
+        656.2747,
+        486.7265
       ]
     },
     {
@@ -833,8 +833,8 @@
       "name": "test-time-reasoning",
       "occurrences": 17,
       "position": [
-        637.0843,
-        479.45514
+        621.3103,
+        467.584
       ]
     },
     {
@@ -842,8 +842,8 @@
       "name": "coding-agent",
       "occurrences": 16,
       "position": [
-        627.1482,
-        478.9028
+        632.8314,
+        483.2426
       ]
     },
     {
@@ -851,8 +851,8 @@
       "name": "cognitive-compounding",
       "occurrences": 16,
       "position": [
-        620.3623,
-        480.64514
+        628.60876,
+        487.03436
       ]
     },
     {
@@ -860,8 +860,8 @@
       "name": "collective",
       "occurrences": 16,
       "position": [
-        621.582,
-        488.60373
+        634.4098,
+        498.68723
       ]
     },
     {
@@ -869,8 +869,8 @@
       "name": "conceptrepairtool",
       "occurrences": 16,
       "position": [
-        643.59753,
-        513.2519
+        608.6272,
+        485.364
       ]
     },
     {
@@ -878,8 +878,8 @@
       "name": "distributed-systems",
       "occurrences": 16,
       "position": [
-        622.04706,
-        503.24246
+        631.4634,
+        510.86032
       ]
     },
     {
@@ -887,8 +887,8 @@
       "name": "hero-demo",
       "occurrences": 16,
       "position": [
-        623.47986,
-        511.6767
+        608.22626,
+        499.1584
       ]
     },
     {
@@ -896,8 +896,8 @@
       "name": "acceptance-criteria",
       "occurrences": 15,
       "position": [
-        596.81744,
-        496.84
+        595.46136,
+        495.71112
       ]
     },
     {
@@ -905,8 +905,8 @@
       "name": "agent",
       "occurrences": 15,
       "position": [
-        600.4714,
-        507.05283
+        596.933,
+        504.06494
       ]
     },
     {
@@ -914,8 +914,8 @@
       "name": "conceptanalyzer",
       "occurrences": 15,
       "position": [
-        621.8878,
-        532.6526
+        591.6172,
+        506.72552
       ]
     },
     {
@@ -923,8 +923,8 @@
       "name": "content",
       "occurrences": 15,
       "position": [
-        615.69165,
-        534.8758
+        600.906,
+        522.0309
       ]
     },
     {
@@ -932,8 +932,8 @@
       "name": "depth",
       "occurrences": 15,
       "position": [
-        607.69025,
-        535.4482
+        581.5468,
+        512.41266
       ]
     },
     {
@@ -941,8 +941,8 @@
       "name": "editmemory",
       "occurrences": 15,
       "position": [
-        604.56964,
-        540.2765
+        594.85046,
+        531.5909
       ]
     },
     {
@@ -950,8 +950,8 @@
       "name": "extended-mind",
       "occurrences": 15,
       "position": [
-        607.2878,
-        550.4136
+        593.5641,
+        537.97516
       ]
     },
     {
@@ -959,8 +959,8 @@
       "name": "file-descriptors",
       "occurrences": 15,
       "position": [
-        570.57416,
-        524.47296
+        593.44305,
+        545.4941
       ]
     },
     {
@@ -968,8 +968,8 @@
       "name": "file|files",
       "occurrences": 15,
       "position": [
-        588.7923,
-        548.88617
+        569.2191,
+        530.6396
       ]
     },
     {
@@ -977,8 +977,8 @@
       "name": "graph-traversal",
       "occurrences": 15,
       "position": [
-        563.9694,
-        533.18616
+        571.1672,
+        539.9911
       ]
     },
     {
@@ -986,8 +986,8 @@
       "name": "reasoning",
       "occurrences": 15,
       "position": [
-        584.50244,
-        560.4128
+        590.66956,
+        566.32574
       ]
     },
     {
@@ -995,8 +995,8 @@
       "name": "recent-activity",
       "occurrences": 15,
       "position": [
-        572.2339,
-        556.40375
+        590.1019,
+        573.77747
       ]
     },
     {
@@ -1004,8 +1004,8 @@
       "name": "summary",
       "occurrences": 15,
       "position": [
-        583.29395,
-        575.1701
+        565.6715,
+        557.7931
       ]
     },
     {
@@ -1013,8 +1013,8 @@
       "name": "tacet",
       "occurrences": 15,
       "position": [
-        552.02045,
-        552.02045
+        563.94965,
+        563.94965
       ]
     },
     {
@@ -1022,8 +1022,8 @@
       "name": "test-process",
       "occurrences": 15,
       "position": [
-        555.5975,
-        563.4448
+        568.4778,
+        576.5071
       ]
     },
     {
@@ -1031,8 +1031,8 @@
       "name": "title",
       "occurrences": 15,
       "position": [
-        566.0724,
-        582.1776
+        559.764,
+        575.6897
       ]
     },
     {
@@ -1040,8 +1040,8 @@
       "name": "authentication",
       "occurrences": 14,
       "position": [
-        545.1252,
-        568.5577
+        551.8772,
+        575.6
       ]
     },
     {
@@ -1049,8 +1049,8 @@
       "name": "concept-synthesis",
       "occurrences": 14,
       "position": [
-        560.9409,
-        593.32654
+        539.73834,
+        570.89984
       ]
     },
     {
@@ -1058,8 +1058,8 @@
       "name": "data-science",
       "occurrences": 14,
       "position": [
-        542.7502,
-        582.21014
+        528.1004,
+        566.49536
       ]
     },
     {
@@ -1067,8 +1067,8 @@
       "name": "design-patterns",
       "occurrences": 14,
       "position": [
-        531.901,
-        578.6551
+        547.91473,
+        596.0765
       ]
     },
     {
@@ -1076,8 +1076,8 @@
       "name": "graph",
       "occurrences": 14,
       "position": [
-        520.89307,
-        574.7169
+        533.3389,
+        588.4488
       ]
     },
     {
@@ -1085,8 +1085,8 @@
       "name": "micro-task",
       "occurrences": 14,
       "position": [
-        547.15106,
-        612.2623
+        525.6489,
+        588.2014
       ]
     },
     {
@@ -1094,8 +1094,8 @@
       "name": "micro-tasks",
       "occurrences": 14,
       "position": [
-        520.9947,
-        591.28674
+        543.86316,
+        617.2406
       ]
     },
     {
@@ -1103,8 +1103,8 @@
       "name": "modular-design",
       "occurrences": 14,
       "position": [
-        525.65717,
-        605.0802
+        539.04974,
+        620.4963
       ]
     },
     {
@@ -1112,8 +1112,8 @@
       "name": "pipeline-composition",
       "occurrences": 14,
       "position": [
-        507.5136,
-        592.5373
+        521.513,
+        608.882
       ]
     },
     {
@@ -1121,8 +1121,8 @@
       "name": "quality-assurance",
       "occurrences": 14,
       "position": [
-        514.5039,
-        609.2953
+        511.73474,
+        606.01587
       ]
     },
     {
@@ -1130,8 +1130,8 @@
       "name": "robust-testing",
       "occurrences": 14,
       "position": [
-        499.1615,
-        599.6061
+        503.26675,
+        604.5374
       ]
     },
     {
@@ -1139,8 +1139,8 @@
       "name": "safety-critical",
       "occurrences": 14,
       "position": [
-        496.09024,
-        604.4877
+        516.5694,
+        629.4416
       ]
     },
     {
@@ -1148,8 +1148,8 @@
       "name": "synthesis",
       "occurrences": 14,
       "position": [
-        494.8368,
-        611.657
+        515.04364,
+        636.6343
       ]
     },
     {
@@ -1157,8 +1157,8 @@
       "name": "tools",
       "occurrences": 14,
       "position": [
-        510.94894,
-        640.7097
+        506.87985,
+        635.60724
       ]
     },
     {
@@ -1166,8 +1166,8 @@
       "name": "user-experience",
       "occurrences": 14,
       "position": [
-        485.06897,
-        617.0852
+        501.5363,
+        638.03424
       ]
     },
     {
@@ -1175,8 +1175,8 @@
       "name": "wave-1-complete",
       "occurrences": 14,
       "position": [
-        475.1692,
-        613.29456
+        503.10858,
+        649.3556
       ]
     },
     {
@@ -1184,8 +1184,8 @@
       "name": "agentic-slc",
       "occurrences": 13,
       "position": [
-        490.67834,
-        642.56885
+        487.3167,
+        638.1666
       ]
     },
     {
@@ -1193,8 +1193,8 @@
       "name": "codebase",
       "occurrences": 13,
       "position": [
-        480.23425,
-        638.11957
+        495.5237,
+        658.4357
       ]
     },
     {
@@ -1202,8 +1202,8 @@
       "name": "execution",
       "occurrences": 13,
       "position": [
-        479.9847,
-        647.18445
+        480.85965,
+        648.3642
       ]
     },
     {
@@ -1211,8 +1211,8 @@
       "name": "parameter-validation",
       "occurrences": 13,
       "position": [
-        479.25635,
-        655.76373
+        459.45203,
+        628.6656
       ]
     },
     {
@@ -1220,8 +1220,8 @@
       "name": "root-cause-analysis",
       "occurrences": 13,
       "position": [
-        470.69623,
-        653.6235
+        455.60028,
+        632.66077
       ]
     },
     {
@@ -1229,8 +1229,8 @@
       "name": "semantic-search",
       "occurrences": 13,
       "position": [
-        455.21286,
-        641.5625
+        458.03726,
+        645.5431
       ]
     },
     {
@@ -1238,8 +1238,8 @@
       "name": "transaction-isolation",
       "occurrences": 13,
       "position": [
-        471.711,
-        674.7915
+        458.90894,
+        656.47797
       ]
     },
     {
@@ -1247,8 +1247,8 @@
       "name": "workflows",
       "occurrences": 13,
       "position": [
-        449.24768,
-        652.35187
+        447.79388,
+        650.24084
       ]
     },
     {
@@ -1256,8 +1256,8 @@
       "name": "ai-infrastructure",
       "occurrences": 12,
       "position": [
-        457.5779,
-        674.5257
+        439.40952,
+        647.7433
       ]
     },
     {
@@ -1265,8 +1265,8 @@
       "name": "assets",
       "occurrences": 12,
       "position": [
-        444.98425,
-        665.966
+        431.88885,
+        646.3673
       ]
     },
     {
@@ -1274,8 +1274,8 @@
       "name": "configuration-management",
       "occurrences": 12,
       "position": [
-        437.53036,
-        664.85645
+        441.1964,
+        670.42725
       ]
     },
     {
@@ -1283,8 +1283,8 @@
       "name": "debugging",
       "occurrences": 12,
       "position": [
-        444.9703,
-        686.59875
+        433.76044,
+        669.3017
       ]
     },
     {
@@ -1292,8 +1292,8 @@
       "name": "input-validation",
       "occurrences": 12,
       "position": [
-        435.2382,
-        682.01385
+        435.3858,
+        682.2452
       ]
     },
     {
@@ -1301,8 +1301,8 @@
       "name": "knowledge-graphs",
       "occurrences": 12,
       "position": [
-        412.78397,
-        656.9419
+        417.60214,
+        664.61
       ]
     },
     {
@@ -1310,8 +1310,8 @@
       "name": "lazygraphrag",
       "occurrences": 12,
       "position": [
-        415.54153,
-        671.7416
+        407.617,
+        658.9312
       ]
     },
     {
@@ -1319,8 +1319,8 @@
       "name": "logging",
       "occurrences": 12,
       "position": [
-        410.14948,
-        673.53656
+        426.18674,
+        699.87256
       ]
     },
     {
@@ -1328,8 +1328,8 @@
       "name": "readmemory",
       "occurrences": 12,
       "position": [
-        416.96722,
-        695.6678
+        403.1906,
+        672.68286
       ]
     },
     {
@@ -1337,8 +1337,8 @@
       "name": "real-systems",
       "occurrences": 12,
       "position": [
-        412.18008,
-        698.7466
+        395.79446,
+        670.96893
       ]
     },
     {
@@ -1346,8 +1346,8 @@
       "name": "recentactivity",
       "occurrences": 12,
       "position": [
-        404.35754,
-        696.60236
+        407.5214,
+        702.0528
       ]
     },
     {
@@ -1355,8 +1355,8 @@
       "name": "repairconcepts",
       "occurrences": 12,
       "position": [
-        388.15753,
-        679.6264
+        396.80753,
+        694.77167
       ]
     },
     {
@@ -1364,8 +1364,8 @@
       "name": "system-calls",
       "occurrences": 12,
       "position": [
-        399.03232,
-        710.1853
+        380.097,
+        676.4848
       ]
     },
     {
@@ -1373,8 +1373,8 @@
       "name": "test-listmemories",
       "occurrences": 12,
       "position": [
-        398.24353,
-        720.5674
+        395.9795,
+        716.47095
       ]
     },
     {
@@ -1382,8 +1382,8 @@
       "name": "trigger-based-sync",
       "occurrences": 12,
       "position": [
-        393.06473,
-        723.1288
+        371.29742,
+        683.08307
       ]
     },
     {
@@ -1391,8 +1391,8 @@
       "name": "variations",
       "occurrences": 12,
       "position": [
-        380.0962,
-        711.11
+        368.2604,
+        688.96674
       ]
     },
     {
@@ -1400,8 +1400,8 @@
       "name": "binary",
       "occurrences": 11,
       "position": [
-        373.745,
-        711.179
+        375.00858,
+        713.58344
       ]
     },
     {
@@ -1409,8 +1409,8 @@
       "name": "c#",
       "occurrences": 11,
       "position": [
-        361.53915,
-        699.82697
+        358.05463,
+        693.08203
       ]
     },
     {
@@ -1418,8 +1418,8 @@
       "name": "convergent-thinking",
       "occurrences": 11,
       "position": [
-        370.43903,
-        729.55524
+        362.1966,
+        713.32227
       ]
     },
     {
@@ -1427,8 +1427,8 @@
       "name": "dependency-analysis",
       "occurrences": 11,
       "position": [
-        361.0517,
-        723.5928
+        365.5074,
+        732.5226
       ]
     },
     {
@@ -1436,8 +1436,8 @@
       "name": "developer-tools",
       "occurrences": 11,
       "position": [
-        347.35666,
-        708.54004
+        343.9725,
+        701.63696
       ]
     },
     {
@@ -1445,8 +1445,8 @@
       "name": "error",
       "occurrences": 11,
       "position": [
-        348.89026,
-        724.4781
+        336.06253,
+        697.841
       ]
     },
     {
@@ -1454,8 +1454,8 @@
       "name": "incremental-updates",
       "occurrences": 11,
       "position": [
-        336.59622,
-        711.6729
+        349.2521,
+        738.4315
       ]
     },
     {
@@ -1463,8 +1463,8 @@
       "name": "lookup",
       "occurrences": 11,
       "position": [
-        335.01135,
-        721.36694
+        347.0907,
+        747.3769
       ]
     },
     {
@@ -1472,8 +1472,8 @@
       "name": "maintenancetools",
       "occurrences": 11,
       "position": [
-        328.9982,
-        721.6226
+        336.12332,
+        737.25085
       ]
     },
     {
@@ -1481,8 +1481,8 @@
       "name": "naming",
       "occurrences": 11,
       "position": [
-        318.9632,
-        712.81274
+        325.5989,
+        727.6421
       ]
     },
     {
@@ -1490,8 +1490,8 @@
       "name": "parallel-execution",
       "occurrences": 11,
       "position": [
-        324.80136,
-        739.7302
+        320.76645,
+        730.5408
       ]
     },
     {
@@ -1499,8 +1499,8 @@
       "name": "pm-lite",
       "occurrences": 11,
       "position": [
-        319.55817,
-        741.8785
+        315.4252,
+        732.2835
       ]
     },
     {
@@ -1508,8 +1508,8 @@
       "name": "resource-management",
       "occurrences": 11,
       "position": [
-        301.4956,
-        713.678
+        302.3711,
+        715.75037
       ]
     },
     {
@@ -1517,8 +1517,8 @@
       "name": "search",
       "occurrences": 11,
       "position": [
-        304.17703,
-        734.3483
+        309.92044,
+        748.2141
       ]
     },
     {
@@ -1526,8 +1526,8 @@
       "name": "signal-handling",
       "occurrences": 11,
       "position": [
-        303.59756,
-        747.73755
+        298.1916,
+        734.423
       ]
     },
     {
@@ -1535,8 +1535,8 @@
       "name": "specifications",
       "occurrences": 11,
       "position": [
-        287.05692,
-        721.4731
+        288.3474,
+        724.71655
       ]
     },
     {
@@ -1544,8 +1544,8 @@
       "name": "test-matrix",
       "occurrences": 11,
       "position": [
-        296.98807,
-        761.94556
+        292.09476,
+        749.3913
       ]
     },
     {
@@ -1553,8 +1553,8 @@
       "name": "test|tests",
       "occurrences": 11,
       "position": [
-        287.09314,
-        752.10394
+        276.66,
+        724.77203
       ]
     },
     {
@@ -1562,8 +1562,8 @@
       "name": "thoughts",
       "occurrences": 11,
       "position": [
-        284.3769,
-        760.96204
+        286.00458,
+        765.3175
       ]
     },
     {
@@ -1571,8 +1571,8 @@
       "name": "toolregistry",
       "occurrences": 11,
       "position": [
-        277.35327,
-        758.3428
+        268.54352,
+        734.25507
       ]
     },
     {
@@ -1580,8 +1580,8 @@
       "name": "concept-extraction",
       "occurrences": 10,
       "position": [
-        267.2447,
-        746.8989
+        275.5284,
+        770.0503
       ]
     },
     {
@@ -1589,8 +1589,8 @@
       "name": "embeddings",
       "occurrences": 10,
       "position": [
-        259.92822,
-        742.8322
+        267.71182,
+        765.0764
       ]
     },
     {
@@ -1598,8 +1598,8 @@
       "name": "enterprise-adoption",
       "occurrences": 10,
       "position": [
-        250.95804,
-        733.6599
+        259.91434,
+        759.8431
       ]
     },
     {
@@ -1607,8 +1607,8 @@
       "name": "idempotency",
       "occurrences": 10,
       "position": [
-        259.19373,
-        775.4515
+        246.07986,
+        736.21765
       ]
     },
     {
@@ -1616,8 +1616,8 @@
       "name": "lazy-evaluation",
       "occurrences": 10,
       "position": [
-        240.90706,
-        737.91266
+        241.52242,
+        739.7975
       ]
     },
     {
@@ -1625,8 +1625,8 @@
       "name": "mcp-server",
       "occurrences": 10,
       "position": [
-        247.49944,
-        776.52075
+        244.84753,
+        768.20056
       ]
     },
     {
@@ -1634,8 +1634,8 @@
       "name": "observability",
       "occurrences": 10,
       "position": [
-        234.43713,
-        753.7665
+        230.44662,
+        740.93616
       ]
     },
     {
@@ -1643,8 +1643,8 @@
       "name": "process-isolation",
       "occurrences": 10,
       "position": [
-        232.48636,
-        766.40485
+        237.64867,
+        783.42267
       ]
     },
     {
@@ -1652,8 +1652,8 @@
       "name": "separation-of-concerns",
       "occurrences": 10,
       "position": [
-        221.83632,
-        750.1946
+        233.09538,
+        788.2699
       ]
     },
     {
@@ -1661,8 +1661,8 @@
       "name": "stdio-streaming",
       "occurrences": 10,
       "position": [
-        217.69716,
-        755.64355
+        225.21667,
+        781.7444
       ]
     },
     {
@@ -1670,8 +1670,8 @@
       "name": "technical-debt",
       "occurrences": 10,
       "position": [
-        220.56259,
-        786.2753
+        212.81648,
+        758.6615
       ]
     },
     {
@@ -1679,8 +1679,8 @@
       "name": "test-cases",
       "occurrences": 10,
       "position": [
-        209.32492,
-        766.853
+        205.1487,
+        751.5536
       ]
     },
     {
@@ -1688,8 +1688,8 @@
       "name": "verification",
       "occurrences": 10,
       "position": [
-        211.29842,
-        796.0145
+        199.64673,
+        752.1196
       ]
     },
     {
@@ -1697,8 +1697,8 @@
       "name": "automation",
       "occurrences": 9,
       "position": [
-        195.19347,
-        756.7027
+        204.10762,
+        791.25995
       ]
     },
     {
@@ -1706,8 +1706,8 @@
       "name": "cap-theorem",
       "occurrences": 9,
       "position": [
-        192.76816,
-        769.57367
+        190.95796,
+        762.3469
       ]
     },
     {
@@ -1715,8 +1715,8 @@
       "name": "content-preview",
       "occurrences": 9,
       "position": [
-        192.92577,
-        793.77826
+        187.59656,
+        771.8516
       ]
     },
     {
@@ -1724,8 +1724,8 @@
       "name": "data-flow",
       "occurrences": 9,
       "position": [
-        183.4913,
-        778.7157
+        185.63571,
+        787.8164
       ]
     },
     {
@@ -1733,8 +1733,8 @@
       "name": "directory",
       "occurrences": 9,
       "position": [
-        179.23897,
-        785.29724
+        173.90825,
+        761.94183
       ]
     },
     {
@@ -1742,8 +1742,8 @@
       "name": "dry-principle",
       "occurrences": 9,
       "position": [
-        167.46475,
-        758.1799
+        174.46506,
+        789.87305
       ]
     },
     {
@@ -1751,8 +1751,8 @@
       "name": "embedding",
       "occurrences": 9,
       "position": [
-        163.46432,
-        765.519
+        165.47325,
+        774.92694
       ]
     },
     {
@@ -1760,8 +1760,8 @@
       "name": "environment-variables",
       "occurrences": 9,
       "position": [
-        162.8765,
-        789.8474
+        165.74455,
+        803.7557
       ]
     },
     {
@@ -1769,8 +1769,8 @@
       "name": "eventual-consistency",
       "occurrences": 9,
       "position": [
-        157.87099,
-        793.671
+        157.82687,
+        793.4493
       ]
     },
     {
@@ -1778,8 +1778,8 @@
       "name": "github-pages",
       "occurrences": 9,
       "position": [
-        148.38689,
-        774.3307
+        149.63907,
+        780.8649
       ]
     },
     {
@@ -1787,8 +1787,8 @@
       "name": "graph-synchronization",
       "occurrences": 9,
       "position": [
-        145.29614,
-        788.0593
+        143.421,
+        777.8889
       ]
     },
     {
@@ -1796,8 +1796,8 @@
       "name": "index-maintenance",
       "occurrences": 9,
       "position": [
-        141.37718,
-        798.1528
+        141.30992,
+        797.773
       ]
     },
     {
@@ -1805,8 +1805,8 @@
       "name": "karst",
       "occurrences": 9,
       "position": [
-        134.49214,
-        791.564
+        132.54843,
+        780.1242
       ]
     },
     {
@@ -1814,8 +1814,8 @@
       "name": "listworkflows",
       "occurrences": 9,
       "position": [
-        125.18856,
-        769.4423
+        129.91165,
+        798.47174
       ]
     },
     {
@@ -1823,8 +1823,8 @@
       "name": "migration",
       "occurrences": 9,
       "position": [
-        120.56622,
-        775.2939
+        124.49793,
+        800.5765
       ]
     },
     {
@@ -1832,8 +1832,8 @@
       "name": "operation",
       "occurrences": 9,
       "position": [
-        117.791504,
-        794.0858
+        116.443596,
+        784.99896
       ]
     },
     {
@@ -1841,8 +1841,8 @@
       "name": "operations",
       "occurrences": 9,
       "position": [
-        111.844025,
-        792.22815
+        111.75497,
+        791.5973
       ]
     },
     {
@@ -1850,8 +1850,8 @@
       "name": "performance-optimization",
       "occurrences": 9,
       "position": [
-        108.13946,
-        806.82275
+        108.43345,
+        809.0162
       ]
     },
     {
@@ -1859,8 +1859,8 @@
       "name": "project-reference",
       "occurrences": 9,
       "position": [
-        102.20237,
-        805.3812
+        97.721664,
+        770.0721
       ]
     },
     {
@@ -1868,8 +1868,8 @@
       "name": "single-responsibility-principle",
       "occurrences": 9,
       "position": [
-        92.97734,
-        776.2331
+        94.56123,
+        789.4564
       ]
     },
     {
@@ -1877,8 +1877,8 @@
       "name": "systematic-investigation",
       "occurrences": 9,
       "position": [
-        87.50695,
-        776.6457
+        91.24807,
+        809.84906
       ]
     },
     {
@@ -1886,8 +1886,8 @@
       "name": "test-case",
       "occurrences": 9,
       "position": [
-        81.58704,
-        772.7735
+        84.582504,
+        801.1458
       ]
     },
     {
@@ -1895,8 +1895,8 @@
       "name": "test-execution",
       "occurrences": 9,
       "position": [
-        80.547035,
-        817.8078
+        78.729965,
+        799.35876
       ]
     },
     {
@@ -1904,8 +1904,8 @@
       "name": "thought",
       "occurrences": 9,
       "position": [
-        74.08503,
-        810.41943
+        70.88196,
+        775.3809
       ]
     },
     {
@@ -1913,8 +1913,8 @@
       "name": "addmissingh1",
       "occurrences": 8,
       "position": [
-        68.71855,
-        814.6932
+        68.65243,
+        813.90924
       ]
     },
     {
@@ -1922,8 +1922,8 @@
       "name": "argumentexception",
       "occurrences": 8,
       "position": [
-        60.31744,
-        780.39734
+        63.136463,
+        816.87036
       ]
     },
     {
@@ -1931,8 +1931,8 @@
       "name": "artifact",
       "occurrences": 8,
       "position": [
-        56.964214,
-        810.99384
+        55.769447,
+        793.9841
       ]
     },
     {
@@ -1940,8 +1940,8 @@
       "name": "assumption",
       "occurrences": 8,
       "position": [
-        49.77317,
-        787.5965
+        50.922146,
+        805.7776
       ]
     },
     {
@@ -1949,8 +1949,8 @@
       "name": "cgroups",
       "occurrences": 8,
       "position": [
-        45.324677,
-        807.0806
+        45.071354,
+        802.5698
       ]
     },
     {
@@ -1958,8 +1958,8 @@
       "name": "co-occurrence-patterns",
       "occurrences": 8,
       "position": [
-        40.059917,
-        815.4383
+        39.157673,
+        797.07275
       ]
     },
     {
@@ -1967,8 +1967,8 @@
       "name": "code-duplication",
       "occurrences": 8,
       "position": [
-        32.739574,
-        777.66675
+        34.327065,
+        815.37463
       ]
     },
     {
@@ -1976,8 +1976,8 @@
       "name": "concurrent-access",
       "occurrences": 8,
       "position": [
-        27.499077,
-        783.9678
+        28.373558,
+        808.8983
       ]
     },
     {
@@ -1985,8 +1985,8 @@
       "name": "coral",
       "occurrences": 8,
       "position": [
-        22.223034,
-        792.0591
+        23.07092,
+        822.27893
       ]
     },
     {
@@ -1994,8 +1994,8 @@
       "name": "database-design",
       "occurrences": 8,
       "position": [
-        17.027893,
-        809.2892
+        16.907671,
+        803.5753
       ]
     },
     {
@@ -2003,8 +2003,8 @@
       "name": "exclusive-locks",
       "occurrences": 8,
       "position": [
-        11.133187,
-        793.75995
+        11.1763525,
+        796.8375
       ]
     },
     {
@@ -2012,8 +2012,8 @@
       "name": "file-locking",
       "occurrences": 8,
       "position": [
-        5.549771,
-        791.4
+        5.746699,
+        819.48206
       ]
     },
     {
@@ -2021,8 +2021,8 @@
       "name": "lock-files",
       "occurrences": 8,
       "position": [
-        5.0263633E-14,
-        820.86743
+        4.8421506E-14,
+        790.7832
       ]
     },
     {
@@ -2030,8 +2030,8 @@
       "name": "multi-agent-orchestration",
       "occurrences": 8,
       "position": [
-        -5.687032,
-        810.9736
+        -5.689883,
+        811.3801
       ]
     },
     {
@@ -2039,8 +2039,8 @@
       "name": "next.js",
       "occurrences": 8,
       "position": [
-        -11.405271,
-        813.15857
+        -10.987856,
+        783.39825
       ]
     },
     {
@@ -2048,8 +2048,8 @@
       "name": "operating-loop",
       "occurrences": 8,
       "position": [
-        -16.30341,
-        774.85645
+        -16.663969,
+        791.99286
       ]
     },
     {
@@ -2057,8 +2057,8 @@
       "name": "pm",
       "occurrences": 8,
       "position": [
-        -22.721766,
-        809.83453
+        -22.644302,
+        807.07367
       ]
     },
     {
@@ -2066,8 +2066,8 @@
       "name": "process-lifecycle",
       "occurrences": 8,
       "position": [
-        -27.444908,
-        782.4235
+        -28.03664,
+        799.29315
       ]
     },
     {
@@ -2075,8 +2075,8 @@
       "name": "shared-locks",
       "occurrences": 8,
       "position": [
-        -32.915695,
-        781.8502
+        -34.38238,
+        816.68854
       ]
     },
     {
@@ -2084,8 +2084,8 @@
       "name": "skein",
       "occurrences": 8,
       "position": [
-        -39.237972,
-        798.7073
+        -38.157604,
+        776.7159
       ]
     },
     {
@@ -2093,8 +2093,8 @@
       "name": "slugified",
       "occurrences": 8,
       "position": [
-        -46.114258,
-        821.14044
+        -45.48482,
+        809.93225
       ]
     },
     {
@@ -2102,8 +2102,8 @@
       "name": "slugify",
       "occurrences": 8,
       "position": [
-        -50.490284,
-        798.9439
+        -49.644962,
+        785.5678
       ]
     },
     {
@@ -2111,8 +2111,8 @@
       "name": "string",
       "occurrences": 8,
       "position": [
-        -55.106113,
-        784.5402
+        -56.60329,
+        805.8554
       ]
     },
     {
@@ -2120,8 +2120,8 @@
       "name": "system-call",
       "occurrences": 8,
       "position": [
-        -60.334034,
-        780.612
+        -62.945038,
+        814.3937
       ]
     },
     {
@@ -2129,8 +2129,8 @@
       "name": "test-isolation",
       "occurrences": 8,
       "position": [
-        -66.50718,
-        788.4762
+        -65.52585,
+        776.8421
       ]
     },
     {
@@ -2138,8 +2138,8 @@
       "name": "test-suite",
       "occurrences": 8,
       "position": [
-        -73.62818,
-        805.4219
+        -72.24961,
+        790.3417
       ]
     },
     {
@@ -2147,8 +2147,8 @@
       "name": "testing-strategy",
       "occurrences": 8,
       "position": [
-        -80.79181,
-        820.29297
+        -76.029884,
+        771.9444
       ]
     },
     {
@@ -2156,8 +2156,8 @@
       "name": "transaction-boundary",
       "occurrences": 8,
       "position": [
-        -81.702354,
-        773.86566
+        -82.686295,
+        783.1853
       ]
     },
     {
@@ -2165,8 +2165,8 @@
       "name": "vector-search",
       "occurrences": 8,
       "position": [
-        -86.771645,
-        770.1196
+        -90.00143,
+        798.7847
       ]
     },
     {
@@ -2174,8 +2174,8 @@
       "name": "workflow-orchestration",
       "occurrences": 8,
       "position": [
-        -93.90502,
-        783.97797
+        -92.82461,
+        774.95795
       ]
     },
     {
@@ -2183,8 +2183,8 @@
       "name": "analyzeconceptcorruption",
       "occurrences": 7,
       "position": [
-        -99.11104,
-        781.02075
+        -101.282486,
+        798.1323
       ]
     },
     {
@@ -2192,8 +2192,8 @@
       "name": "api",
       "occurrences": 7,
       "position": [
-        -106.4226,
-        794.01337
+        -108.61939,
+        810.40356
       ]
     },
     {
@@ -2201,8 +2201,8 @@
       "name": "assetmanager",
       "occurrences": 7,
       "position": [
-        -112.785385,
-        798.8961
+        -111.45684,
+        789.4856
       ]
     },
     {
@@ -2210,8 +2210,8 @@
       "name": "assumptionledger",
       "occurrences": 7,
       "position": [
-        -118.378136,
-        798.0405
+        -113.77704,
+        767.0225
       ]
     },
     {
@@ -2219,8 +2219,8 @@
       "name": "atomicity",
       "occurrences": 7,
       "position": [
-        -122.71017,
-        789.0804
+        -119.509315,
+        768.4975
       ]
     },
     {
@@ -2228,8 +2228,8 @@
       "name": "backup-strategy",
       "occurrences": 7,
       "position": [
-        -131.20247,
-        806.4054
+        -127.9691,
+        786.5323
       ]
     },
     {
@@ -2237,8 +2237,8 @@
       "name": "cleanup-strategies",
       "occurrences": 7,
       "position": [
-        -136.09224,
-        800.9815
+        -134.33574,
+        790.6435
       ]
     },
     {
@@ -2246,8 +2246,8 @@
       "name": "complexity-reduction",
       "occurrences": 7,
       "position": [
-        -138.0405,
-        779.3153
+        -142.78069,
+        806.07635
       ]
     },
     {
@@ -2255,8 +2255,8 @@
       "name": "concept-graph",
       "occurrences": 7,
       "position": [
-        -142.03555,
-        770.37445
+        -144.62079,
+        784.3963
       ]
     },
     {
@@ -2264,8 +2264,8 @@
       "name": "concept-relationships",
       "occurrences": 7,
       "position": [
-        -151.85683,
-        792.43787
+        -154.58199,
+        806.6587
       ]
     },
     {
@@ -2273,8 +2273,8 @@
       "name": "consistency-guarantees",
       "occurrences": 7,
       "position": [
-        -151.53587,
-        761.82227
+        -158.69049,
+        797.79095
       ]
     },
     {
@@ -2282,8 +2282,8 @@
       "name": "corruption-prevention",
       "occurrences": 7,
       "position": [
-        -156.5428,
-        759.133
+        -163.27858,
+        791.79724
       ]
     },
     {
@@ -2291,8 +2291,8 @@
       "name": "cosmograph",
       "occurrences": 7,
       "position": [
-        -164.49403,
-        770.3412
+        -169.6911,
+        794.67957
       ]
     },
     {
@@ -2300,8 +2300,8 @@
       "name": "cosmos.gl",
       "occurrences": 7,
       "position": [
-        -173.82384,
-        786.97003
+        -171.84085,
+        777.9922
       ]
     },
     {
@@ -2309,8 +2309,8 @@
       "name": "database-corruption",
       "occurrences": 7,
       "position": [
-        -173.60982,
-        760.63434
+        -181.23402,
+        794.03815
       ]
     },
     {
@@ -2318,8 +2318,8 @@
       "name": "emergent-topology",
       "occurrences": 7,
       "position": [
-        -188.11717,
-        798.3474
+        -178.1636,
+        756.10565
       ]
     },
     {
@@ -2327,8 +2327,8 @@
       "name": "evidence-preservation",
       "occurrences": 7,
       "position": [
-        -183.11449,
-        753.4105
+        -194.66312,
+        800.92645
       ]
     },
     {
@@ -2336,8 +2336,8 @@
       "name": "execution-plan",
       "occurrences": 7,
       "position": [
-        -191.23029,
-        763.4341
+        -198.8114,
+        793.6996
       ]
     },
     {
@@ -2345,8 +2345,8 @@
       "name": "external-content-table",
       "occurrences": 7,
       "position": [
-        -194.85043,
-        755.3728
+        -195.4097,
+        757.5409
       ]
     },
     {
@@ -2354,8 +2354,8 @@
       "name": "extraction",
       "occurrences": 7,
       "position": [
-        -203.65793,
-        767.2309
+        -205.59775,
+        774.53864
       ]
     },
     {
@@ -2363,8 +2363,8 @@
       "name": "failure-modes",
       "occurrences": 7,
       "position": [
-        -215.24359,
-        788.5359
+        -206.0522,
+        754.8636
       ]
     },
     {
@@ -2372,8 +2372,8 @@
       "name": "getconfig",
       "occurrences": 7,
       "position": [
-        -216.26712,
-        770.9626
+        -210.77429,
+        751.3814
       ]
     },
     {
@@ -2381,8 +2381,8 @@
       "name": "graph-visualization",
       "occurrences": 7,
       "position": [
-        -224.62021,
-        779.674
+        -225.18706,
+        781.6416
       ]
     },
     {
@@ -2390,8 +2390,8 @@
       "name": "graphtools",
       "occurrences": 7,
       "position": [
-        -225.8286,
-        763.69543
+        -232.84084,
+        787.40906
       ]
     },
     {
@@ -2399,8 +2399,8 @@
       "name": "grist",
       "occurrences": 7,
       "position": [
-        -239.24362,
-        788.6805
+        -231.53055,
+        763.25397
       ]
     },
     {
@@ -2408,8 +2408,8 @@
       "name": "harmony",
       "occurrences": 7,
       "position": [
-        -243.32695,
-        782.3492
+        -232.54593,
+        747.68585
       ]
     },
     {
@@ -2417,8 +2417,8 @@
       "name": "input",
       "occurrences": 7,
       "position": [
-        -243.96237,
-        765.42334
+        -242.70842,
+        761.4892
       ]
     },
     {
@@ -2426,8 +2426,8 @@
       "name": "issues",
       "occurrences": 7,
       "position": [
-        -252.56853,
-        773.6324
+        -254.04944,
+        778.1686
       ]
     },
     {
@@ -2435,8 +2435,8 @@
       "name": "knowledge-agent",
       "occurrences": 7,
       "position": [
-        -251.16756,
-        751.4389
+        -252.50677,
+        755.44556
       ]
     },
     {
@@ -2444,8 +2444,8 @@
       "name": "knowledge-persistence",
       "occurrences": 7,
       "position": [
-        -254.22502,
-        743.2107
+        -254.57755,
+        744.2413
       ]
     },
     {
@@ -2453,8 +2453,8 @@
       "name": "ma-alignment",
       "occurrences": 7,
       "position": [
-        -259.39548,
-        741.3097
+        -271.95047,
+        777.18976
       ]
     },
     {
@@ -2462,8 +2462,8 @@
       "name": "ma-collective",
       "occurrences": 7,
       "position": [
-        -263.25168,
-        735.73914
+        -264.86642,
+        740.2521
       ]
     },
     {
@@ -2471,8 +2471,8 @@
       "name": "ma-philosophy",
       "occurrences": 7,
       "position": [
-        -270.74146,
-        740.26465
+        -276.1873,
+        755.1548
       ]
     },
     {
@@ -2480,8 +2480,8 @@
       "name": "mock",
       "occurrences": 7,
       "position": [
-        -282.24142,
-        755.2478
+        -275.8429,
+        738.1259
       ]
     },
     {
@@ -2489,8 +2489,8 @@
       "name": "partial-class",
       "occurrences": 7,
       "position": [
-        -290.10602,
-        759.9969
+        -283.31113,
+        742.19617
       ]
     },
     {
@@ -2498,8 +2498,8 @@
       "name": "partition-tolerance",
       "occurrences": 7,
       "position": [
-        -295.92722,
-        759.22375
+        -293.3925,
+        752.72076
       ]
     },
     {
@@ -2507,8 +2507,8 @@
       "name": "referential-integrity",
       "occurrences": 7,
       "position": [
-        -291.07278,
-        731.5663
+        -291.5891,
+        732.864
       ]
     },
     {
@@ -2516,8 +2516,8 @@
       "name": "static-analysis",
       "occurrences": 7,
       "position": [
-        -296.33972,
-        729.862
+        -303.47855,
+        747.4444
       ]
     },
     {
@@ -2525,8 +2525,8 @@
       "name": "synchronization",
       "occurrences": 7,
       "position": [
-        -312.674,
-        754.8618
+        -305.56064,
+        737.68866
       ]
     },
     {
@@ -2534,8 +2534,8 @@
       "name": "system",
       "occurrences": 7,
       "position": [
-        -313.44794,
-        741.9707
+        -301.50082,
+        713.69037
       ]
     },
     {
@@ -2543,8 +2543,8 @@
       "name": "transaction-boundaries",
       "occurrences": 7,
       "position": [
-        -311.93268,
-        724.1753
+        -318.30725,
+        738.9744
       ]
     },
     {
@@ -2552,8 +2552,8 @@
       "name": "validation-test",
       "occurrences": 7,
       "position": [
-        -327.16507,
-        745.1135
+        -323.6305,
+        737.0636
       ]
     },
     {
@@ -2561,8 +2561,8 @@
       "name": "vector-embedding",
       "occurrences": 7,
       "position": [
-        -329.46393,
-        736.2796
+        -328.86456,
+        734.9401
       ]
     },
     {
@@ -2570,8 +2570,8 @@
       "name": "vector-embeddings",
       "occurrences": 7,
       "position": [
-        -338.83328,
-        743.1949
+        -325.1788,
+        713.24524
       ]
     },
     {
@@ -2579,8 +2579,8 @@
       "name": "verification-agents",
       "occurrences": 7,
       "position": [
-        -327.28522,
-        704.7305
+        -335.34985,
+        722.09576
       ]
     },
     {
@@ -2588,8 +2588,8 @@
       "name": "workflow-dispatch",
       "occurrences": 7,
       "position": [
-        -342.869,
-        724.93555
+        -340.57315,
+        720.0814
       ]
     },
     {
@@ -2597,8 +2597,8 @@
       "name": "write-patterns",
       "occurrences": 7,
       "position": [
-        -340.06506,
-        706.15234
+        -346.1761,
+        718.8421
       ]
     },
     {
@@ -2606,8 +2606,8 @@
       "name": "writememory",
       "occurrences": 7,
       "position": [
-        -342.9164,
-        699.4828
+        -351.5636,
+        717.12134
       ]
     },
     {
@@ -2615,8 +2615,8 @@
       "name": "adopt",
       "occurrences": 6,
       "position": [
-        -353.32242,
-        708.10236
+        -347.85342,
+        697.14185
       ]
     },
     {
@@ -2624,8 +2624,8 @@
       "name": "advisory-locks",
       "occurrences": 6,
       "position": [
-        -365.26453,
-        719.3644
+        -367.10382,
+        722.98676
       ]
     },
     {
@@ -2633,8 +2633,8 @@
       "name": "atomic",
       "occurrences": 6,
       "position": [
-        -371.52063,
-        719.148
+        -370.30975,
+        716.80414
       ]
     },
     {
@@ -2642,8 +2642,8 @@
       "name": "branding",
       "occurrences": 6,
       "position": [
-        -375.2891,
-        714.11725
+        -380.86978,
+        724.7364
       ]
     },
     {
@@ -2651,8 +2651,8 @@
       "name": "cognitive-infrastructure",
       "occurrences": 6,
       "position": [
-        -385.6256,
-        721.4548
+        -380.87878,
+        712.57404
       ]
     },
     {
@@ -2660,8 +2660,8 @@
       "name": "conceptrepairer",
       "occurrences": 6,
       "position": [
-        -387.1123,
-        712.178
+        -380.39825,
+        699.82605
       ]
     },
     {
@@ -2669,8 +2669,8 @@
       "name": "constraint-validation",
       "occurrences": 6,
       "position": [
-        -376.1773,
-        680.64154
+        -386.60532,
+        699.50964
       ]
     },
     {
@@ -2678,8 +2678,8 @@
       "name": "context-management",
       "occurrences": 6,
       "position": [
-        -380.53796,
-        677.2696
+        -395.68005,
+        704.21906
       ]
     },
     {
@@ -2687,8 +2687,8 @@
       "name": "context-test",
       "occurrences": 6,
       "position": [
-        -401.28354,
-        702.60876
+        -404.7212,
+        708.6278
       ]
     },
     {
@@ -2696,8 +2696,8 @@
       "name": "creative-thinking",
       "occurrences": 6,
       "position": [
-        -412.7829,
-        711.117
+        -394.55728,
+        679.71906
       ]
     },
     {
@@ -2705,8 +2705,8 @@
       "name": "data-integrity",
       "occurrences": 6,
       "position": [
-        -409.15817,
-        693.6237
+        -397.58984,
+        674.0125
       ]
     },
     {
@@ -2714,8 +2714,8 @@
       "name": "developer-experience",
       "occurrences": 6,
       "position": [
-        -407.9678,
-        680.65314
+        -398.659,
+        665.1223
       ]
     },
     {
@@ -2723,8 +2723,8 @@
       "name": "file-recovery",
       "occurrences": 6,
       "position": [
-        -419.21695,
-        688.42694
+        -407.92868,
+        669.8897
       ]
     },
     {
@@ -2732,8 +2732,8 @@
       "name": "isolated",
       "occurrences": 6,
       "position": [
-        -433.5538,
-        700.8592
+        -429.31482,
+        694.00665
       ]
     },
     {
@@ -2741,8 +2741,8 @@
       "name": "json",
       "occurrences": 6,
       "position": [
-        -419.1415,
-        667.0599
+        -424.93835,
+        676.2855
       ]
     },
     {
@@ -2750,8 +2750,8 @@
       "name": "lock-timeouts",
       "occurrences": 6,
       "position": [
-        -419.56842,
-        657.4595
+        -422.32996,
+        661.78674
       ]
     },
     {
@@ -2759,8 +2759,8 @@
       "name": "mandatory-locks",
       "occurrences": 6,
       "position": [
-        -431.22302,
-        665.3864
+        -447.09464,
+        689.8767
       ]
     },
     {
@@ -2768,8 +2768,8 @@
       "name": "memorability",
       "occurrences": 6,
       "position": [
-        -432.92285,
-        657.855
+        -447.40408,
+        679.8602
       ]
     },
     {
@@ -2777,8 +2777,8 @@
       "name": "memory-management",
       "occurrences": 6,
       "position": [
-        -456.43127,
-        683.09766
+        -445.75766,
+        667.1235
       ]
     },
     {
@@ -2786,8 +2786,8 @@
       "name": "memorytools",
       "occurrences": 6,
       "position": [
-        -443.07938,
-        653.15314
+        -438.69644,
+        646.69214
       ]
     },
     {
@@ -2795,8 +2795,8 @@
       "name": "meta-documentation",
       "occurrences": 6,
       "position": [
-        -458.0141,
-        665.0816
+        -454.71957,
+        660.2976
       ]
     },
     {
@@ -2804,8 +2804,8 @@
       "name": "metrics",
       "occurrences": 6,
       "position": [
-        -446.47427,
-        638.68994
+        -449.4565,
+        642.9561
       ]
     },
     {
@@ -2813,8 +2813,8 @@
       "name": "microsoft-agent-framework",
       "occurrences": 6,
       "position": [
-        -453.1288,
-        638.6253
+        -475.77243,
+        670.5385
       ]
     },
     {
@@ -2822,8 +2822,8 @@
       "name": "multi-perspective",
       "occurrences": 6,
       "position": [
-        -478.1608,
-        663.989
+        -468.70624,
+        650.8601
       ]
     },
     {
@@ -2831,8 +2831,8 @@
       "name": "no-fake-ai",
       "occurrences": 6,
       "position": [
-        -460.7541,
-        630.44714
+        -471.29755,
+        644.8737
       ]
     },
     {
@@ -2840,8 +2840,8 @@
       "name": "operating-system",
       "occurrences": 6,
       "position": [
-        -487.56534,
-        657.40576
+        -476.11868,
+        641.97174
       ]
     },
     {
@@ -2849,8 +2849,8 @@
       "name": "organic-growth",
       "occurrences": 6,
       "position": [
-        -495.5003,
-        658.4046
+        -466.3075,
+        619.61414
       ]
     },
     {
@@ -2858,8 +2858,8 @@
       "name": "pattern-analysis",
       "occurrences": 6,
       "position": [
-        -490.4972,
-        642.33167
+        -476.5444,
+        624.05975
       ]
     },
     {
@@ -2867,8 +2867,8 @@
       "name": "query-planning",
       "occurrences": 6,
       "position": [
-        -497.08234,
-        641.5776
+        -490.14215,
+        632.62
       ]
     },
     {
@@ -2876,8 +2876,8 @@
       "name": "race-condition",
       "occurrences": 6,
       "position": [
-        -495.21542,
-        629.9931
+        -482.28647,
+        613.5454
       ]
     },
     {
@@ -2885,8 +2885,8 @@
       "name": "recovery-procedures",
       "occurrences": 6,
       "position": [
-        -506.23935,
-        634.8041
+        -492.7501,
+        617.88904
       ]
     },
     {
@@ -2894,8 +2894,8 @@
       "name": "return-test",
       "occurrences": 6,
       "position": [
-        -511.6975,
-        632.49817
+        -495.31915,
+        612.25323
       ]
     },
     {
@@ -2903,8 +2903,8 @@
       "name": "sigma.js",
       "occurrences": 6,
       "position": [
-        -495.6583,
-        603.96136
+        -499.10043,
+        608.15564
       ]
     },
     {
@@ -2912,8 +2912,8 @@
       "name": "sqlite-triggers",
       "occurrences": 6,
       "position": [
-        -506.24835,
-        608.119
+        -499.2625,
+        599.7274
       ]
     },
     {
@@ -2921,8 +2921,8 @@
       "name": "statistics-gathering",
       "occurrences": 6,
       "position": [
-        -500.67484,
-        592.91833
+        -499.7976,
+        591.87946
       ]
     },
     {
@@ -2930,8 +2930,8 @@
       "name": "still",
       "occurrences": 6,
       "position": [
-        -533.4008,
-        622.7614
+        -519.5513,
+        606.5917
       ]
     },
     {
@@ -2939,8 +2939,8 @@
       "name": "stub",
       "occurrences": 6,
       "position": [
-        -531.8043,
-        612.1561
+        -537.3578,
+        618.5487
       ]
     },
     {
@@ -2948,8 +2948,8 @@
       "name": "sync-ready",
       "occurrences": 6,
       "position": [
-        -530.6039,
-        602.19244
+        -526.6077,
+        597.6571
       ]
     },
     {
@@ -2957,8 +2957,8 @@
       "name": "test-method",
       "occurrences": 6,
       "position": [
-        -536.5196,
-        600.36566
+        -543.65295,
+        608.34796
       ]
     },
     {
@@ -2966,8 +2966,8 @@
       "name": "throughput",
       "occurrences": 6,
       "position": [
-        -534.75543,
-        590.0117
+        -552.65717,
+        609.7632
       ]
     },
     {
@@ -2975,8 +2975,8 @@
       "name": "trigger-correctness",
       "occurrences": 6,
       "position": [
-        -557.7631,
-        606.7905
+        -526.2241,
+        572.47925
       ]
     },
     {
@@ -2984,8 +2984,8 @@
       "name": "verification-agent",
       "occurrences": 6,
       "position": [
-        -535.98975,
-        574.95825
+        -540.45496,
+        579.74805
       ]
     },
     {
@@ -2993,8 +2993,8 @@
       "name": ".net",
       "occurrences": 5,
       "position": [
-        -537.36694,
-        568.39154
+        -555.9849,
+        588.0844
       ]
     },
     {
@@ -3002,8 +3002,8 @@
       "name": "acid-compliance",
       "occurrences": 5,
       "position": [
-        -545.9838,
-        569.45325
+        -542.9946,
+        566.3356
       ]
     },
     {
@@ -3011,8 +3011,8 @@
       "name": "agent-orchestration",
       "occurrences": 5,
       "position": [
-        -564.6852,
-        580.7509
+        -565.0252,
+        581.10065
       ]
     },
     {
@@ -3020,8 +3020,8 @@
       "name": "append()",
       "occurrences": 5,
       "position": [
-        -567.32166,
-        575.33466
+        -578.51373,
+        586.6848
       ]
     },
     {
@@ -3029,8 +3029,8 @@
       "name": "asset-refresh",
       "occurrences": 5,
       "position": [
-        -558.17377,
-        558.17377
+        -574.46124,
+        574.46124
       ]
     },
     {
@@ -3038,8 +3038,8 @@
       "name": "availability",
       "occurrences": 5,
       "position": [
-        -574.3257,
-        566.3267
+        -576.9653,
+        568.92957
       ]
     },
     {
@@ -3047,8 +3047,8 @@
       "name": "batch-processing",
       "occurrences": 5,
       "position": [
-        -573.26953,
-        557.4107
+        -590.72815,
+        574.38635
       ]
     },
     {
@@ -3056,8 +3056,8 @@
       "name": "build-path",
       "occurrences": 5,
       "position": [
-        -564.486,
-        541.2213
+        -568.0171,
+        544.6069
       ]
     },
     {
@@ -3065,8 +3065,8 @@
       "name": "bulk-operations",
       "occurrences": 5,
       "position": [
-        -583.5895,
-        551.73535
+        -595.82983,
+        563.30756
       ]
     },
     {
@@ -3074,8 +3074,8 @@
       "name": "caching-strategy",
       "occurrences": 5,
       "position": [
-        -599.2488,
-        558.634
+        -575.7126,
+        536.693
       ]
     },
     {
@@ -3083,8 +3083,8 @@
       "name": "cli-architecture",
       "occurrences": 5,
       "position": [
-        -601.45996,
-        552.8633
+        -577.5534,
+        530.88824
       ]
     },
     {
@@ -3092,8 +3092,8 @@
       "name": "co-occurrence",
       "occurrences": 5,
       "position": [
-        -588.7358,
-        533.599
+        -587.79987,
+        532.75073
       ]
     },
     {
@@ -3101,8 +3101,8 @@
       "name": "code-quality-001",
       "occurrences": 5,
       "position": [
-        -580.5205,
-        518.78485
+        -605.66266,
+        541.25323
       ]
     },
     {
@@ -3110,8 +3110,8 @@
       "name": "code-style",
       "occurrences": 5,
       "position": [
-        -600.1012,
-        528.7613
+        -609.28,
+        536.84894
       ]
     },
     {
@@ -3119,8 +3119,8 @@
       "name": "cognitive-architecture",
       "occurrences": 5,
       "position": [
-        -618.7976,
-        537.57404
+        -616.8431,
+        535.8761
       ]
     },
     {
@@ -3128,8 +3128,8 @@
       "name": "compilation",
       "occurrences": 5,
       "position": [
-        -594.60516,
-        509.2848
+        -613.65247,
+        525.59894
       ]
     },
     {
@@ -3137,8 +3137,8 @@
       "name": "concepts",
       "occurrences": 5,
       "position": [
-        -620.22595,
-        523.7341
+        -610.69366,
+        515.6848
       ]
     },
     {
@@ -3146,8 +3146,8 @@
       "name": "concept|concepts",
       "occurrences": 5,
       "position": [
-        -602.24585,
-        501.35907
+        -597.4649,
+        497.379
       ]
     },
     {
@@ -3155,8 +3155,8 @@
       "name": "config-first",
       "occurrences": 5,
       "position": [
-        -609.58,
-        500.2694
+        -624.3454,
+        512.387
       ]
     },
     {
@@ -3164,8 +3164,8 @@
       "name": "configuration",
       "occurrences": 5,
       "position": [
-        -612.84924,
-        495.80133
+        -622.67914,
+        503.7538
       ]
     },
     {
@@ -3173,8 +3173,8 @@
       "name": "configuration-first",
       "occurrences": 5,
       "position": [
-        -607.2189,
-        484.2409
+        -633.0708,
+        504.85712
       ]
     },
     {
@@ -3182,8 +3182,8 @@
       "name": "consensus",
       "occurrences": 5,
       "position": [
-        -626.24695,
-        492.2707
+        -637.3845,
+        501.02557
       ]
     },
     {
@@ -3191,8 +3191,8 @@
       "name": "continue()",
       "occurrences": 5,
       "position": [
-        -642.057,
-        497.4538
+        -617.07245,
+        478.09622
       ]
     },
     {
@@ -3200,8 +3200,8 @@
       "name": "cosine-similarity",
       "occurrences": 5,
       "position": [
-        -625.102,
-        477.34027
+        -631.0848,
+        481.90884
       ]
     },
     {
@@ -3209,8 +3209,8 @@
       "name": "dbpath",
       "occurrences": 5,
       "position": [
-        -642.1513,
-        483.26846
+        -643.4011,
+        484.209
       ]
     },
     {
@@ -3218,8 +3218,8 @@
       "name": "deletememory",
       "occurrences": 5,
       "position": [
-        -656.1926,
-        486.66565
+        -650.2958,
+        482.2922
       ]
     },
     {
@@ -3227,8 +3227,8 @@
       "name": "duplicate",
       "occurrences": 5,
       "position": [
-        -650.3497,
-        475.29953
+        -628.4662,
+        459.3063
       ]
     },
     {
@@ -3236,8 +3236,8 @@
       "name": "edge-case",
       "occurrences": 5,
       "position": [
-        -661.0134,
-        476.018
+        -647.4657,
+        466.26184
       ]
     },
     {
@@ -3245,8 +3245,8 @@
       "name": "edge-cases",
       "occurrences": 5,
       "position": [
-        -647.9011,
-        459.7104
+        -671.8118,
+        476.6759
       ]
     },
     {
@@ -3254,8 +3254,8 @@
       "name": "emergent-intelligence",
       "occurrences": 5,
       "position": [
-        -649.983,
-        454.36865
+        -670.2841,
+        468.5601
       ]
     },
     {
@@ -3263,8 +3263,8 @@
       "name": "extractsnippet",
       "occurrences": 5,
       "position": [
-        -674.82794,
-        464.726
+        -647.559,
+        445.94705
       ]
     },
     {
@@ -3272,8 +3272,8 @@
       "name": "fix-verification",
       "occurrences": 5,
       "position": [
-        -653.7097,
-        443.45697
+        -653.0946,
+        443.0397
       ]
     },
     {
@@ -3281,8 +3281,8 @@
       "name": "fragmentation",
       "occurrences": 5,
       "position": [
-        -647.67316,
-        432.76135
+        -671.20496,
+        448.48483
       ]
     },
     {
@@ -3290,8 +3290,8 @@
       "name": "geology",
       "occurrences": 5,
       "position": [
-        -688.5605,
-        453.12958
+        -671.1834,
+        441.69403
       ]
     },
     {
@@ -3299,8 +3299,8 @@
       "name": "gethelp",
       "occurrences": 5,
       "position": [
-        -655.03467,
-        424.51428
+        -674.6393,
+        437.2196
       ]
     },
     {
@@ -3308,8 +3308,8 @@
       "name": "git-submodule",
       "occurrences": 5,
       "position": [
-        -686.42487,
-        438.05316
+        -653.18207,
+        416.8387
       ]
     },
     {
@@ -3317,8 +3317,8 @@
       "name": "github",
       "occurrences": 5,
       "position": [
-        -680.988,
-        427.8931
+        -669.44586,
+        420.64072
       ]
     },
     {
@@ -3326,8 +3326,8 @@
       "name": "gnomon",
       "occurrences": 5,
       "position": [
-        -677.53546,
-        419.12567
+        -682.6294,
+        422.27676
       ]
     },
     {
@@ -3335,8 +3335,8 @@
       "name": "isolation",
       "occurrences": 5,
       "position": [
-        -697.9165,
-        424.9956
+        -675.1383,
+        411.12485
       ]
     },
     {
@@ -3344,8 +3344,8 @@
       "name": "isolation-levels",
       "occurrences": 5,
       "position": [
-        -669.0171,
-        400.9934
+        -696.105,
+        417.22928
       ]
     },
     {
@@ -3353,8 +3353,8 @@
       "name": "listmemories",
       "occurrences": 5,
       "position": [
-        -682.4897,
-        402.59036
+        -709.748,
+        418.66962
       ]
     },
     {
@@ -3362,8 +3362,8 @@
       "name": "market-appeal",
       "occurrences": 5,
       "position": [
-        -712.8041,
-        413.7622
+        -678.97076,
+        394.12292
       ]
     },
     {
@@ -3371,8 +3371,8 @@
       "name": "memory-files",
       "occurrences": 5,
       "position": [
-        -684.8261,
-        391.12726
+        -679.22266,
+        387.92694
       ]
     },
     {
@@ -3380,8 +3380,8 @@
       "name": "mi",
       "occurrences": 5,
       "position": [
-        -700.5936,
-        393.64304
+        -688.26886,
+        386.7181
       ]
     },
     {
@@ -3389,8 +3389,8 @@
       "name": "migration-safety",
       "occurrences": 5,
       "position": [
-        -681.5687,
-        376.68973
+        -717.2757,
+        396.42426
       ]
     },
     {
@@ -3398,8 +3398,8 @@
       "name": "minimalism",
       "occurrences": 5,
       "position": [
-        -723.0398,
-        393.01633
+        -696.928,
+        378.823
       ]
     },
     {
@@ -3407,8 +3407,8 @@
       "name": "mocks",
       "occurrences": 5,
       "position": [
-        -685.345,
-        366.32452
+        -701.1298,
+        374.7617
       ]
     },
     {
@@ -3416,8 +3416,8 @@
       "name": "music",
       "occurrences": 5,
       "position": [
-        -694.02313,
-        364.7291
+        -720.75836,
+        378.7792
       ]
     },
     {
@@ -3425,8 +3425,8 @@
       "name": "normalization",
       "occurrences": 5,
       "position": [
-        -698.50806,
-        360.8578
+        -711.14355,
+        367.38544
       ]
     },
     {
@@ -3434,8 +3434,8 @@
       "name": "onnx",
       "occurrences": 5,
       "position": [
-        -695.33203,
-        353.06186
+        -708.4662,
+        359.73087
       ]
     },
     {
@@ -3443,8 +3443,8 @@
       "name": "parallel",
       "occurrences": 5,
       "position": [
-        -716.23016,
-        357.37796
+        -702.63116,
+        350.59244
       ]
     },
     {
@@ -3452,8 +3452,8 @@
       "name": "patterns",
       "occurrences": 5,
       "position": [
-        -711.6592,
-        348.88577
+        -724.49536,
+        355.17862
       ]
     },
     {
@@ -3461,8 +3461,8 @@
       "name": "philosophy",
       "occurrences": 5,
       "position": [
-        -718.56,
-        346.04025
+        -721.1789,
+        347.30145
       ]
     },
     {
@@ -3470,8 +3470,8 @@
       "name": "product",
       "occurrences": 5,
       "position": [
-        -738.37445,
-        349.22513
+        -743.68604,
+        351.7373
       ]
     },
     {
@@ -3479,8 +3479,8 @@
       "name": "race-conditions",
       "occurrences": 5,
       "position": [
-        -714.90027,
-        332.00818
+        -738.5839,
+        343.00714
       ]
     },
     {
@@ -3488,8 +3488,8 @@
       "name": "readme",
       "occurrences": 5,
       "position": [
-        -726.5143,
-        331.22836
+        -731.74457,
+        333.6129
       ]
     },
     {
@@ -3497,8 +3497,8 @@
       "name": "repair-operations",
       "occurrences": 5,
       "position": [
-        -747.1927,
-        334.34723
+        -724.45215,
+        324.17148
       ]
     },
     {
@@ -3506,8 +3506,8 @@
       "name": "research",
       "occurrences": 5,
       "position": [
-        -739.6949,
-        324.78586
+        -731.806,
+        321.322
       ]
     },
     {
@@ -3515,8 +3515,8 @@
       "name": "resource-exhaustion",
       "occurrences": 5,
       "position": [
-        -725.7963,
-        312.63092
+        -738.01965,
+        317.89603
       ]
     },
     {
@@ -3524,8 +3524,8 @@
       "name": "safety",
       "occurrences": 5,
       "position": [
-        -716.6984,
-        302.7716
+        -736.3016,
+        311.053
       ]
     },
     {
@@ -3533,8 +3533,8 @@
       "name": "scripting",
       "occurrences": 5,
       "position": [
-        -728.4767,
-        301.7449
+        -727.9366,
+        301.5212
       ]
     },
     {
@@ -3542,8 +3542,8 @@
       "name": "semantic",
       "occurrences": 5,
       "position": [
-        -744.8721,
-        302.43414
+        -736.8892,
+        299.19293
       ]
     },
     {
@@ -3551,8 +3551,8 @@
       "name": "session",
       "occurrences": 5,
       "position": [
-        -759.2917,
-        302.10403
+        -732.90735,
+        291.60635
       ]
     },
     {
@@ -3560,8 +3560,8 @@
       "name": "shell-integration",
       "occurrences": 5,
       "position": [
-        -750.58856,
-        292.5614
+        -745.7194,
+        290.66354
       ]
     },
     {
@@ -3569,8 +3569,8 @@
       "name": "space",
       "occurrences": 5,
       "position": [
-        -750.3566,
-        286.42615
+        -730.2877,
+        278.76547
       ]
     },
     {
@@ -3578,8 +3578,8 @@
       "name": "stress-testing",
       "occurrences": 5,
       "position": [
-        -727.0137,
-        271.69016
+        -735.0997,
+        274.71194
       ]
     },
     {
@@ -3587,8 +3587,8 @@
       "name": "technical-accuracy",
       "occurrences": 5,
       "position": [
-        -760.95703,
-        278.3094
+        -768.244,
+        280.97452
       ]
     },
     {
@@ -3596,8 +3596,8 @@
       "name": "unit-test",
       "occurrences": 5,
       "position": [
-        -736.3348,
-        263.46478
+        -738.47064,
+        264.22903
       ]
     },
     {
@@ -3605,8 +3605,8 @@
       "name": "vector-similarity",
       "occurrences": 5,
       "position": [
-        -772.75433,
-        270.39844
+        -733.40674,
+        256.6301
       ]
     },
     {
@@ -3614,8 +3614,8 @@
       "name": "weaving",
       "occurrences": 5,
       "position": [
-        -755.9367,
-        258.5781
+        -769.5833,
+        263.24612
       ]
     },
     {
@@ -3623,8 +3623,8 @@
       "name": "workflowid",
       "occurrences": 5,
       "position": [
-        -780.15955,
-        260.7674
+        -752.5685,
+        251.54512
       ]
     },
     {
@@ -3632,8 +3632,8 @@
       "name": "workflowids",
       "occurrences": 5,
       "position": [
-        -759.5671,
-        247.9766
+        -774.63586,
+        252.89612
       ]
     },
     {
@@ -3641,8 +3641,8 @@
       "name": "algorithm",
       "occurrences": 4,
       "position": [
-        -775.57806,
-        247.19897
+        -784.14795,
+        249.93042
       ]
     },
     {
@@ -3650,8 +3650,8 @@
       "name": "api-design",
       "occurrences": 4,
       "position": [
-        -773.3196,
-        240.51854
+        -772.80743,
+        240.35927
       ]
     },
     {
@@ -3659,8 +3659,8 @@
       "name": "backward-compatibility",
       "occurrences": 4,
       "position": [
-        -776.0917,
-        235.42484
+        -768.96063,
+        233.26166
       ]
     },
     {
@@ -3668,8 +3668,8 @@
       "name": "behavior",
       "occurrences": 4,
       "position": [
-        -746.33606,
-        220.69533
+        -777.8201,
+        230.00534
       ]
     },
     {
@@ -3677,8 +3677,8 @@
       "name": "bulkhead-isolation",
       "occurrences": 4,
       "position": [
-        -760.0149,
-        218.95653
+        -773.241,
+        222.76689
       ]
     },
     {
@@ -3686,8 +3686,8 @@
       "name": "checkpoint-restart",
       "occurrences": 4,
       "position": [
-        -755.2652,
-        211.86375
+        -764.8938,
+        214.56473
       ]
     },
     {
@@ -3695,8 +3695,8 @@
       "name": "cli-alignment-001",
       "occurrences": 4,
       "position": [
-        -777.9051,
-        212.34175
+        -756.3016,
+        206.44473
       ]
     },
     {
@@ -3704,8 +3704,8 @@
       "name": "code-review",
       "occurrences": 4,
       "position": [
-        -749.94244,
-        199.0688
+        -758.971,
+        201.4654
       ]
     },
     {
@@ -3713,8 +3713,8 @@
       "name": "codex-mcp",
       "occurrences": 4,
       "position": [
-        -793.07227,
-        204.5751
+        -752.0276,
+        193.98752
       ]
     },
     {
@@ -3722,8 +3722,8 @@
       "name": "concept-repair",
       "occurrences": 4,
       "position": [
-        -776.2713,
-        194.44585
+        -783.3194,
+        196.2113
       ]
     },
     {
@@ -3731,8 +3731,8 @@
       "name": "concurrency-control",
       "occurrences": 4,
       "position": [
-        -800.4844,
-        194.55568
+        -799.4877,
+        194.31343
       ]
     },
     {
@@ -3740,8 +3740,8 @@
       "name": "configuration-file",
       "occurrences": 4,
       "position": [
-        -785.071,
-        184.98882
+        -781.78217,
+        184.21385
       ]
     },
     {
@@ -3749,8 +3749,8 @@
       "name": "conflict-resolution",
       "occurrences": 4,
       "position": [
-        -760.2994,
-        173.53337
+        -764.2538,
+        174.43593
       ]
     },
     {
@@ -3758,8 +3758,8 @@
       "name": "consensus-algorithms",
       "occurrences": 4,
       "position": [
-        -777.4668,
-        171.7248
+        -791.254,
+        174.77008
       ]
     },
     {
@@ -3767,8 +3767,8 @@
       "name": "context7",
       "occurrences": 4,
       "position": [
-        -772.3911,
-        164.93176
+        -794.41486,
+        169.63458
       ]
     },
     {
@@ -3776,8 +3776,8 @@
       "name": "creative-modification",
       "occurrences": 4,
       "position": [
-        -770.21857,
-        158.82878
+        -799.45905,
+        164.85854
       ]
     },
     {
@@ -3785,8 +3785,8 @@
       "name": "data-analysis",
       "occurrences": 4,
       "position": [
-        -782.8667,
-        155.72186
+        -773.08264,
+        153.7757
       ]
     },
     {
@@ -3794,8 +3794,8 @@
       "name": "data-processing",
       "occurrences": 4,
       "position": [
-        -789.5935,
-        151.31175
+        -765.4337,
+        146.68195
       ]
     },
     {
@@ -3803,8 +3803,8 @@
       "name": "deadlock-detection",
       "occurrences": 4,
       "position": [
-        -789.89923,
-        145.63538
+        -795.588,
+        146.68423
       ]
     },
     {
@@ -3812,8 +3812,8 @@
       "name": "deadlock-prevention",
       "occurrences": 4,
       "position": [
-        -803.55505,
-        142.33409
+        -772.1077,
+        136.76382
       ]
     },
     {
@@ -3821,8 +3821,8 @@
       "name": "defaults",
       "occurrences": 4,
       "position": [
-        -805.39484,
-        136.84209
+        -780.46643,
+        132.60658
       ]
     },
     {
@@ -3830,8 +3830,8 @@
       "name": "dry-run",
       "occurrences": 4,
       "position": [
-        -769.4848,
-        125.195465
+        -771.8262,
+        125.576416
       ]
     },
     {
@@ -3839,8 +3839,8 @@
       "name": "embedding-generation",
       "occurrences": 4,
       "position": [
-        -769.88934,
-        119.72576
+        -770.44684,
+        119.812454
       ]
     },
     {
@@ -3848,8 +3848,8 @@
       "name": "emergent-structure",
       "occurrences": 4,
       "position": [
-        -815.1469,
-        120.91562
+        -795.6782,
+        118.02772
       ]
     },
     {
@@ -3857,8 +3857,8 @@
       "name": "error-recovery",
       "occurrences": 4,
       "position": [
-        -810.3994,
-        114.409386
+        -789.27924,
+        111.427704
       ]
     },
     {
@@ -3866,8 +3866,8 @@
       "name": "extension-method",
       "occurrences": 4,
       "position": [
-        -806.1956,
-        108.0554
+        -779.84546,
+        104.52365
       ]
     },
     {
@@ -3875,8 +3875,8 @@
       "name": "fake",
       "occurrences": 4,
       "position": [
-        -777.8198,
-        98.70485
+        -792.67114,
+        100.58947
       ]
     },
     {
@@ -3884,8 +3884,8 @@
       "name": "filename",
       "occurrences": 4,
       "position": [
-        -773.2612,
-        92.621376
+        -794.5574,
+        95.172226
       ]
     },
     {
@@ -3893,8 +3893,8 @@
       "name": "frontmatter",
       "occurrences": 4,
       "position": [
-        -808.35406,
-        91.07963
+        -782.47504,
+        88.163765
       ]
     },
     {
@@ -3902,8 +3902,8 @@
       "name": "generation",
       "occurrences": 4,
       "position": [
-        -802.4395,
-        84.71909
+        -816.0387,
+        86.154854
       ]
     },
     {
@@ -3911,8 +3911,8 @@
       "name": "graph-database",
       "occurrences": 4,
       "position": [
-        -810.2794,
-        79.80556
+        -816.85394,
+        80.453094
       ]
     },
     {
@@ -3920,8 +3920,8 @@
       "name": "grph-009",
       "occurrences": 4,
       "position": [
-        -776.16327,
-        70.95348
+        -797.902,
+        72.94074
       ]
     },
     {
@@ -3929,8 +3929,8 @@
       "name": "guard-clause",
       "occurrences": 4,
       "position": [
-        -787.34064,
-        66.41139
+        -781.56256,
+        65.92401
       ]
     },
     {
@@ -3938,8 +3938,8 @@
       "name": "help-text",
       "occurrences": 4,
       "position": [
-        -801.6911,
-        61.96325
+        -792.9798,
+        61.289948
       ]
     },
     {
@@ -3947,8 +3947,8 @@
       "name": "hypothesis-formation",
       "occurrences": 4,
       "position": [
-        -780.2158,
-        54.80237
+        -816.0368,
+        57.318436
       ]
     },
     {
@@ -3956,8 +3956,8 @@
       "name": "index-fragmentation",
       "occurrences": 4,
       "position": [
-        -807.5737,
-        51.03566
+        -787.0836,
+        49.74076
       ]
     },
     {
@@ -3965,8 +3965,8 @@
       "name": "integration-test",
       "occurrences": 4,
       "position": [
-        -795.9179,
-        44.69779
+        -812.75055,
+        45.643093
       ]
     },
     {
@@ -3974,8 +3974,8 @@
       "name": "jwt",
       "occurrences": 4,
       "position": [
-        -789.6276,
-        38.791916
+        -787.49005,
+        38.686905
       ]
     },
     {
@@ -3983,8 +3983,8 @@
       "name": "knowledge-management",
       "occurrences": 4,
       "position": [
-        -822.44196,
-        34.6246
+        -821.3168,
+        34.57723
       ]
     },
     {
@@ -3992,8 +3992,8 @@
       "name": "knowledge-repository",
       "occurrences": 4,
       "position": [
-        -807.90924,
-        28.338867
+        -788.50757,
+        27.658318
       ]
     },
     {
@@ -4001,8 +4001,8 @@
       "name": "lazy-graph",
       "occurrences": 4,
       "position": [
-        -815.1108,
-        22.869802
+        -796.10565,
+        22.336569
       ]
     },
     {
@@ -4010,8 +4010,8 @@
       "name": "lazy-graph-construction",
       "occurrences": 4,
       "position": [
-        -822.00507,
-        17.295443
+        -806.0321,
+        16.959362
       ]
     },
     {
@@ -4019,8 +4019,8 @@
       "name": "ma",
       "occurrences": 4,
       "position": [
-        -788.96436,
-        11.065925
+        -817.3542,
+        11.464117
       ]
     },
     {
@@ -4028,8 +4028,8 @@
       "name": "markdownio",
       "occurrences": 4,
       "position": [
-        -789.95123,
-        5.539611
+        -810.1092,
+        5.6809707
       ]
     },
     {
@@ -4037,8 +4037,8 @@
       "name": "markdownreader",
       "occurrences": 4,
       "position": [
-        -814.86914,
-        9.979269E-14
+        -800.52203,
+        9.8035675E-14
       ]
     },
     {
@@ -4046,8 +4046,8 @@
       "name": "markdownwriter",
       "occurrences": 4,
       "position": [
-        -793.8361,
-        -5.566854
+        -780.5439,
+        -5.473641
       ]
     },
     {
@@ -4055,8 +4055,8 @@
       "name": "market",
       "occurrences": 4,
       "position": [
-        -792.5761,
-        -11.116583
+        -811.54333,
+        -11.382615
       ]
     },
     {
@@ -4064,8 +4064,8 @@
       "name": "marketability",
       "occurrences": 4,
       "position": [
-        -823.40125,
-        -17.32482
+        -797.2861,
+        -16.775341
       ]
     },
     {
@@ -4073,8 +4073,8 @@
       "name": "marketing",
       "occurrences": 4,
       "position": [
-        -801.93524,
-        -22.500132
+        -779.35046,
+        -21.866465
       ]
     },
     {
@@ -4082,8 +4082,8 @@
       "name": "matching",
       "occurrences": 4,
       "position": [
-        -813.607,
-        -28.538725
+        -806.639,
+        -28.29431
       ]
     },
     {
@@ -4091,8 +4091,8 @@
       "name": "memorysearchtools",
       "occurrences": 4,
       "position": [
-        -779.90765,
-        -32.833916
+        -782.0927,
+        -32.925907
       ]
     },
     {
@@ -4100,8 +4100,8 @@
       "name": "memorystatus",
       "occurrences": 4,
       "position": [
-        -806.10114,
-        -39.601208
+        -781.9651,
+        -38.41548
       ]
     },
     {
@@ -4109,8 +4109,8 @@
       "name": "memorytools.write",
       "occurrences": 4,
       "position": [
-        -820.3455,
-        -46.06962
+        -781.71906,
+        -43.900402
       ]
     },
     {
@@ -4118,8 +4118,8 @@
       "name": "methodology",
       "occurrences": 4,
       "position": [
-        -805.364,
-        -50.89601
+        -782.23834,
+        -49.434555
       ]
     },
     {
@@ -4127,8 +4127,8 @@
       "name": "models",
       "occurrences": 4,
       "position": [
-        -792.81464,
-        -55.68731
+        -803.99133,
+        -56.47236
       ]
     },
     {
@@ -4136,8 +4136,8 @@
       "name": "monitoring",
       "occurrences": 4,
       "position": [
-        -806.2602,
-        -62.3164
+        -780.2068,
+        -60.302708
       ]
     },
     {
@@ -4145,8 +4145,8 @@
       "name": "multi-agent-collective",
       "occurrences": 4,
       "position": [
-        -812.449,
-        -68.52925
+        -774.53265,
+        -65.331055
       ]
     },
     {
@@ -4154,8 +4154,8 @@
       "name": "naming-candidates",
       "occurrences": 4,
       "position": [
-        -798.2883,
-        -72.97606
+        -808.7859,
+        -73.9357
       ]
     },
     {
@@ -4163,8 +4163,8 @@
       "name": "naming-conventions",
       "occurrences": 4,
       "position": [
-        -802.0081,
-        -78.990906
+        -818.1502,
+        -80.580765
       ]
     },
     {
@@ -4172,8 +4172,8 @@
       "name": "negative",
       "occurrences": 4,
       "position": [
-        -809.2059,
-        -85.433464
+        -797.8134,
+        -84.23069
       ]
     },
     {
@@ -4181,8 +4181,8 @@
       "name": "network-partitions",
       "occurrences": 4,
       "position": [
-        -795.8043,
-        -89.66561
+        -779.44507,
+        -87.822365
       ]
     },
     {
@@ -4190,8 +4190,8 @@
       "name": "original",
       "occurrences": 4,
       "position": [
-        -788.86743,
-        -94.490685
+        -811.01056,
+        -97.14299
       ]
     },
     {
@@ -4199,8 +4199,8 @@
       "name": "pattern-recognition",
       "occurrences": 4,
       "position": [
-        -799.05383,
-        -101.39943
+        -773.1231,
+        -98.10883
       ]
     },
     {
@@ -4208,8 +4208,8 @@
       "name": "performance-bottleneck",
       "occurrences": 4,
       "position": [
-        -770.3509,
-        -103.25109
+        -782.9096,
+        -104.93434
       ]
     },
     {
@@ -4217,8 +4217,8 @@
       "name": "privilege-separation",
       "occurrences": 4,
       "position": [
-        -780.93835,
-        -110.25017
+        -785.4147,
+        -110.88212
       ]
     },
     {
@@ -4226,8 +4226,8 @@
       "name": "progress",
       "occurrences": 4,
       "position": [
-        -796.3449,
-        -118.12661
+        -779.43445,
+        -115.61818
       ]
     },
     {
@@ -4235,8 +4235,8 @@
       "name": "read-only",
       "occurrences": 4,
       "position": [
-        -782.86926,
-        -121.74427
+        -795.21594,
+        -123.66431
       ]
     },
     {
@@ -4244,8 +4244,8 @@
       "name": "regex",
       "occurrences": 4,
       "position": [
-        -806.56,
-        -131.22762
+        -809.84204,
+        -131.76161
       ]
     },
     {
@@ -4253,8 +4253,8 @@
       "name": "relationship",
       "occurrences": 4,
       "position": [
-        -796.4113,
-        -135.31572
+        -805.8885,
+        -136.92596
       ]
     },
     {
@@ -4262,8 +4262,8 @@
       "name": "resilience-patterns",
       "occurrences": 4,
       "position": [
-        -801.81354,
-        -142.02562
+        -784.68353,
+        -138.99138
       ]
     },
     {
@@ -4271,8 +4271,8 @@
       "name": "retrieval-augmented-generation",
       "occurrences": 4,
       "position": [
-        -790.0392,
-        -145.66118
+        -797.07043,
+        -146.95755
       ]
     },
     {
@@ -4280,8 +4280,8 @@
       "name": "risk",
       "occurrences": 4,
       "position": [
-        -801.7036,
-        -153.63243
+        -770.7857,
+        -147.70757
       ]
     },
     {
@@ -4289,8 +4289,8 @@
       "name": "risk-level",
       "occurrences": 4,
       "position": [
-        -795.55975,
-        -158.24667
+        -761.198,
+        -151.4117
       ]
     },
     {
@@ -4298,8 +4298,8 @@
       "name": "safe-apply",
       "occurrences": 4,
       "position": [
-        -769.59784,
-        -158.70078
+        -793.5224,
+        -163.63432
       ]
     },
     {
@@ -4307,8 +4307,8 @@
       "name": "scenario",
       "occurrences": 4,
       "position": [
-        -789.7266,
-        -168.63348
+        -782.1206,
+        -167.00934
       ]
     },
     {
@@ -4316,8 +4316,8 @@
       "name": "security",
       "occurrences": 4,
       "position": [
-        -772.80707,
-        -170.69557
+        -763.3207,
+        -168.60023
       ]
     },
     {
@@ -4325,8 +4325,8 @@
       "name": "six-thinking-hats",
       "occurrences": 4,
       "position": [
-        -774.5983,
-        -176.79701
+        -759.6363,
+        -173.38202
       ]
     },
     {
@@ -4334,8 +4334,8 @@
       "name": "startwatcher",
       "occurrences": 4,
       "position": [
-        -791.18024,
-        -186.42834
+        -771.3974,
+        -181.76686
       ]
     },
     {
@@ -4343,8 +4343,8 @@
       "name": "stopwatcher",
       "occurrences": 4,
       "position": [
-        -767.1759,
-        -186.46014
+        -752.51434,
+        -182.89668
       ]
     },
     {
@@ -4352,8 +4352,8 @@
       "name": "tech-aesthetic",
       "occurrences": 4,
       "position": [
-        -798.0921,
-        -199.91167
+        -767.7513,
+        -192.31169
       ]
     },
     {
@@ -4361,8 +4361,8 @@
       "name": "test-coverage-001",
       "occurrences": 4,
       "position": [
-        -775.2259,
-        -199.97159
+        -766.4449,
+        -197.70651
       ]
     },
     {
@@ -4370,8 +4370,8 @@
       "name": "test-purpose",
       "occurrences": 4,
       "position": [
-        -776.35034,
-        -206.07866
+        -776.6003,
+        -206.145
       ]
     },
     {
@@ -4379,8 +4379,8 @@
       "name": "think-tank",
       "occurrences": 4,
       "position": [
-        -781.9955,
-        -213.4583
+        -790.41656,
+        -215.75697
       ]
     },
     {
@@ -4388,8 +4388,8 @@
       "name": "title-lookup",
       "occurrences": 4,
       "position": [
-        -774.9642,
-        -217.38962
+        -762.26263,
+        -213.82664
       ]
     },
     {
@@ -4397,8 +4397,8 @@
       "name": "transaction",
       "occurrences": 4,
       "position": [
-        -776.20905,
-        -223.62196
+        -752.4579,
+        -216.77937
       ]
     },
     {
@@ -4406,8 +4406,8 @@
       "name": "vault",
       "occurrences": 4,
       "position": [
-        -785.1154,
-        -232.16258
+        -765.41705,
+        -226.33768
       ]
     },
     {
@@ -4415,8 +4415,8 @@
       "name": "vector",
       "occurrences": 4,
       "position": [
-        -763.7512,
-        -231.68141
+        -787.4546,
+        -238.87173
       ]
     },
     {
@@ -4424,8 +4424,8 @@
       "name": "what-we-dont-do.md",
       "occurrences": 4,
       "position": [
-        -784.21466,
-        -243.90715
+        -762.54736,
+        -237.16817
       ]
     },
     {
@@ -4433,8 +4433,8 @@
       "name": "workflowtools",
       "occurrences": 4,
       "position": [
-        -737.9173,
-        -235.19539
+        -739.9265,
+        -235.8358
       ]
     },
     {
@@ -4442,8 +4442,8 @@
       "name": "writer",
       "occurrences": 4,
       "position": [
-        -741.0882,
-        -241.94379
+        -780.6032,
+        -254.84428
       ]
     },
     {
@@ -4451,8 +4451,8 @@
       "name": "writing",
       "occurrences": 4,
       "position": [
-        -742.1918,
-        -248.0767
+        -751.9891,
+        -251.35144
       ]
     },
     {
@@ -4460,8 +4460,8 @@
       "name": "zombie-processes",
       "occurrences": 4,
       "position": [
-        -769.55115,
-        -263.2351
+        -750.4158,
+        -256.6896
       ]
     },
     {
@@ -4469,8 +4469,8 @@
       "name": "analytical-evaluation",
       "occurrences": 3,
       "position": [
-        -755.11926,
-        -264.22766
+        -741.00433,
+        -259.28864
       ]
     },
     {
@@ -4478,8 +4478,8 @@
       "name": "artificial-intelligence",
       "occurrences": 3,
       "position": [
-        -753.1684,
-        -269.48795
+        -746.70905,
+        -267.17676
       ]
     },
     {
@@ -4487,8 +4487,8 @@
       "name": "assertion",
       "occurrences": 3,
       "position": [
-        -730.4004,
-        -267.1337
+        -762.9199,
+        -279.02728
       ]
     },
     {
@@ -4496,8 +4496,8 @@
       "name": "asset",
       "occurrences": 3,
       "position": [
-        -749.23566,
-        -279.99466
+        -751.9555,
+        -281.01108
       ]
     },
     {
@@ -4505,8 +4505,8 @@
       "name": "assumption-ledger",
       "occurrences": 3,
       "position": [
-        -745.65894,
-        -284.63297
+        -732.9848,
+        -279.79498
       ]
     },
     {
@@ -4514,8 +4514,8 @@
       "name": "assumptionledgertools",
       "occurrences": 3,
       "position": [
-        -764.8453,
-        -298.11832
+        -746.2798,
+        -290.88193
       ]
     },
     {
@@ -4523,8 +4523,8 @@
       "name": "atomic-rtm",
       "occurrences": 3,
       "position": [
-        -724.6996,
-        -288.34067
+        -763.7112,
+        -303.86246
       ]
     },
     {
@@ -4532,8 +4532,8 @@
       "name": "benchmark-validation",
       "occurrences": 3,
       "position": [
-        -725.3767,
-        -294.51862
+        -763.1326,
+        -309.84833
       ]
     },
     {
@@ -4541,8 +4541,8 @@
       "name": "capacity-planning",
       "occurrences": 3,
       "position": [
-        -758.9262,
-        -314.35754
+        -724.0361,
+        -299.90555
       ]
     },
     {
@@ -4550,8 +4550,8 @@
       "name": "cascade-patterns",
       "occurrences": 3,
       "position": [
-        -728.0924,
-        -307.58502
+        -742.62494,
+        -313.72433
       ]
     },
     {
@@ -4559,8 +4559,8 @@
       "name": "circuit-breaker",
       "occurrences": 3,
       "position": [
-        -718.7428,
-        -309.59268
+        -722.50183,
+        -311.21185
       ]
     },
     {
@@ -4568,8 +4568,8 @@
       "name": "cleanup-opportunities",
       "occurrences": 3,
       "position": [
-        -740.1571,
-        -324.9888
+        -742.69476,
+        -326.10303
       ]
     },
     {
@@ -4577,8 +4577,8 @@
       "name": "cli-testing",
       "occurrences": 3,
       "position": [
-        -728.4854,
-        -325.97626
+        -711.5436,
+        -318.3953
       ]
     },
     {
@@ -4586,8 +4586,8 @@
       "name": "code-fix",
       "occurrences": 3,
       "position": [
-        -709.3189,
-        -323.38876
+        -718.8645,
+        -327.74072
       ]
     },
     {
@@ -4595,8 +4595,8 @@
       "name": "codex",
       "occurrences": 3,
       "position": [
-        -714.0799,
-        -331.6272
+        -713.78,
+        -331.4879
       ]
     },
     {
@@ -4604,8 +4604,8 @@
       "name": "coding-agents",
       "occurrences": 3,
       "position": [
-        -708.20294,
-        -334.95505
+        -703.631,
+        -332.79266
       ]
     },
     {
@@ -4613,8 +4613,8 @@
       "name": "coding-standards",
       "occurrences": 3,
       "position": [
-        -709.41486,
-        -341.6362
+        -741.1382,
+        -356.91333
       ]
     },
     {
@@ -4622,8 +4622,8 @@
       "name": "competitive-analysis",
       "occurrences": 3,
       "position": [
-        -709.5835,
-        -347.86823
+        -730.42926,
+        -358.08768
       ]
     },
     {
@@ -4631,8 +4631,8 @@
       "name": "compiled",
       "occurrences": 3,
       "position": [
-        -727.7131,
-        -363.10757
+        -736.24677,
+        -367.36566
       ]
     },
     {
@@ -4640,8 +4640,8 @@
       "name": "compliance",
       "occurrences": 3,
       "position": [
-        -717.5757,
-        -364.3563
+        -704.4566,
+        -357.69498
       ]
     },
     {
@@ -4649,8 +4649,8 @@
       "name": "concept-corruption",
       "occurrences": 3,
       "position": [
-        -700.5646,
-        -361.92023
+        -724.1442,
+        -374.10175
       ]
     },
     {
@@ -4658,8 +4658,8 @@
       "name": "concept-name",
       "occurrences": 3,
       "position": [
-        -713.59985,
-        -375.01718
+        -704.9549,
+        -370.47403
       ]
     },
     {
@@ -4667,8 +4667,8 @@
       "name": "conceptname",
       "occurrences": 3,
       "position": [
-        -708.6723,
-        -378.79324
+        -698.1728,
+        -373.18115
       ]
     },
     {
@@ -4676,8 +4676,8 @@
       "name": "config",
       "occurrences": 3,
       "position": [
-        -681.2957,
-        -370.3259
+        -695.25854,
+        -377.91556
       ]
     },
     {
@@ -4685,8 +4685,8 @@
       "name": "consensus-building",
       "occurrences": 3,
       "position": [
-        -683.6367,
-        -377.83267
+        -692.6016,
+        -382.78738
       ]
     },
     {
@@ -4694,8 +4694,8 @@
       "name": "constraint-model",
       "occurrences": 3,
       "position": [
-        -685.97034,
-        -385.42664
+        -695.61694,
+        -390.84677
       ]
     },
     {
@@ -4703,8 +4703,8 @@
       "name": "continuous-consciousness",
       "occurrences": 3,
       "position": [
-        -691.5828,
-        -394.98627
+        -690.9779,
+        -394.64075
       ]
     },
     {
@@ -4712,8 +4712,8 @@
       "name": "convergent-analysis",
       "occurrences": 3,
       "position": [
-        -688.8291,
-        -399.8454
+        -701.0653,
+        -406.94818
       ]
     },
     {
@@ -4721,8 +4721,8 @@
       "name": "crash",
       "occurrences": 3,
       "position": [
-        -692.8279,
-        -408.68875
+        -690.4765,
+        -407.30167
       ]
     },
     {
@@ -4730,8 +4730,8 @@
       "name": "data-structures",
       "occurrences": 3,
       "position": [
-        -688.5105,
-        -412.6773
+        -692.49384,
+        -415.06482
       ]
     },
     {
@@ -4739,8 +4739,8 @@
       "name": "database-lock",
       "occurrences": 3,
       "position": [
-        -689.7489,
-        -420.02194
+        -674.914,
+        -410.98825
       ]
     },
     {
@@ -4748,8 +4748,8 @@
       "name": "dead-code",
       "occurrences": 3,
       "position": [
-        -684.6456,
-        -423.52405
+        -663.10114,
+        -410.19656
       ]
     },
     {
@@ -4757,8 +4757,8 @@
       "name": "deadlock",
       "occurrences": 3,
       "position": [
-        -663.7047,
-        -417.0333
+        -673.4354,
+        -423.14752
       ]
     },
     {
@@ -4766,8 +4766,8 @@
       "name": "defect-rate",
       "occurrences": 3,
       "position": [
-        -686.77325,
-        -438.27548
+        -662.8296,
+        -422.99545
       ]
     },
     {
@@ -4775,8 +4775,8 @@
       "name": "deployment",
       "occurrences": 3,
       "position": [
-        -655.95374,
-        -425.10992
+        -685.45496,
+        -444.22903
       ]
     },
     {
@@ -4784,8 +4784,8 @@
       "name": "dirty-reads",
       "occurrences": 3,
       "position": [
-        -667.7598,
-        -439.44104
+        -648.4054,
+        -426.70425
       ]
     },
     {
@@ -4793,8 +4793,8 @@
       "name": "discovery",
       "occurrences": 3,
       "position": [
-        -676.61774,
-        -452.1015
+        -648.59424,
+        -433.37683
       ]
     },
     {
@@ -4802,8 +4802,8 @@
       "name": "distributed-system",
       "occurrences": 3,
       "position": [
-        -681.7665,
-        -462.48984
+        -664.65204,
+        -450.8799
       ]
     },
     {
@@ -4811,8 +4811,8 @@
       "name": "distributed-tracing",
       "occurrences": 3,
       "position": [
-        -640.29675,
-        -440.9458
+        -662.12836,
+        -455.98035
       ]
     },
     {
@@ -4820,8 +4820,8 @@
       "name": "documentation-consistency",
       "occurrences": 3,
       "position": [
-        -669.49786,
-        -468.01047
+        -665.15265,
+        -464.97296
       ]
     },
     {
@@ -4829,8 +4829,8 @@
       "name": "dry",
       "occurrences": 3,
       "position": [
-        -649.25055,
-        -460.66785
+        -663.49646,
+        -470.77585
       ]
     },
     {
@@ -4838,8 +4838,8 @@
       "name": "edge-case-analysis",
       "occurrences": 3,
       "position": [
-        -663.0921,
-        -477.5149
+        -629.2826,
+        -453.16757
       ]
     },
     {
@@ -4847,8 +4847,8 @@
       "name": "emergent-knowledge",
       "occurrences": 3,
       "position": [
-        -634.10583,
-        -463.42798
+        -639.2434,
+        -467.1827
       ]
     },
     {
@@ -4856,8 +4856,8 @@
       "name": "enterprise",
       "occurrences": 3,
       "position": [
-        -659.2288,
-        -488.9174
+        -644.05615,
+        -477.6646
       ]
     },
     {
@@ -4865,8 +4865,8 @@
       "name": "error-messages",
       "occurrences": 3,
       "position": [
-        -658.48376,
-        -495.55988
+        -649.9047,
+        -489.1035
       ]
     },
     {
@@ -4874,8 +4874,8 @@
       "name": "evaluation",
       "occurrences": 3,
       "position": [
-        -636.5195,
-        -486.0589
+        -631.64606,
+        -482.33743
       ]
     },
     {
@@ -4883,8 +4883,8 @@
       "name": "extractions",
       "occurrences": 3,
       "position": [
-        -614.5256,
-        -476.12296
+        -629.7591,
+        -487.9256
       ]
     },
     {
@@ -4892,8 +4892,8 @@
       "name": "fault-tolerance",
       "occurrences": 3,
       "position": [
-        -618.7536,
-        -486.38043
+        -624.6451,
+        -491.01154
       ]
     },
     {
@@ -4901,8 +4901,8 @@
       "name": "fix",
       "occurrences": 3,
       "position": [
-        -638.87354,
-        -509.48465
+        -618.8534,
+        -493.5191
       ]
     },
     {
@@ -4910,8 +4910,8 @@
       "name": "folder",
       "occurrences": 3,
       "position": [
-        -630.22894,
-        -509.86166
+        -611.7105,
+        -494.8801
       ]
     },
     {
@@ -4919,8 +4919,8 @@
       "name": "foundation",
       "occurrences": 3,
       "position": [
-        -616.5916,
-        -506.02365
+        -618.93805,
+        -507.94934
       ]
     },
     {
@@ -4928,8 +4928,8 @@
       "name": "fugue",
       "occurrences": 3,
       "position": [
-        -619.0898,
-        -515.38135
+        -625.6851,
+        -520.8718
       ]
     },
     {
@@ -4937,8 +4937,8 @@
       "name": "git",
       "occurrences": 3,
       "position": [
-        -625.529,
-        -528.2121
+        -623.4041,
+        -526.4178
       ]
     },
     {
@@ -4946,8 +4946,8 @@
       "name": "heap-allocation",
       "occurrences": 3,
       "position": [
-        -624.6023,
-        -534.9776
+        -612.0016,
+        -524.18494
       ]
     },
     {
@@ -4955,8 +4955,8 @@
       "name": "helper-methods",
       "occurrences": 3,
       "position": [
-        -604.5471,
-        -525.1941
+        -606.9719,
+        -527.3006
       ]
     },
     {
@@ -4964,8 +4964,8 @@
       "name": "hybrid-search",
       "occurrences": 3,
       "position": [
-        -595.8947,
-        -525.0549
+        -613.8599,
+        -540.8844
       ]
     },
     {
@@ -4973,8 +4973,8 @@
       "name": "in-memory",
       "occurrences": 3,
       "position": [
-        -607.22595,
-        -542.6503
+        -590.3238,
+        -527.5456
       ]
     },
     {
@@ -4982,8 +4982,8 @@
       "name": "indexing",
       "occurrences": 3,
       "position": [
-        -576.6408,
-        -522.6368
+        -589.2644,
+        -534.0781
       ]
     },
     {
@@ -4991,8 +4991,8 @@
       "name": "installed-binary",
       "occurrences": 3,
       "position": [
-        -588.56476,
-        -541.00995
+        -582.09705,
+        -535.0648
       ]
     },
     {
@@ -5000,8 +5000,8 @@
       "name": "integration-testing",
       "occurrences": 3,
       "position": [
-        -600.75916,
-        -560.04193
+        -577.8472,
+        -538.683
       ]
     },
     {
@@ -5009,8 +5009,8 @@
       "name": "invalid",
       "occurrences": 3,
       "position": [
-        -574.24365,
-        -542.89966
+        -570.57214,
+        -539.4285
       ]
     },
     {
@@ -5018,8 +5018,8 @@
       "name": "issue",
       "occurrences": 3,
       "position": [
-        -589.84814,
-        -565.53815
+        -566.2843,
+        -542.9455
       ]
     },
     {
@@ -5027,8 +5027,8 @@
       "name": "knowledge-accumulation",
       "occurrences": 3,
       "position": [
-        -559.4522,
-        -543.9757
+        -568.066,
+        -552.35114
       ]
     },
     {
@@ -5036,8 +5036,8 @@
       "name": "knowledge-synthesis",
       "occurrences": 3,
       "position": [
-        -586.47516,
-        -578.307
+        -582.7872,
+        -574.6704
       ]
     },
     {
@@ -5045,8 +5045,8 @@
       "name": "latency",
       "occurrences": 3,
       "position": [
-        -558.15924,
-        -558.15924
+        -562.9867,
+        -562.9867
       ]
     },
     {
@@ -5054,8 +5054,8 @@
       "name": "lock-contention",
       "occurrences": 3,
       "position": [
-        -546.63696,
-        -554.3578
+        -563.5598,
+        -571.51965
       ]
     },
     {
@@ -5063,8 +5063,8 @@
       "name": "loess",
       "occurrences": 3,
       "position": [
-        -563.6661,
-        -579.7028
+        -540.30865,
+        -555.68085
       ]
     },
     {
@@ -5072,8 +5072,8 @@
       "name": "logic",
       "occurrences": 3,
       "position": [
-        -563.1957,
-        -587.4049
+        -542.7831,
+        -566.1149
       ]
     },
     {
@@ -5081,8 +5081,8 @@
       "name": "logs",
       "occurrences": 3,
       "position": [
-        -566.0456,
-        -598.72595
+        -556.2739,
+        -588.39014
       ]
     },
     {
@@ -5090,8 +5090,8 @@
       "name": "maintenance-tools",
       "occurrences": 3,
       "position": [
-        -543.62366,
-        -583.14716
+        -551.0797,
+        -591.1453
       ]
     },
     {
@@ -5099,8 +5099,8 @@
       "name": "market-research",
       "occurrences": 3,
       "position": [
-        -537.208,
-        -584.42865
+        -550.2141,
+        -598.578
       ]
     },
     {
@@ -5108,8 +5108,8 @@
       "name": "memory-overcommit",
       "occurrences": 3,
       "position": [
-        -552.2084,
-        -609.268
+        -550.32074,
+        -607.18536
       ]
     },
     {
@@ -5117,8 +5117,8 @@
       "name": "memorytoolstests",
       "occurrences": 3,
       "position": [
-        -532.85425,
-        -596.26416
+        -529.9227,
+        -592.9838
       ]
     },
     {
@@ -5126,8 +5126,8 @@
       "name": "mermaid",
       "occurrences": 3,
       "position": [
-        -525.70624,
-        -596.634
+        -539.8848,
+        -612.7255
       ]
     },
     {
@@ -5135,8 +5135,8 @@
       "name": "method-extraction",
       "occurrences": 3,
       "position": [
-        -520.9094,
-        -599.6151
+        -535.2002,
+        -616.06506
       ]
     },
     {
@@ -5144,8 +5144,8 @@
       "name": "methods",
       "occurrences": 3,
       "position": [
-        -533.4138,
-        -622.77655
+        -512.62604,
+        -598.5062
       ]
     },
     {
@@ -5153,8 +5153,8 @@
       "name": "microservices",
       "occurrences": 3,
       "position": [
-        -505.43045,
-        -598.5501
+        -522.40643,
+        -618.65375
       ]
     },
     {
@@ -5162,8 +5162,8 @@
       "name": "modules",
       "occurrences": 3,
       "position": [
-        -512.682,
-        -615.8472
+        -495.85468,
+        -595.63385
       ]
     },
     {
@@ -5171,8 +5171,8 @@
       "name": "movememory",
       "occurrences": 3,
       "position": [
-        -519.5943,
-        -633.12744
+        -495.15878,
+        -603.3527
       ]
     },
     {
@@ -5180,8 +5180,8 @@
       "name": "multi-agent",
       "occurrences": 3,
       "position": [
-        -500.5032,
-        -618.66113
+        -514.5403,
+        -636.012
       ]
     },
     {
@@ -5189,8 +5189,8 @@
       "name": "multi-tenant",
       "occurrences": 3,
       "position": [
-        -505.4268,
-        -633.78516
+        -503.8097,
+        -631.7574
       ]
     },
     {
@@ -5198,8 +5198,8 @@
       "name": "multiple-perspectives",
       "occurrences": 3,
       "position": [
-        -497.55377,
-        -632.9679
+        -508.163,
+        -646.4645
       ]
     },
     {
@@ -5207,8 +5207,8 @@
       "name": "nextra",
       "occurrences": 3,
       "position": [
-        -485.00293,
-        -625.9868
+        -482.71573,
+        -623.0347
       ]
     },
     {
@@ -5216,8 +5216,8 @@
       "name": "optimization-verified",
       "occurrences": 3,
       "position": [
-        -488.8653,
-        -640.1946
+        -497.06982,
+        -650.9389
       ]
     },
     {
@@ -5225,8 +5225,8 @@
       "name": "output",
       "occurrences": 3,
       "position": [
-        -481.13876,
-        -639.3215
+        -469.86838,
+        -624.34576
       ]
     },
     {
@@ -5234,8 +5234,8 @@
       "name": "payloadreader",
       "occurrences": 3,
       "position": [
-        -482.16708,
-        -650.1271
+        -482.42917,
+        -650.4804
       ]
     },
     {
@@ -5243,8 +5243,8 @@
       "name": "performance-testing",
       "occurrences": 3,
       "position": [
-        -460.8307,
-        -630.552
+        -470.8467,
+        -644.2569
       ]
     },
     {
@@ -5252,8 +5252,8 @@
       "name": "persistent-knowledge",
       "occurrences": 3,
       "position": [
-        -461.38812,
-        -640.69794
+        -459.5591,
+        -638.15814
       ]
     },
     {
@@ -5261,8 +5261,8 @@
       "name": "persistent-storage",
       "occurrences": 3,
       "position": [
-        -458.84103,
-        -646.6759
+        -451.8033,
+        -636.75714
       ]
     },
     {
@@ -5270,8 +5270,8 @@
       "name": "perspective",
       "occurrences": 3,
       "position": [
-        -461.6856,
-        -660.45
+        -449.8095,
+        -643.46106
       ]
     },
     {
@@ -5279,8 +5279,8 @@
       "name": "placeholder-text",
       "occurrences": 3,
       "position": [
-        -467.05972,
-        -678.21674
+        -462.24814,
+        -671.22986
       ]
     },
     {
@@ -5288,8 +5288,8 @@
       "name": "platform-differences",
       "occurrences": 3,
       "position": [
-        -438.1513,
-        -645.88855
+        -459.5209,
+        -677.38995
       ]
     },
     {
@@ -5297,8 +5297,8 @@
       "name": "product-name",
       "occurrences": 3,
       "position": [
-        -451.22382,
-        -675.3042
+        -444.17548,
+        -664.75555
       ]
     },
     {
@@ -5306,8 +5306,8 @@
       "name": "provocation",
       "occurrences": 3,
       "position": [
-        -434.75922,
-        -660.64545
+        -429.90613,
+        -653.2709
       ]
     },
     {
@@ -5315,8 +5315,8 @@
       "name": "queue",
       "occurrences": 3,
       "position": [
-        -431.9765,
-        -666.5491
+        -422.92346,
+        -652.58
       ]
     },
     {
@@ -5324,8 +5324,8 @@
       "name": "random-entry",
       "occurrences": 3,
       "position": [
-        -434.90878,
-        -681.4977
+        -433.32492,
+        -679.01575
       ]
     },
     {
@@ -5333,8 +5333,8 @@
       "name": "read-operation",
       "occurrences": 3,
       "position": [
-        -422.168,
-        -671.8765
+        -437.33115,
+        -696.0085
       ]
     },
     {
@@ -5342,8 +5342,8 @@
       "name": "real-system",
       "occurrences": 3,
       "position": [
-        -423.1555,
-        -684.04987
+        -423.92493,
+        -685.2937
       ]
     },
     {
@@ -5351,8 +5351,8 @@
       "name": "reasoning-traces",
       "occurrences": 3,
       "position": [
-        -419.9033,
-        -689.5541
+        -425.1979,
+        -698.2487
       ]
     },
     {
@@ -5360,8 +5360,8 @@
       "name": "refactor-pattern-001",
       "occurrences": 3,
       "position": [
-        -402.4459,
-        -671.4404
+        -417.25284,
+        -696.1443
       ]
     },
     {
@@ -5369,8 +5369,8 @@
       "name": "relationship-discovery",
       "occurrences": 3,
       "position": [
-        -405.70404,
-        -687.76807
+        -403.51538,
+        -684.0578
       ]
     },
     {
@@ -5378,8 +5378,8 @@
       "name": "resilience",
       "occurrences": 3,
       "position": [
-        -408.68457,
-        -704.05664
+        -408.92667,
+        -704.47375
       ]
     },
     {
@@ -5387,8 +5387,8 @@
       "name": "resource-leak",
       "occurrences": 3,
       "position": [
-        -407.7669,
-        -713.9605
+        -404.35837,
+        -707.9925
       ]
     },
     {
@@ -5396,8 +5396,8 @@
       "name": "resource-limits",
       "occurrences": 3,
       "position": [
-        -384.51703,
-        -684.3514
+        -391.81754,
+        -697.34467
       ]
     },
     {
@@ -5405,8 +5405,8 @@
       "name": "retry-backoff",
       "occurrences": 3,
       "position": [
-        -376.42697,
-        -681.09326
+        -375.98386,
+        -680.29156
       ]
     },
     {
@@ -5414,8 +5414,8 @@
       "name": "ripgrep",
       "occurrences": 3,
       "position": [
-        -392.5121,
-        -722.11206
+        -383.07706,
+        -704.7543
       ]
     },
     {
@@ -5423,8 +5423,8 @@
       "name": "rlimit",
       "occurrences": 3,
       "position": [
-        -369.45166,
-        -691.19543
+        -385.82742,
+        -721.83234
       ]
     },
     {
@@ -5432,8 +5432,8 @@
       "name": "role",
       "occurrences": 3,
       "position": [
-        -380.86795,
-        -724.7329
+        -376.71945,
+        -716.839
       ]
     },
     {
@@ -5441,8 +5441,8 @@
       "name": "rtm-001",
       "occurrences": 3,
       "position": [
-        -364.23056,
-        -705.0367
+        -369.17804,
+        -714.61346
       ]
     },
     {
@@ -5450,8 +5450,8 @@
       "name": "safe-deletion",
       "occurrences": 3,
       "position": [
-        -365.22083,
-        -719.2783
+        -371.55338,
+        -731.7498
       ]
     },
     {
@@ -5459,8 +5459,8 @@
       "name": "safety-001",
       "occurrences": 3,
       "position": [
-        -349.69797,
-        -700.83856
+        -365.3453,
+        -732.19775
       ]
     },
     {
@@ -5468,8 +5468,8 @@
       "name": "security-philosophy",
       "occurrences": 3,
       "position": [
-        -356.34662,
-        -726.8778
+        -343.24393,
+        -700.1509
       ]
     },
     {
@@ -5477,8 +5477,8 @@
       "name": "shared-memory",
       "occurrences": 3,
       "position": [
-        -352.29987,
-        -731.5582
+        -340.88333,
+        -707.85156
       ]
     },
     {
@@ -5486,8 +5486,8 @@
       "name": "simplicity",
       "occurrences": 3,
       "position": [
-        -345.33466,
-        -730.14874
+        -352.24982,
+        -744.7697
       ]
     },
     {
@@ -5495,8 +5495,8 @@
       "name": "skypack",
       "occurrences": 3,
       "position": [
-        -346.60916,
-        -746.34
+        -329.98676,
+        -710.5476
       ]
     },
     {
@@ -5504,8 +5504,8 @@
       "name": "slug",
       "occurrences": 3,
       "position": [
-        -327.24994,
-        -717.788
+        -338.6842,
+        -742.86786
       ]
     },
     {
@@ -5513,8 +5513,8 @@
       "name": "snippet-generation",
       "occurrences": 3,
       "position": [
-        -334.59378,
-        -747.74365
+        -333.94656,
+        -746.2973
       ]
     },
     {
@@ -5522,8 +5522,8 @@
       "name": "sockets",
       "occurrences": 3,
       "position": [
-        -324.04062,
-        -737.9976
+        -330.0641,
+        -751.716
       ]
     },
     {
@@ -5531,8 +5531,8 @@
       "name": "space-for-emergence",
       "occurrences": 3,
       "position": [
-        -307.9133,
-        -714.844
+        -309.53662,
+        -718.6127
       ]
     },
     {
@@ -5540,8 +5540,8 @@
       "name": "specification|specifications",
       "occurrences": 3,
       "position": [
-        -304.01868,
-        -719.65045
+        -301.39594,
+        -713.442
       ]
     },
     {
@@ -5549,8 +5549,8 @@
       "name": "sql-injection",
       "occurrences": 3,
       "position": [
-        -302.49084,
-        -730.2775
+        -310.7176,
+        -750.1386
       ]
     },
     {
@@ -5558,8 +5558,8 @@
       "name": "stack",
       "occurrences": 3,
       "position": [
-        -293.83325,
-        -723.6887
+        -298.277,
+        -734.63336
       ]
     },
     {
@@ -5567,8 +5567,8 @@
       "name": "stopwatch",
       "occurrences": 3,
       "position": [
-        -292.12878,
-        -734.22046
+        -288.83636,
+        -725.94543
       ]
     },
     {
@@ -5576,8 +5576,8 @@
       "name": "system-operations",
       "occurrences": 3,
       "position": [
-        -293.79495,
-        -753.7533
+        -296.6213,
+        -761.0046
       ]
     },
     {
@@ -5585,8 +5585,8 @@
       "name": "test-patterns",
       "occurrences": 3,
       "position": [
-        -280.62622,
-        -735.1624
+        -290.1591,
+        -760.13586
       ]
     },
     {
@@ -5594,8 +5594,8 @@
       "name": "test-results",
       "occurrences": 3,
       "position": [
-        -276.84665,
-        -740.8119
+        -272.39658,
+        -728.904
       ]
     },
     {
@@ -5603,8 +5603,8 @@
       "name": "test-return",
       "occurrences": 3,
       "position": [
-        -270.61618,
-        -739.9222
+        -268.4528,
+        -734.007
       ]
     },
     {
@@ -5612,8 +5612,8 @@
       "name": "testability-validation",
       "occurrences": 3,
       "position": [
-        -263.41476,
-        -736.1949
+        -272.7526,
+        -762.2925
       ]
     },
     {
@@ -5621,8 +5621,8 @@
       "name": "thinking",
       "occurrences": 3,
       "position": [
-        -257.53986,
-        -736.0066
+        -261.8202,
+        -748.23914
       ]
     },
     {
@@ -5630,8 +5630,8 @@
       "name": "thinking-sessions",
       "occurrences": 3,
       "position": [
-        -259.89322,
-        -759.7813
+        -254.6293,
+        -744.39264
       ]
     },
     {
@@ -5639,8 +5639,8 @@
       "name": "traces",
       "occurrences": 3,
       "position": [
-        -250.60974,
-        -749.7701
+        -252.13214,
+        -754.32477
       ]
     },
     {
@@ -5648,8 +5648,8 @@
       "name": "trademark-viability",
       "occurrences": 3,
       "position": [
-        -254.37926,
-        -779.17883
+        -247.45226,
+        -757.96094
       ]
     },
     {
@@ -5657,8 +5657,8 @@
       "name": "tree-of-thoughts",
       "occurrences": 3,
       "position": [
-        -238.21692,
-        -747.3972
+        -239.6906,
+        -752.0208
       ]
     },
     {
@@ -5666,8 +5666,8 @@
       "name": "updateassets",
       "occurrences": 3,
       "position": [
-        -244.55885,
-        -786.31006
+        -241.57204,
+        -776.7068
       ]
     },
     {
@@ -5675,8 +5675,8 @@
       "name": "uri",
       "occurrences": 3,
       "position": [
-        -236.57884,
-        -779.89594
+        -231.71799,
+        -763.8718
       ]
     },
     {
@@ -5684,8 +5684,8 @@
       "name": "usage-messaging",
       "occurrences": 3,
       "position": [
-        -221.11122,
-        -747.7425
+        -233.28665,
+        -788.91675
       ]
     },
     {
@@ -5693,8 +5693,8 @@
       "name": "valid",
       "occurrences": 3,
       "position": [
-        -224.52457,
-        -779.34204
+        -215.88387,
+        -749.3495
       ]
     },
     {
@@ -5702,8 +5702,8 @@
       "name": "visualization",
       "occurrences": 3,
       "position": [
-        -210.96443,
-        -752.0592
+        -213.2106,
+        -760.0665
       ]
     },
     {
@@ -5711,8 +5711,8 @@
       "name": "wave",
       "occurrences": 3,
       "position": [
-        -206.93167,
-        -758.08545
+        -216.97754,
+        -794.88806
       ]
     },
     {
@@ -5720,8 +5720,8 @@
       "name": "waves",
       "occurrences": 3,
       "position": [
-        -198.87738,
-        -749.2213
+        -211.05133,
+        -795.0837
       ]
     },
     {
@@ -5729,8 +5729,8 @@
       "name": "webgl",
       "occurrences": 3,
       "position": [
-        -205.13887,
-        -795.2578
+        -197.76192,
+        -766.65967
       ]
     },
     {
@@ -5738,8 +5738,8 @@
       "name": "yaml",
       "occurrences": 3,
       "position": [
-        -190.61101,
-        -760.9618
+        -195.69255,
+        -781.2485
       ]
     },
     {
@@ -5747,8 +5747,8 @@
       "name": "accumulation",
       "occurrences": 2,
       "position": [
-        -188.96754,
-        -777.4925
+        -189.45265,
+        -779.4884
       ]
     },
     {
@@ -5756,8 +5756,8 @@
       "name": "adaptation",
       "occurrences": 2,
       "position": [
-        -185.33415,
-        -786.53656
+        -180.45352,
+        -765.8237
       ]
     },
     {
@@ -5765,8 +5765,8 @@
       "name": "additional-insights",
       "occurrences": 2,
       "position": [
-        -182.2284,
-        -798.3948
+        -178.36623,
+        -781.4735
       ]
     },
     {
@@ -5774,8 +5774,8 @@
       "name": "aesthetics",
       "occurrences": 2,
       "position": [
-        -175.96786,
-        -796.6768
+        -173.84189,
+        -787.0517
       ]
     },
     {
@@ -5783,8 +5783,8 @@
       "name": "agent-sessions",
       "occurrences": 2,
       "position": [
-        -169.29367,
-        -792.81836
+        -167.87207,
+        -786.1608
       ]
     },
     {
@@ -5792,8 +5792,8 @@
       "name": "ai-agent-memory",
       "occurrences": 2,
       "position": [
-        -164.581,
-        -798.11316
+        -163.57486,
+        -793.234
       ]
     },
     {
@@ -5801,8 +5801,8 @@
       "name": "ai-agents",
       "occurrences": 2,
       "position": [
-        -160.44029,
-        -806.5878
+        -157.34727,
+        -791.03815
       ]
     },
     {
@@ -5810,8 +5810,8 @@
       "name": "allman",
       "occurrences": 2,
       "position": [
-        -149.4634,
-        -779.94824
+        -150.16757,
+        -783.62286
       ]
     },
     {
@@ -5819,8 +5819,8 @@
       "name": "alternative-algorithm",
       "occurrences": 2,
       "position": [
-        -142.9316,
-        -775.2344
+        -144.63281,
+        -784.4615
       ]
     },
     {
@@ -5828,8 +5828,8 @@
       "name": "analytical-thinking",
       "occurrences": 2,
       "position": [
-        -141.13176,
-        -796.7672
+        -136.21817,
+        -769.0272
       ]
     },
     {
@@ -5837,8 +5837,8 @@
       "name": "anti-patterns",
       "occurrences": 2,
       "position": [
-        -133.71893,
-        -787.01324
+        -138.08002,
+        -812.6808
       ]
     },
     {
@@ -5846,8 +5846,8 @@
       "name": "anvil",
       "occurrences": 2,
       "position": [
-        -130.01329,
-        -799.0964
+        -129.42627,
+        -795.4884
       ]
     },
     {
@@ -5855,8 +5855,8 @@
       "name": "argument-parsing",
       "occurrences": 2,
       "position": [
-        -123.8626,
-        -796.4911
+        -121.841995,
+        -783.4976
       ]
     },
     {
@@ -5864,8 +5864,8 @@
       "name": "assetspath",
       "occurrences": 2,
       "position": [
-        -117.29622,
-        -790.7469
+        -118.367386,
+        -797.9681
       ]
     },
     {
@@ -5873,8 +5873,8 @@
       "name": "assetupdateresult",
       "occurrences": 2,
       "position": [
-        -110.968445,
-        -786.0262
+        -110.45058,
+        -782.3579
       ]
     },
     {
@@ -5882,8 +5882,8 @@
       "name": "ast-processing",
       "occurrences": 2,
       "position": [
-        -106.08747,
-        -791.513
+        -108.810165,
+        -811.8269
       ]
     },
     {
@@ -5891,8 +5891,8 @@
       "name": "astronomy",
       "occurrences": 2,
       "position": [
-        -98.390854,
-        -775.34546
+        -102.736244,
+        -809.5883
       ]
     },
     {
@@ -5900,8 +5900,8 @@
       "name": "authentication-service",
       "occurrences": 2,
       "position": [
-        -97.475655,
-        -813.78784
+        -95.01839,
+        -793.273
       ]
     },
     {
@@ -5909,8 +5909,8 @@
       "name": "awakening",
       "occurrences": 2,
       "position": [
-        -88.64732,
-        -786.7667
+        -91.86892,
+        -815.3592
       ]
     },
     {
@@ -5918,8 +5918,8 @@
       "name": "backpressure",
       "occurrences": 2,
       "position": [
-        -85.170975,
-        -806.71967
+        -83.027115,
+        -786.4135
       ]
     },
     {
@@ -5927,8 +5927,8 @@
       "name": "base-analysis",
       "occurrences": 2,
       "position": [
-        -77.70927,
-        -788.9954
+        -80.478966,
+        -817.11664
       ]
     },
     {
@@ -5936,8 +5936,8 @@
       "name": "batch-operations",
       "occurrences": 2,
       "position": [
-        -72.31852,
-        -791.09546
+        -74.93015,
+        -819.66425
       ]
     },
     {
@@ -5945,8 +5945,8 @@
       "name": "bottleneck",
       "occurrences": 2,
       "position": [
-        -65.14368,
-        -772.3113
+        -67.44286,
+        -799.5693
       ]
     },
     {
@@ -5954,8 +5954,8 @@
       "name": "branching",
       "occurrences": 2,
       "position": [
-        -63.42433,
-        -820.59485
+        -62.717464,
+        -811.4493
       ]
     },
     {
@@ -5963,8 +5963,8 @@
       "name": "breath",
       "occurrences": 2,
       "position": [
-        -56.158833,
-        -799.5277
+        -57.159447,
+        -813.7733
       ]
     },
     {
@@ -5972,8 +5972,8 @@
       "name": "bug",
       "occurrences": 2,
       "position": [
-        -51.213333,
-        -810.3852
+        -50.101746,
+        -792.7958
       ]
     },
     {
@@ -5981,8 +5981,8 @@
       "name": "build",
       "occurrences": 2,
       "position": [
-        -45.181004,
-        -804.5223
+        -43.946445,
+        -782.539
       ]
     },
     {
@@ -5990,8 +5990,8 @@
       "name": "business-rules",
       "occurrences": 2,
       "position": [
-        -39.311665,
-        -800.2073
+        -40.273224,
+        -819.7803
       ]
     },
     {
@@ -5999,8 +5999,8 @@
       "name": "c#-application",
       "occurrences": 2,
       "position": [
-        -34.35441,
-        -816.0241
+        -34.18979,
+        -812.1139
       ]
     },
     {
@@ -6008,8 +6008,8 @@
       "name": "caching",
       "occurrences": 2,
       "position": [
-        -28.380585,
-        -809.0986
+        -28.734514,
+        -819.1888
       ]
     },
     {
@@ -6017,8 +6017,8 @@
       "name": "canonical",
       "occurrences": 2,
       "position": [
-        -22.319891,
-        -795.51117
+        -23.01814,
+        -820.39777
       ]
     },
     {
@@ -6026,8 +6026,8 @@
       "name": "cdn",
       "occurrences": 2,
       "position": [
-        -16.423061,
-        -780.54315
+        -16.553762,
+        -786.755
       ]
     },
     {
@@ -6035,8 +6035,8 @@
       "name": "circuit-breakers",
       "occurrences": 2,
       "position": [
-        -11.490898,
-        -819.26355
+        -10.937833,
+        -779.8318
       ]
     },
     {
@@ -6044,8 +6044,8 @@
       "name": "circular-dependencies",
       "occurrences": 2,
       "position": [
-        -5.707063,
-        -813.83
+        -5.520588,
+        -787.2385
       ]
     },
     {
@@ -6053,8 +6053,8 @@
       "name": "cleanup",
       "occurrences": 2,
       "position": [
-        -1.5079592E-13,
-        -820.8947
+        -1.4448692E-13,
+        -786.5502
       ]
     },
     {
@@ -6062,8 +6062,8 @@
       "name": "code",
       "occurrences": 2,
       "position": [
-        5.6801395,
-        -809.9907
+        5.61844,
+        -801.1923
       ]
     },
     {
@@ -6071,8 +6071,8 @@
       "name": "code-analysis",
       "occurrences": 2,
       "position": [
-        11.364716,
-        -810.2672
+        11.014098,
+        -785.2693
       ]
     },
     {
@@ -6080,8 +6080,8 @@
       "name": "code-blocks",
       "occurrences": 2,
       "position": [
-        17.043085,
-        -810.01117
+        16.655758,
+        -791.6026
       ]
     },
     {
@@ -6089,8 +6089,8 @@
       "name": "code-cleanup",
       "occurrences": 2,
       "position": [
-        22.620682,
-        -806.2318
+        22.484203,
+        -801.36755
       ]
     },
     {
@@ -6098,8 +6098,8 @@
       "name": "code-paths",
       "occurrences": 2,
       "position": [
-        27.993242,
-        -798.0559
+        27.722898,
+        -790.3487
       ]
     },
     {
@@ -6107,8 +6107,8 @@
       "name": "code-smell",
       "occurrences": 2,
       "position": [
-        32.803116,
-        -779.176
+        32.85955,
+        -780.5166
       ]
     },
     {
@@ -6116,8 +6116,8 @@
       "name": "codex-sessions.json",
       "occurrences": 2,
       "position": [
-        38.81259,
-        -790.04846
+        38.560017,
+        -784.90717
       ]
     },
     {
@@ -6125,8 +6125,8 @@
       "name": "collaboration",
       "occurrences": 2,
       "position": [
-        44.031044,
-        -784.0454
+        43.429073,
+        -773.3263
       ]
     },
     {
@@ -6134,8 +6134,8 @@
       "name": "color",
       "occurrences": 2,
       "position": [
-        51.502956,
-        -814.96814
+        50.150845,
+        -793.5727
       ]
     },
     {
@@ -6143,8 +6143,8 @@
       "name": "command-line-parsing",
       "occurrences": 2,
       "position": [
-        55.38953,
-        -788.5752
+        54.379932,
+        -774.20166
       ]
     },
     {
@@ -6152,8 +6152,8 @@
       "name": "compilation-errors",
       "occurrences": 2,
       "position": [
-        60.417755,
-        -781.69525
+        63.110504,
+        -816.5345
       ]
     },
     {
@@ -6161,8 +6161,8 @@
       "name": "complete",
       "occurrences": 2,
       "position": [
-        66.61084,
-        -789.7052
+        66.39148,
+        -787.10455
       ]
     },
     {
@@ -6170,8 +6170,8 @@
       "name": "concept-consolidation",
       "occurrences": 2,
       "position": [
-        72.263535,
-        -790.49396
+        71.16261,
+        -778.451
       ]
     },
     {
@@ -6179,8 +6179,8 @@
       "name": "concept-fragmentation",
       "occurrences": 2,
       "position": [
-        77.31364,
-        -784.9785
+        78.12662,
+        -793.2329
       ]
     },
     {
@@ -6188,8 +6188,8 @@
       "name": "concept-relations",
       "occurrences": 2,
       "position": [
-        81.542274,
-        -772.34937
+        83.15085,
+        -787.58545
       ]
     },
     {
@@ -6197,8 +6197,8 @@
       "name": "conceptsync",
       "occurrences": 2,
       "position": [
-        92.229904,
-        -818.563
+        87.3047,
+        -774.85065
       ]
     },
     {
@@ -6206,8 +6206,8 @@
       "name": "conclusion",
       "occurrences": 2,
       "position": [
-        94.715866,
-        -790.74744
+        97.968254,
+        -817.9004
       ]
     },
     {
@@ -6215,8 +6215,8 @@
       "name": "conflict-detector",
       "occurrences": 2,
       "position": [
-        102.132126,
-        -804.82764
+        99.274864,
+        -782.3117
       ]
     },
     {
@@ -6224,8 +6224,8 @@
       "name": "content-audit",
       "occurrences": 2,
       "position": [
-        107.267334,
-        -800.31586
+        105.22284,
+        -785.062
       ]
     },
     {
@@ -6233,8 +6233,8 @@
       "name": "corbel",
       "occurrences": 2,
       "position": [
-        110.77779,
-        -784.67566
+        114.91524,
+        -813.98254
       ]
     },
     {
@@ -6242,8 +6242,8 @@
       "name": "correctness",
       "occurrences": 2,
       "position": [
-        119.70325,
-        -806.97375
+        115.74661,
+        -780.3003
       ]
     },
     {
@@ -6251,8 +6251,8 @@
       "name": "coverage",
       "occurrences": 2,
       "position": [
-        119.13643,
-        -766.0997
+        119.18972,
+        -766.4424
       ]
     },
     {
@@ -6260,8 +6260,8 @@
       "name": "creative-exploration",
       "occurrences": 2,
       "position": [
-        127.262245,
-        -782.1878
+        128.81787,
+        -791.749
       ]
     },
     {
@@ -6269,8 +6269,8 @@
       "name": "critical-evaluation",
       "occurrences": 2,
       "position": [
-        131.89871,
-        -776.30023
+        131.3146,
+        -772.86237
       ]
     },
     {
@@ -6278,8 +6278,8 @@
       "name": "critical-risk",
       "occurrences": 2,
       "position": [
-        139.012,
-        -784.8
+        142.58188,
+        -804.954
       ]
     },
     {
@@ -6287,8 +6287,8 @@
       "name": "critical-thinking",
       "occurrences": 2,
       "position": [
-        145.72223,
-        -790.37024
+        147.57074,
+        -800.3963
       ]
     },
     {
@@ -6296,8 +6296,8 @@
       "name": "cte",
       "occurrences": 2,
       "position": [
-        152.2963,
-        -794.7312
+        154.93633,
+        -808.50775
       ]
     },
     {
@@ -6305,8 +6305,8 @@
       "name": "data-layer",
       "occurrences": 2,
       "position": [
-        160.46246,
-        -806.6993
+        159.23132,
+        -800.5099
       ]
     },
     {
@@ -6314,8 +6314,8 @@
       "name": "data-validation",
       "occurrences": 2,
       "position": [
-        163.69872,
-        -793.83466
+        165.41867,
+        -802.17535
       ]
     },
     {
@@ -6323,8 +6323,8 @@
       "name": "database-optimization",
       "occurrences": 2,
       "position": [
-        162.53024,
-        -761.1446
+        170.57248,
+        -798.8071
       ]
     },
     {
@@ -6332,8 +6332,8 @@
       "name": "database-performance",
       "occurrences": 2,
       "position": [
-        175.52536,
-        -794.67346
+        174.67076,
+        -790.8043
       ]
     },
     {
@@ -6341,8 +6341,8 @@
       "name": "database-schema",
       "occurrences": 2,
       "position": [
-        179.80128,
-        -787.7609
+        179.45406,
+        -786.23956
       ]
     },
     {
@@ -6350,8 +6350,8 @@
       "name": "databases",
       "occurrences": 2,
       "position": [
-        179.35736,
-        -761.17175
+        184.52173,
+        -783.08875
       ]
     },
     {
@@ -6359,8 +6359,8 @@
       "name": "decision-making",
       "occurrences": 2,
       "position": [
-        184.5166,
-        -759.1794
+        191.49133,
+        -787.8764
       ]
     },
     {
@@ -6368,8 +6368,8 @@
       "name": "decomposition-technique",
       "occurrences": 2,
       "position": [
-        192.28648,
-        -767.65063
+        197.61087,
+        -788.9068
       ]
     },
     {
@@ -6377,8 +6377,8 @@
       "name": "default",
       "occurrences": 2,
       "position": [
-        197.08655,
-        -764.0415
+        204.95128,
+        -794.5306
       ]
     },
     {
@@ -6386,8 +6386,8 @@
       "name": "disaster-recovery",
       "occurrences": 2,
       "position": [
-        201.75836,
-        -760.0747
+        208.6244,
+        -785.94086
       ]
     },
     {
@@ -6395,8 +6395,8 @@
       "name": "discovery-wave",
       "occurrences": 2,
       "position": [
-        205.00217,
-        -751.01685
+        212.04193,
+        -776.8067
       ]
     },
     {
@@ -6404,8 +6404,8 @@
       "name": "divergent-thinking",
       "occurrences": 2,
       "position": [
-        221.28696,
-        -788.8576
+        220.68713,
+        -786.7193
       ]
     },
     {
@@ -6413,8 +6413,8 @@
       "name": "drift",
       "occurrences": 2,
       "position": [
-        215.4143,
-        -747.7196
+        216.48569,
+        -751.4385
       ]
     },
     {
@@ -6422,8 +6422,8 @@
       "name": "duplicate-code",
       "occurrences": 2,
       "position": [
-        232.16486,
-        -785.12305
+        225.68369,
+        -763.2054
       ]
     },
     {
@@ -6431,8 +6431,8 @@
       "name": "durability-mechanisms",
       "occurrences": 2,
       "position": [
-        233.28204,
-        -769.02783
+        225.9859,
+        -744.9757
       ]
     },
     {
@@ -6440,8 +6440,8 @@
       "name": "eager-graph-rag",
       "occurrences": 2,
       "position": [
-        234.07635,
-        -752.6065
+        240.94797,
+        -774.70026
       ]
     },
     {
@@ -6449,8 +6449,8 @@
       "name": "emergent-capabilities",
       "occurrences": 2,
       "position": [
-        249.48372,
-        -782.7464
+        241.93445,
+        -759.06085
       ]
     },
     {
@@ -6458,8 +6458,8 @@
       "name": "epoch",
       "occurrences": 2,
       "position": [
-        243.36592,
-        -745.4443
+        246.80174,
+        -755.96844
       ]
     },
     {
@@ -6467,8 +6467,8 @@
       "name": "error-path",
       "occurrences": 2,
       "position": [
-        260.84296,
-        -780.3856
+        253.00807,
+        -756.9453
       ]
     },
     {
@@ -6476,8 +6476,8 @@
       "name": "example",
       "occurrences": 2,
       "position": [
-        260.5998,
-        -761.8469
+        254.32675,
+        -743.5081
       ]
     },
     {
@@ -6485,8 +6485,8 @@
       "name": "exception",
       "occurrences": 2,
       "position": [
-        268.6616,
-        -767.79065
+        262.00983,
+        -748.78107
       ]
     },
     {
@@ -6494,8 +6494,8 @@
       "name": "experiments",
       "occurrences": 2,
       "position": [
-        273.23828,
-        -763.6498
+        272.82608,
+        -762.4978
       ]
     },
     {
@@ -6503,8 +6503,8 @@
       "name": "exponential-backoff",
       "occurrences": 2,
       "position": [
-        279.12915,
-        -763.1984
+        277.17905,
+        -757.86646
       ]
     },
     {
@@ -6512,8 +6512,8 @@
       "name": "fallback",
       "occurrences": 2,
       "position": [
-        272.21262,
-        -728.41174
+        275.65555,
+        -737.6247
       ]
     },
     {
@@ -6521,8 +6521,8 @@
       "name": "feature",
       "occurrences": 2,
       "position": [
-        276.92743,
-        -725.47266
+        281.73843,
+        -738.0761
       ]
     },
     {
@@ -6530,8 +6530,8 @@
       "name": "feedback-loop",
       "occurrences": 2,
       "position": [
-        284.8941,
-        -730.9175
+        286.07098,
+        -733.9369
       ]
     },
     {
@@ -6539,8 +6539,8 @@
       "name": "file-descriptor",
       "occurrences": 2,
       "position": [
-        293.0296,
-        -736.4845
+        298.7262,
+        -750.802
       ]
     },
     {
@@ -6548,8 +6548,8 @@
       "name": "flag-conventions",
       "occurrences": 2,
       "position": [
-        299.065,
-        -736.5741
+        303.27545,
+        -746.94415
       ]
     },
     {
@@ -6557,8 +6557,8 @@
       "name": "folder-scoping",
       "occurrences": 2,
       "position": [
-        301.92975,
-        -728.9229
+        304.3598,
+        -734.78955
       ]
     },
     {
@@ -6566,8 +6566,8 @@
       "name": "form",
       "occurrences": 2,
       "position": [
-        315.60147,
-        -747.06836
+        311.51602,
+        -737.3976
       ]
     },
     {
@@ -6575,8 +6575,8 @@
       "name": "full-text",
       "occurrences": 2,
       "position": [
-        322.46664,
-        -748.6307
+        309.68134,
+        -718.94867
       ]
     },
     {
@@ -6584,8 +6584,8 @@
       "name": "full-text-search",
       "occurrences": 2,
       "position": [
-        328.8683,
-        -748.99255
+        326.80188,
+        -744.2864
       ]
     },
     {
@@ -6593,8 +6593,8 @@
       "name": "function",
       "occurrences": 2,
       "position": [
-        331.00592,
-        -739.7256
+        329.55847,
+        -736.49084
       ]
     },
     {
@@ -6602,8 +6602,8 @@
       "name": "getvectorsearchresults",
       "occurrences": 2,
       "position": [
-        333.37506,
-        -731.22284
+        339.92365,
+        -745.5864
       ]
     },
     {
@@ -6611,8 +6611,8 @@
       "name": "graceful-degradation",
       "occurrences": 2,
       "position": [
-        346.2022,
-        -745.46375
+        339.63782,
+        -731.3289
       ]
     },
     {
@@ -6620,8 +6620,8 @@
       "name": "graph-construction",
       "occurrences": 2,
       "position": [
-        346.70575,
-        -733.0477
+        339.64444,
+        -718.11786
       ]
     },
     {
@@ -6629,8 +6629,8 @@
       "name": "graph-structures",
       "occurrences": 2,
       "position": [
-        355.07602,
-        -737.32294
+        355.14902,
+        -737.47455
       ]
     },
     {
@@ -6638,8 +6638,8 @@
       "name": "grit",
       "occurrences": 2,
       "position": [
-        354.60226,
-        -723.31964
+        350.95837,
+        -715.88684
       ]
     },
     {
@@ -6647,8 +6647,8 @@
       "name": "high-availability",
       "occurrences": 2,
       "position": [
-        364.47314,
-        -730.4498
+        361.6574,
+        -724.80676
       ]
     },
     {
@@ -6656,8 +6656,8 @@
       "name": "high-priority",
       "occurrences": 2,
       "position": [
-        364.94922,
-        -718.7434
+        352.86658,
+        -694.94745
       ]
     },
     {
@@ -6665,8 +6665,8 @@
       "name": "idempotent",
       "occurrences": 2,
       "position": [
-        373.38986,
-        -722.76624
+        370.95825,
+        -718.0594
       ]
     },
     {
@@ -6674,8 +6674,8 @@
       "name": "idisposable",
       "occurrences": 2,
       "position": [
-        378.13153,
-        -719.52594
+        374.9853,
+        -713.5392
       ]
     },
     {
@@ -6683,8 +6683,8 @@
       "name": "implementation-files",
       "occurrences": 2,
       "position": [
-        372.92645,
-        -697.6963
+        388.32843,
+        -726.51135
       ]
     },
     {
@@ -6692,8 +6692,8 @@
       "name": "implementation-roadmap",
       "occurrences": 2,
       "position": [
-        372.84937,
-        -685.9382
+        370.15677,
+        -680.98456
       ]
     },
     {
@@ -6701,8 +6701,8 @@
       "name": "incremental-sync",
       "occurrences": 2,
       "position": [
-        383.914,
-        -694.6401
+        388.91965,
+        -703.6971
       ]
     },
     {
@@ -6710,8 +6710,8 @@
       "name": "index-selection",
       "occurrences": 2,
       "position": [
-        398.51016,
-        -709.256
+        388.3854,
+        -691.23627
       ]
     },
     {
@@ -6719,8 +6719,8 @@
       "name": "inline",
       "occurrences": 2,
       "position": [
-        385.4818,
-        -674.94147
+        400.2694,
+        -700.8331
       ]
     },
     {
@@ -6728,8 +6728,8 @@
       "name": "installation-instructions",
       "occurrences": 2,
       "position": [
-        398.402,
-        -686.34247
+        389.96906,
+        -671.8147
       ]
     },
     {
@@ -6737,8 +6737,8 @@
       "name": "intelligence-emerges",
       "occurrences": 2,
       "position": [
-        396.7226,
-        -672.54236
+        409.89212,
+        -694.8679
       ]
     },
     {
@@ -6746,8 +6746,8 @@
       "name": "inversion",
       "occurrences": 2,
       "position": [
-        405.82394,
-        -677.07635
+        414.01187,
+        -690.7371
       ]
     },
     {
@@ -6755,8 +6755,8 @@
       "name": "iterations",
       "occurrences": 2,
       "position": [
-        405.7211,
-        -666.26447
+        404.4238,
+        -664.13403
       ]
     },
     {
@@ -6764,8 +6764,8 @@
       "name": "jsdelivr",
       "occurrences": 2,
       "position": [
-        416.48465,
-        -673.2661
+        411.97516,
+        -665.9763
       ]
     },
     {
@@ -6773,8 +6773,8 @@
       "name": "knowledge-agents",
       "occurrences": 2,
       "position": [
-        436.57416,
-        -694.80383
+        428.51648,
+        -681.9801
       ]
     },
     {
@@ -6782,8 +6782,8 @@
       "name": "knowledge-graph-construction",
       "occurrences": 2,
       "position": [
-        429.5279,
-        -673.06586
+        436.92163,
+        -684.6518
       ]
     },
     {
@@ -6791,8 +6791,8 @@
       "name": "lathe",
       "occurrences": 2,
       "position": [
-        445.7468,
-        -687.79694
+        431.03568,
+        -665.0973
       ]
     },
     {
@@ -6800,8 +6800,8 @@
       "name": "learning-loop",
       "occurrences": 2,
       "position": [
-        440.00504,
-        -668.6169
+        427.66336,
+        -649.86285
       ]
     },
     {
@@ -6809,8 +6809,8 @@
       "name": "linq",
       "occurrences": 2,
       "position": [
-        431.64078,
-        -645.9961
+        441.5852,
+        -660.87897
       ]
     },
     {
@@ -6818,8 +6818,8 @@
       "name": "living-system",
       "occurrences": 2,
       "position": [
-        443.21988,
-        -653.3602
+        452.82315,
+        -667.5166
       ]
     },
     {
@@ -6827,8 +6827,8 @@
       "name": "llm",
       "occurrences": 2,
       "position": [
-        464.3129,
-        -674.2281
+        454.7266,
+        -660.30786
       ]
     },
     {
@@ -6836,8 +6836,8 @@
       "name": "loam",
       "occurrences": 2,
       "position": [
-        453.4383,
-        -648.6521
+        463.56876,
+        -663.1439
       ]
     },
     {
@@ -6845,8 +6845,8 @@
       "name": "ma-core-py",
       "occurrences": 2,
       "position": [
-        458.77078,
-        -646.5769
+        458.51596,
+        -646.2178
       ]
     },
     {
@@ -6854,8 +6854,8 @@
       "name": "ma-manifesto",
       "occurrences": 2,
       "position": [
-        480.91086,
-        -667.8078
+        466.53033,
+        -647.83856
       ]
     },
     {
@@ -6863,8 +6863,8 @@
       "name": "maenifold-tools",
       "occurrences": 2,
       "position": [
-        472.2103,
-        -646.1227
+        463.33435,
+        -633.9777
       ]
     },
     {
@@ -6872,8 +6872,8 @@
       "name": "main-branch",
       "occurrences": 2,
       "position": [
-        464.0393,
-        -625.6846
+        463.8432,
+        -625.42017
       ]
     },
     {
@@ -6881,8 +6881,8 @@
       "name": "management",
       "occurrences": 2,
       "position": [
-        492.15512,
-        -653.95966
+        482.9834,
+        -641.7726
       ]
     },
     {
@@ -6890,8 +6890,8 @@
       "name": "market-positioning",
       "occurrences": 2,
       "position": [
-        492.08176,
-        -644.40674
+        480.62503,
+        -629.40356
       ]
     },
     {
@@ -6899,8 +6899,8 @@
       "name": "match",
       "occurrences": 2,
       "position": [
-        478.04175,
-        -617.00214
+        475.60428,
+        -613.85614
       ]
     },
     {
@@ -6908,8 +6908,8 @@
       "name": "mean-time-to-recovery",
       "occurrences": 2,
       "position": [
-        486.08133,
-        -618.37305
+        487.21548,
+        -619.8159
       ]
     },
     {
@@ -6917,8 +6917,8 @@
       "name": "memories",
       "occurrences": 2,
       "position": [
-        501.8945,
-        -629.3558
+        487.7658,
+        -611.639
       ]
     },
     {
@@ -6926,8 +6926,8 @@
       "name": "memory-graph",
       "occurrences": 2,
       "position": [
-        501.97675,
-        -620.48254
+        500.8653,
+        -619.1087
       ]
     },
     {
@@ -6935,8 +6935,8 @@
       "name": "memory-leak",
       "occurrences": 2,
       "position": [
-        497.3989,
-        -606.0823
+        498.25482,
+        -607.12524
       ]
     },
     {
@@ -6944,8 +6944,8 @@
       "name": "memory-operations",
       "occurrences": 2,
       "position": [
-        509.17386,
-        -611.6332
+        510.34192,
+        -613.03625
       ]
     },
     {
@@ -6953,8 +6953,8 @@
       "name": "memory-paths",
       "occurrences": 2,
       "position": [
-        526.5374,
-        -623.5458
+        522.3906,
+        -618.635
       ]
     },
     {
@@ -6962,8 +6962,8 @@
       "name": "memory-space",
       "occurrences": 2,
       "position": [
-        524.37805,
-        -612.22705
+        531.7848,
+        -620.87463
       ]
     },
     {
@@ -6971,8 +6971,8 @@
       "name": "memory-system",
       "occurrences": 2,
       "position": [
-        511.9275,
-        -589.276
+        517.7639,
+        -595.9943
       ]
     },
     {
@@ -6980,8 +6980,8 @@
       "name": "methodologies",
       "occurrences": 2,
       "position": [
-        539.8383,
-        -612.6727
+        533.92676,
+        -605.9636
       ]
     },
     {
@@ -6989,8 +6989,8 @@
       "name": "migration-strategies",
       "occurrences": 2,
       "position": [
-        547.8057,
-        -612.9949
+        534.13837,
+        -597.7011
       ]
     },
     {
@@ -6998,8 +6998,8 @@
       "name": "moss",
       "occurrences": 2,
       "position": [
-        531.26,
-        -586.1551
+        527.86035,
+        -582.4041
       ]
     },
     {
@@ -7007,8 +7007,8 @@
       "name": "multi-agent-coordination",
       "occurrences": 2,
       "position": [
-        557.3478,
-        -606.3387
+        537.0524,
+        -584.25934
       ]
     },
     {
@@ -7016,8 +7016,8 @@
       "name": "n\u002B1",
       "occurrences": 2,
       "position": [
-        558.33655,
-        -598.92975
+        552.01074,
+        -592.14404
       ]
     },
     {
@@ -7025,8 +7025,8 @@
       "name": "name-candidates",
       "occurrences": 2,
       "position": [
-        540.8007,
-        -572.02356
+        538.41614,
+        -569.5013
       ]
     },
     {
@@ -7034,8 +7034,8 @@
       "name": "natural-language-processing",
       "occurrences": 2,
       "position": [
-        566.4069,
-        -590.7542
+        539.679,
+        -562.8774
       ]
     },
     {
@@ -7043,8 +7043,8 @@
       "name": "negative-depth",
       "occurrences": 2,
       "position": [
-        546.92334,
-        -562.48376
+        551.7232,
+        -567.42017
       ]
     },
     {
@@ -7052,8 +7052,8 @@
       "name": "negative-space",
       "occurrences": 2,
       "position": [
-        572.50757,
-        -580.5938
+        570.8555,
+        -578.91846
       ]
     },
     {
@@ -7061,8 +7061,8 @@
       "name": "new",
       "occurrences": 2,
       "position": [
-        557.80444,
-        -557.80444
+        551.72046,
+        -551.72046
       ]
     },
     {
@@ -7070,8 +7070,8 @@
       "name": "node",
       "occurrences": 2,
       "position": [
-        558.0798,
-        -550.30707
+        554.7526,
+        -547.0263
       ]
     },
     {
@@ -7079,8 +7079,8 @@
       "name": "non-repeatable-reads",
       "occurrences": 2,
       "position": [
-        557.3414,
-        -541.9232
+        568.1027,
+        -552.38684
       ]
     },
     {
@@ -7088,8 +7088,8 @@
       "name": "null-check",
       "occurrences": 2,
       "position": [
-        585.45746,
-        -561.3284
+        590.2777,
+        -565.95
       ]
     },
     {
@@ -7097,8 +7097,8 @@
       "name": "null-reference-exception",
       "occurrences": 2,
       "position": [
-        593.59174,
-        -561.19165
+        570.652,
+        -539.504
       ]
     },
     {
@@ -7106,8 +7106,8 @@
       "name": "onboarding",
       "occurrences": 2,
       "position": [
-        593.86774,
-        -553.6176
+        597.74927,
+        -557.2361
       ]
     },
     {
@@ -7115,8 +7115,8 @@
       "name": "optimistic-locking",
       "occurrences": 2,
       "position": [
-        592.9137,
-        -545.0075
+        603.2786,
+        -554.535
       ]
     },
     {
@@ -7124,8 +7124,8 @@
       "name": "optimization",
       "occurrences": 2,
       "position": [
-        574.7014,
-        -520.87897
+        594.42474,
+        -538.7552
       ]
     },
     {
@@ -7133,8 +7133,8 @@
       "name": "optimization-path",
       "occurrences": 2,
       "position": [
-        610.3104,
-        -545.40674
+        602.9885,
+        -538.8635
       ]
     },
     {
@@ -7142,8 +7142,8 @@
       "name": "orchestrated-workflows",
       "occurrences": 2,
       "position": [
-        594.6796,
-        -523.9842
+        595.7906,
+        -524.96313
       ]
     },
     {
@@ -7151,8 +7151,8 @@
       "name": "parsing",
       "occurrences": 2,
       "position": [
-        594.22064,
-        -516.2231
+        603.88403,
+        -524.61804
       ]
     },
     {
@@ -7160,8 +7160,8 @@
       "name": "path",
       "occurrences": 2,
       "position": [
-        614.5121,
-        -526.33527
+        613.73474,
+        -525.66943
       ]
     },
     {
@@ -7169,8 +7169,8 @@
       "name": "patina",
       "occurrences": 2,
       "position": [
-        592.74744,
-        -500.53055
+        591.7204,
+        -499.66327
       ]
     },
     {
@@ -7178,8 +7178,8 @@
       "name": "pattern",
       "occurrences": 2,
       "position": [
-        625.4107,
-        -520.6434
+        617.47485,
+        -514.0369
       ]
     },
     {
@@ -7187,8 +7187,8 @@
       "name": "pattern-c",
       "occurrences": 2,
       "position": [
-        630.31854,
-        -517.28906
+        605.10974,
+        -496.60074
       ]
     },
     {
@@ -7196,8 +7196,8 @@
       "name": "pause",
       "occurrences": 2,
       "position": [
-        609.2853,
-        -492.91806
+        615.033,
+        -497.568
       ]
     },
     {
@@ -7205,8 +7205,8 @@
       "name": "performance-claims",
       "occurrences": 2,
       "position": [
-        622.31726,
-        -496.28146
+        641.06665,
+        -511.23358
       ]
     },
     {
@@ -7214,8 +7214,8 @@
       "name": "performance-metrics",
       "occurrences": 2,
       "position": [
-        625.5398,
-        -491.71484
+        633.0359,
+        -497.60727
       ]
     },
     {
@@ -7223,8 +7223,8 @@
       "name": "persistent-collective-memory",
       "occurrences": 2,
       "position": [
-        642.926,
-        -498.1271
+        649.8254,
+        -503.4726
       ]
     },
     {
@@ -7232,8 +7232,8 @@
       "name": "pessimistic-locking",
       "occurrences": 2,
       "position": [
-        625.30084,
-        -477.49213
+        639.90857,
+        -488.6469
       ]
     },
     {
@@ -7241,8 +7241,8 @@
       "name": "phantom-reads",
       "occurrences": 2,
       "position": [
-        652.08276,
-        -490.74265
+        649.88,
+        -489.0849
       ]
     },
     {
@@ -7250,8 +7250,8 @@
       "name": "phase-1:-assetmanager-enhancements",
       "occurrences": 2,
       "position": [
-        636.3018,
-        -471.91357
+        653.966,
+        -485.01425
       ]
     },
     {
@@ -7259,8 +7259,8 @@
       "name": "problem-solving",
       "occurrences": 2,
       "position": [
-        632.98,
-        -462.60516
+        656.4134,
+        -479.73117
       ]
     },
     {
@@ -7268,8 +7268,8 @@
       "name": "processing",
       "occurrences": 2,
       "position": [
-        662.7538,
-        -477.27124
+        656.28314,
+        -472.61157
       ]
     },
     {
@@ -7277,8 +7277,8 @@
       "name": "product-manager",
       "occurrences": 2,
       "position": [
-        657.70154,
-        -466.6641
+        660.8005,
+        -468.86295
       ]
     },
     {
@@ -7286,8 +7286,8 @@
       "name": "production",
       "occurrences": 2,
       "position": [
-        640.0181,
-        -447.40274
+        646.6691,
+        -452.0521
       ]
     },
     {
@@ -7295,8 +7295,8 @@
       "name": "products",
       "occurrences": 2,
       "position": [
-        670.6489,
-        -461.84805
+        649.07404,
+        -446.99036
       ]
     },
     {
@@ -7304,8 +7304,8 @@
       "name": "progressive-disclosure",
       "occurrences": 2,
       "position": [
-        645.76965,
-        -438.07065
+        670.24554,
+        -454.67435
       ]
     },
     {
@@ -7313,8 +7313,8 @@
       "name": "query",
       "occurrences": 2,
       "position": [
-        652.26825,
-        -435.8317
+        662.80676,
+        -442.87332
       ]
     },
     {
@@ -7322,8 +7322,8 @@
       "name": "query-optimizer",
       "occurrences": 2,
       "position": [
-        674.3985,
-        -443.80984
+        650.7878,
+        -428.27203
       ]
     },
     {
@@ -7331,8 +7331,8 @@
       "name": "quorum",
       "occurrences": 2,
       "position": [
-        663.1029,
-        -429.74313
+        665.0572,
+        -431.00964
       ]
     },
     {
@@ -7340,8 +7340,8 @@
       "name": "rag",
       "occurrences": 2,
       "position": [
-        686.864,
-        -438.33337
+        665.85315,
+        -424.925
       ]
     },
     {
@@ -7349,8 +7349,8 @@
       "name": "reasoning-chain",
       "occurrences": 2,
       "position": [
-        658.763,
-        -413.92825
+        665.03314,
+        -417.868
       ]
     },
     {
@@ -7358,8 +7358,8 @@
       "name": "reasoning-chains",
       "occurrences": 2,
       "position": [
-        665.97754,
-        -411.9759
+        688.2833,
+        -425.77432
       ]
     },
     {
@@ -7367,8 +7367,8 @@
       "name": "reasoning-infrastructure",
       "occurrences": 2,
       "position": [
-        665.62964,
-        -405.33456
+        671.287,
+        -408.77957
       ]
     },
     {
@@ -7376,8 +7376,8 @@
       "name": "refactoring-specification",
       "occurrences": 2,
       "position": [
-        698.91003,
-        -418.91055
+        677.95123,
+        -406.34833
       ]
     },
     {
@@ -7385,8 +7385,8 @@
       "name": "relatedconcept",
       "occurrences": 2,
       "position": [
-        670.06866,
-        -395.2634
+        694.4981,
+        -409.67395
       ]
     },
     {
@@ -7394,8 +7394,8 @@
       "name": "reliability",
       "occurrences": 2,
       "position": [
-        711.4763,
-        -412.9915
+        682.6541,
+        -396.26102
       ]
     },
     {
@@ -7403,8 +7403,8 @@
       "name": "repair",
       "occurrences": 2,
       "position": [
-        678.94916,
-        -387.77072
+        675.2756,
+        -385.6726
       ]
     },
     {
@@ -7412,8 +7412,8 @@
       "name": "replication-strategies",
       "occurrences": 2,
       "position": [
-        711.7128,
-        -399.89062
+        697.4033,
+        -391.85052
       ]
     },
     {
@@ -7421,8 +7421,8 @@
       "name": "repurposing",
       "occurrences": 2,
       "position": [
-        719.6901,
-        -397.75867
+        704.91455,
+        -389.5925
       ]
     },
     {
@@ -7430,8 +7430,8 @@
       "name": "restraint",
       "occurrences": 2,
       "position": [
-        700.0996,
-        -380.54697
+        681.19116,
+        -370.26907
       ]
     },
     {
@@ -7439,8 +7439,8 @@
       "name": "retry-strategies",
       "occurrences": 2,
       "position": [
-        684.16504,
-        -365.69385
+        723.5094,
+        -386.72385
       ]
     },
     {
@@ -7448,8 +7448,8 @@
       "name": "revised-hypothesis",
       "occurrences": 2,
       "position": [
-        726.5162,
-        -381.8051
+        728.0031,
+        -382.58652
       ]
     },
     {
@@ -7457,8 +7457,8 @@
       "name": "roslyn",
       "occurrences": 2,
       "position": [
-        724.2575,
-        -374.16028
+        722.23566,
+        -373.11575
       ]
     },
     {
@@ -7466,8 +7466,8 @@
       "name": "rtm-001-a",
       "occurrences": 2,
       "position": [
-        731.3569,
-        -371.35385
+        700.39905,
+        -355.6347
       ]
     },
     {
@@ -7475,8 +7475,8 @@
       "name": "rtm-001-b",
       "occurrences": 2,
       "position": [
-        724.92584,
-        -361.71686
+        711.6358,
+        -355.08548
       ]
     },
     {
@@ -7484,8 +7484,8 @@
       "name": "rtm-items",
       "occurrences": 2,
       "position": [
-        739.24023,
-        -362.40723
+        727.606,
+        -356.70364
       ]
     },
     {
@@ -7493,8 +7493,8 @@
       "name": "rtm-mcp-002",
       "occurrences": 2,
       "position": [
-        709.5389,
-        -341.69592
+        710.8929,
+        -342.34796
       ]
     },
     {
@@ -7502,8 +7502,8 @@
       "name": "scalability",
       "occurrences": 2,
       "position": [
-        733.0683,
-        -346.71548
+        714.4275,
+        -337.89905
       ]
     },
     {
@@ -7511,8 +7511,8 @@
       "name": "scope-creep",
       "occurrences": 2,
       "position": [
-        741.74524,
-        -344.47528
+        743.58527,
+        -345.3298
       ]
     },
     {
@@ -7520,8 +7520,8 @@
       "name": "search-results",
       "occurrences": 2,
       "position": [
-        724.9404,
-        -330.51083
+        722.01306,
+        -329.17618
       ]
     },
     {
@@ -7529,8 +7529,8 @@
       "name": "second",
       "occurrences": 2,
       "position": [
-        737.77435,
-        -330.13278
+        718.4152,
+        -321.47015
       ]
     },
     {
@@ -7538,8 +7538,8 @@
       "name": "self-healing",
       "occurrences": 2,
       "position": [
-        753.0867,
-        -330.66592
+        729.30994,
+        -320.226
       ]
     },
     {
@@ -7547,8 +7547,8 @@
       "name": "serializers",
       "occurrences": 2,
       "position": [
-        738.5237,
-        -318.11313
+        724.5282,
+        -312.0847
       ]
     },
     {
@@ -7556,8 +7556,8 @@
       "name": "session-handling",
       "occurrences": 2,
       "position": [
-        742.055,
-        -313.48355
+        722.9848,
+        -305.42728
       ]
     },
     {
@@ -7565,8 +7565,8 @@
       "name": "settle",
       "occurrences": 2,
       "position": [
-        752.9182,
-        -311.86893
+        740.832,
+        -306.86264
       ]
     },
     {
@@ -7574,8 +7574,8 @@
       "name": "setup",
       "occurrences": 2,
       "position": [
-        721.9411,
-        -293.12366
+        761.7433,
+        -309.28424
       ]
     },
     {
@@ -7583,8 +7583,8 @@
       "name": "shard",
       "occurrences": 2,
       "position": [
-        729.4506,
-        -290.231
+        722.5628,
+        -287.49048
       ]
     },
     {
@@ -7592,8 +7592,8 @@
       "name": "signature",
       "occurrences": 2,
       "position": [
-        763.6049,
-        -297.63486
+        752.4918,
+        -293.30325
       ]
     },
     {
@@ -7601,8 +7601,8 @@
       "name": "single",
       "occurrences": 2,
       "position": [
-        745.0249,
-        -284.39093
+        764.8398,
+        -291.95465
       ]
     },
     {
@@ -7610,8 +7610,8 @@
       "name": "sla",
       "occurrences": 2,
       "position": [
-        761.1178,
-        -284.4351
+        732.9508,
+        -273.9089
       ]
     },
     {
@@ -7619,8 +7619,8 @@
       "name": "slow",
       "occurrences": 2,
       "position": [
-        743.0714,
-        -271.76797
+        731.4959,
+        -267.5344
       ]
     },
     {
@@ -7628,8 +7628,8 @@
       "name": "smoke-test-campaign",
       "occurrences": 2,
       "position": [
-        746.99603,
-        -267.27945
+        740.05096,
+        -264.79446
       ]
     },
     {
@@ -7637,8 +7637,8 @@
       "name": "space-between",
       "occurrences": 2,
       "position": [
-        742.60785,
-        -259.84973
+        746.538,
+        -261.22498
       ]
     },
     {
@@ -7646,8 +7646,8 @@
       "name": "space-over-features",
       "occurrences": 2,
       "position": [
-        773.0718,
-        -264.4394
+        741.2928,
+        -253.56895
       ]
     },
     {
@@ -7655,8 +7655,8 @@
       "name": "specification",
       "occurrences": 2,
       "position": [
-        768.59424,
-        -256.9017
+        773.02545,
+        -258.3828
       ]
     },
     {
@@ -7664,8 +7664,8 @@
       "name": "sprint",
       "occurrences": 2,
       "position": [
-        744.03467,
-        -242.90572
+        760.84314,
+        -248.39319
       ]
     },
     {
@@ -7673,8 +7673,8 @@
       "name": "sqliteconnection",
       "occurrences": 2,
       "position": [
-        747.96313,
-        -238.3973
+        750.14764,
+        -239.09355
       ]
     },
     {
@@ -7682,8 +7682,8 @@
       "name": "sqliteextensions",
       "occurrences": 2,
       "position": [
-        781.52014,
-        -243.06909
+        744.8045,
+        -231.64978
       ]
     },
     {
@@ -7691,8 +7691,8 @@
       "name": "state",
       "occurrences": 2,
       "position": [
-        782.8401,
-        -237.47194
+        779.78973,
+        -236.54663
       ]
     },
     {
@@ -7700,8 +7700,8 @@
       "name": "strategic-analysis",
       "occurrences": 2,
       "position": [
-        790.30853,
-        -233.69821
+        781.2615,
+        -231.02296
       ]
     },
     {
@@ -7709,8 +7709,8 @@
       "name": "stripembeddingfrontmatter",
       "occurrences": 2,
       "position": [
-        751.0903,
-        -216.38538
+        778.40234,
+        -224.25385
       ]
     },
     {
@@ -7718,8 +7718,8 @@
       "name": "subject",
       "occurrences": 2,
       "position": [
-        782.194,
-        -219.4177
+        766.7177,
+        -215.07635
       ]
     },
     {
@@ -7727,8 +7727,8 @@
       "name": "swarm-consciousness",
       "occurrences": 2,
       "position": [
-        756.785,
-        -206.57669
+        769.7084,
+        -210.10434
       ]
     },
     {
@@ -7736,8 +7736,8 @@
       "name": "symbol",
       "occurrences": 2,
       "position": [
-        775.04315,
-        -205.73166
+        778.3169,
+        -206.60066
       ]
     },
     {
@@ -7745,8 +7745,8 @@
       "name": "systems",
       "occurrences": 2,
       "position": [
-        779.7779,
-        -201.14578
+        762.46405,
+        -196.67964
       ]
     },
     {
@@ -7754,8 +7754,8 @@
       "name": "teardown",
       "occurrences": 2,
       "position": [
-        765.372,
-        -191.7157
+        793.60046,
+        -198.78658
       ]
     },
     {
@@ -7763,8 +7763,8 @@
       "name": "telemetry",
       "occurrences": 2,
       "position": [
-        773.4117,
-        -187.97572
+        800.9489,
+        -194.66858
       ]
     },
     {
@@ -7772,8 +7772,8 @@
       "name": "template",
       "occurrences": 2,
       "position": [
-        760.9528,
-        -179.30577
+        787.1266,
+        -185.47318
       ]
     },
     {
@@ -7781,8 +7781,8 @@
       "name": "test-case|test-cases",
       "occurrences": 2,
       "position": [
-        784.3459,
-        -179.02182
+        777.0763,
+        -177.3626
       ]
     },
     {
@@ -7790,8 +7790,8 @@
       "name": "test-file",
       "occurrences": 2,
       "position": [
-        803.16895,
-        -177.40182
+        765.65076,
+        -169.11491
       ]
     },
     {
@@ -7799,8 +7799,8 @@
       "name": "test-methods",
       "occurrences": 2,
       "position": [
-        772.5757,
-        -164.97118
+        791.9913,
+        -169.11707
       ]
     },
     {
@@ -7808,8 +7808,8 @@
       "name": "testability",
       "occurrences": 2,
       "position": [
-        796.47327,
-        -164.24283
+        785.9963,
+        -162.08235
       ]
     },
     {
@@ -7817,8 +7817,8 @@
       "name": "testable",
       "occurrences": 2,
       "position": [
-        792.1547,
-        -157.56937
+        800.9441,
+        -159.31769
       ]
     },
     {
@@ -7826,8 +7826,8 @@
       "name": "the",
       "occurrences": 2,
       "position": [
-        796.9414,
-        -152.71985
+        799.88104,
+        -153.28317
       ]
     },
     {
@@ -7835,8 +7835,8 @@
       "name": "thread-safety",
       "occurrences": 2,
       "position": [
-        785.9906,
-        -144.91473
+        804.9795,
+        -148.41576
       ]
     },
     {
@@ -7844,8 +7844,8 @@
       "name": "thresh",
       "occurrences": 2,
       "position": [
-        773.99927,
-        -137.09886
+        800.70386,
+        -141.82906
       ]
     },
     {
@@ -7853,8 +7853,8 @@
       "name": "timeout-management",
       "occurrences": 2,
       "position": [
-        792.9626,
-        -134.72977
+        784.86456,
+        -133.35385
       ]
     },
     {
@@ -7862,8 +7862,8 @@
       "name": "tool-discovery",
       "occurrences": 2,
       "position": [
-        781.70135,
-        -127.183105
+        796.41547,
+        -129.5771
       ]
     },
     {
@@ -7871,8 +7871,8 @@
       "name": "tool-registry",
       "occurrences": 2,
       "position": [
-        791.63184,
-        -123.10695
+        784.6837,
+        -122.02644
       ]
     },
     {
@@ -7880,8 +7880,8 @@
       "name": "tool|tools",
       "occurrences": 2,
       "position": [
-        802.54724,
-        -119.04664
+        780.0894,
+        -115.71533
       ]
     },
     {
@@ -7889,8 +7889,8 @@
       "name": "trace",
       "occurrences": 2,
       "position": [
-        806.72003,
-        -113.88994
+        805.19763,
+        -113.67501
       ]
     },
     {
@@ -7898,8 +7898,8 @@
       "name": "traceability",
       "occurrences": 2,
       "position": [
-        777.4579,
-        -104.20364
+        772.1481,
+        -103.49197
       ]
     },
     {
@@ -7907,8 +7907,8 @@
       "name": "traceable",
       "occurrences": 2,
       "position": [
-        794.96234,
-        -100.88022
+        811.9687,
+        -103.038315
       ]
     },
     {
@@ -7916,8 +7916,8 @@
       "name": "trade-offs",
       "occurrences": 2,
       "position": [
-        769.527,
-        -92.17408
+        803.8308,
+        -96.283
       ]
     },
     {
@@ -7925,8 +7925,8 @@
       "name": "transaction-management",
       "occurrences": 2,
       "position": [
-        806.4107,
-        -90.860664
+        813.2615,
+        -91.63256
       ]
     },
     {
@@ -7934,8 +7934,8 @@
       "name": "traversal",
       "occurrences": 2,
       "position": [
-        778.06946,
-        -82.14618
+        773.91144,
+        -81.707184
       ]
     },
     {
@@ -7943,8 +7943,8 @@
       "name": "treasure-repository",
       "occurrences": 2,
       "position": [
-        818.18134,
-        -80.58383
+        776.6882,
+        -76.49711
       ]
     },
     {
@@ -7952,8 +7952,8 @@
       "name": "unique-graph-test-concept",
       "occurrences": 2,
       "position": [
-        803.4522,
-        -73.44812
+        777.53534,
+        -71.07891
       ]
     },
     {
@@ -7961,8 +7961,8 @@
       "name": "utility",
       "occurrences": 2,
       "position": [
-        799.65936,
-        -67.45046
+        800.6817,
+        -67.5367
       ]
     },
     {
@@ -7970,8 +7970,8 @@
       "name": "validation-logic",
       "occurrences": 2,
       "position": [
-        811.45215,
-        -62.717686
+        785.11536,
+        -60.682095
       ]
     },
     {
@@ -7979,8 +7979,8 @@
       "name": "variants",
       "occurrences": 2,
       "position": [
-        790.77734,
-        -55.544205
+        794.26715,
+        -55.789333
       ]
     },
     {
@@ -7988,8 +7988,8 @@
       "name": "vectorsearchtests",
       "occurrences": 2,
       "position": [
-        794.1083,
-        -50.18469
+        801.79333,
+        -50.67036
       ]
     },
     {
@@ -7997,8 +7997,8 @@
       "name": "vectortools",
       "occurrences": 2,
       "position": [
-        788.59436,
-        -44.28651
+        797.05164,
+        -44.76146
       ]
     },
     {
@@ -8006,8 +8006,8 @@
       "name": "velocity",
       "occurrences": 2,
       "position": [
-        775.5794,
-        -38.101772
+        814.8946,
+        -40.033203
       ]
     },
     {
@@ -8015,8 +8015,8 @@
       "name": "virtual-addressing",
       "occurrences": 2,
       "position": [
-        777.3564,
-        -32.726505
+        778.5684,
+        -32.777534
       ]
     },
     {
@@ -8024,8 +8024,8 @@
       "name": "wave-2",
       "occurrences": 2,
       "position": [
-        801.2251,
-        -28.104408
+        801.77344,
+        -28.12364
       ]
     },
     {
@@ -8033,8 +8033,8 @@
       "name": "weak-references",
       "occurrences": 2,
       "position": [
-        775.08636,
-        -21.746826
+        801.5487,
+        -22.489288
       ]
     },
     {
@@ -8042,8 +8042,8 @@
       "name": "western-market",
       "occurrences": 2,
       "position": [
-        775.0771,
-        -16.308052
+        800.51495,
+        -16.843279
       ]
     },
     {
@@ -8051,8 +8051,8 @@
       "name": "word-boundaries",
       "occurrences": 2,
       "position": [
-        781.25397,
-        -10.957779
+        785.77576,
+        -11.021202
       ]
     },
     {
@@ -8060,8 +8060,8 @@
       "name": "workflow-selection",
       "occurrences": 2,
       "position": [
-        781.55646,
-        -5.4807415
+        796.4556,
+        -5.5852237
       ]
     }
   ],
@@ -52985,6 +52985,6 @@
   "metadata": {
     "totalConcepts": 896,
     "totalRelationships": 8983,
-    "exportDate": "2025-10-27 14:25:42"
+    "exportDate": "2025-10-27 14:39:21"
   }
 }
