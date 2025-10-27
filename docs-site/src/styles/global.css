@@ -100,6 +100,12 @@ article.prose blockquote {
   font-style: italic;
 }
 
+/* Make bold text more scannable */
+strong {
+  font-weight: 600;
+  color: #0969da;
+}
+
 /* Dark mode overrides */
 @media (prefers-color-scheme: dark) {
   article.prose code {
@@ -118,5 +124,9 @@ article.prose blockquote {
 
   article.prose blockquote {
     border-left-color: #54aeff;
+  }
+
+  strong {
+    color: #54aeff;
   }
 }

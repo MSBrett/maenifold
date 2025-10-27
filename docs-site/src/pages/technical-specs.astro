@@ -6,11 +6,31 @@ import BaseLayout from '../layouts/BaseLayout.astro';
   <div class="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
     <h1 class="text-4xl font-light mb-8">Technical Specifications</h1>
 
+    <!-- Stats Hero -->
+    <div class="grid md:grid-cols-4 gap-6 mb-12 text-center">
+      <div class="p-6 bg-gray-50 dark:bg-gray-800 rounded-lg">
+        <div class="text-3xl font-bold text-primary dark:text-primary-light mb-2">1.1M+</div>
+        <div class="text-sm text-gray-600 dark:text-gray-400">Relationships Tested</div>
+      </div>
+      <div class="p-6 bg-gray-50 dark:bg-gray-800 rounded-lg">
+        <div class="text-3xl font-bold text-primary dark:text-primary-light mb-2">384-dim</div>
+        <div class="text-sm text-gray-600 dark:text-gray-400">Vector Embeddings</div>
+      </div>
+      <div class="p-6 bg-gray-50 dark:bg-gray-800 rounded-lg">
+        <div class="text-3xl font-bold text-primary dark:text-primary-light mb-2">30+</div>
+        <div class="text-sm text-gray-600 dark:text-gray-400">Built-in Workflows</div>
+      </div>
+      <div class="p-6 bg-gray-50 dark:bg-gray-800 rounded-lg">
+        <div class="text-3xl font-bold text-primary dark:text-primary-light mb-2">k=60</div>
+        <div class="text-sm text-gray-600 dark:text-gray-400">RRF Hybrid Search</div>
+      </div>
+    </div>
+
     <!-- Core Specs -->
     <section class="mb-12">
       <div class="grid md:grid-cols-2 gap-6">
         <div class="p-6 border border-gray-200 dark:border-gray-700 rounded-lg">
-          <h3 class="text-xl font-semibold mb-4">Platform</h3>
+          <h3 class="text-xl font-semibold mb-4">🏗️ Platform</h3>
           <ul class="space-y-2">
             <li><strong>Language:</strong> C# with .NET 9.0</li>
             <li><strong>Database:</strong> SQLite with vector extension</li>
@@ -20,7 +40,7 @@ import BaseLayout from '../layouts/BaseLayout.astro';
         </div>
 
         <div class="p-6 border border-gray-200 dark:border-gray-700 rounded-lg">
-          <h3 class="text-xl font-semibold mb-4">AI/ML</h3>
+          <h3 class="text-xl font-semibold mb-4">🤖 AI/ML</h3>
           <ul class="space-y-2">
             <li><strong>Vector Dimensions:</strong> 384 (all-MiniLM-L6-v2 via ONNX)</li>
             <li><strong>Search Algorithm:</strong> Reciprocal Rank Fusion (k=60)</li>
@@ -30,7 +50,7 @@ import BaseLayout from '../layouts/BaseLayout.astro';
         </div>
 
         <div class="p-6 border border-gray-200 dark:border-gray-700 rounded-lg">
-          <h3 class="text-xl font-semibold mb-4">Scale & Performance</h3>
+          <h3 class="text-xl font-semibold mb-4">⚡ Scale & Performance</h3>
           <ul class="space-y-2">
             <li><strong>Tested Scale:</strong> > 1.1 million relationships</li>
             <li><strong>Edge Weights:</strong> Strengthen with repeated mentions</li>
@@ -40,7 +60,7 @@ import BaseLayout from '../layouts/BaseLayout.astro';
         </div>
 
         <div class="p-6 border border-gray-200 dark:border-gray-700 rounded-lg">
-          <h3 class="text-xl font-semibold mb-4">Integration</h3>
+          <h3 class="text-xl font-semibold mb-4">🔌 Integration</h3>
           <ul class="space-y-2">
             <li><strong>MCP Compliance:</strong> Full tool annotation support</li>
             <li><strong>CLI Access:</strong> Direct script/pipeline integration</li>
@@ -58,36 +78,36 @@ import BaseLayout from '../layouts/BaseLayout.astro';
       <div class="space-y-8">
         <div class="p-6 bg-gray-50 dark:bg-gray-800 rounded-lg">
           <h3 class="text-2xl font-semibold mb-4">Reasoning Layer - Where Information is Processed</h3>
-          <p class="mb-4">Where test-time computation happens:</p>
+          <p class="mb-4">Test-time computation:</p>
           <ul class="space-y-2">
-            <li>• <strong>Test-time Adaptive Reasoning:</strong> Sequential thinking with revision, branching, persistence and automatic graph construction</li>
-            <li>• <strong>Perspective Tuning:</strong> Rich role and color (six thinking hats) definitions provide tunable agent perspectives</li>
-            <li>• <strong>Intelligent Workflow Selection:</strong> Meta-cognitive system that analyzes problems and selects optimal reasoning approaches</li>
-            <li>• <strong>30 Distinct Methodologies:</strong> Complete taxonomy from deductive reasoning to design thinking, with sophisticated orchestration</li>
-            <li>• <strong>Assumption Ledger:</strong> Traceable skepticism for agent reasoning—capture, validate, and track assumptions without auto-inference</li>
-            <li>• <strong>Multi-agent Coordination:</strong> Wave-based execution with parallel agent dispatch with 'blue-hat' product manager orchestrating sub-agents</li>
+            <li>• <strong>Sequential Thinking:</strong> Revision, branching, persistence with automatic graph construction</li>
+            <li>• <strong>Perspective Tuning:</strong> Rich role and color definitions for tunable agent perspectives</li>
+            <li>• <strong>Workflow Selection:</strong> Meta-cognitive system analyzes problems, selects optimal approaches</li>
+            <li>• <strong>30 Methodologies:</strong> Complete taxonomy from deductive reasoning to design thinking</li>
+            <li>• <strong>Assumption Ledger:</strong> Capture, validate, and track assumptions without auto-inference</li>
+            <li>• <strong>Multi-agent:</strong> Wave-based execution with parallel dispatch and 'blue-hat' orchestration</li>
           </ul>
         </div>
 
         <div class="p-6 bg-gray-50 dark:bg-gray-800 rounded-lg">
           <h3 class="text-2xl font-semibold mb-4">Memory Layer (memory://) - Where Data is Stored</h3>
           <ul class="space-y-2">
-            <li>• <strong>Local:</strong> Every piece of knowledge lives as a markdown file on disk with a unique URI</li>
-            <li>• <strong>Transparent:</strong> Every thought, revision, and decision visible in markdown files</li>
-            <li>• <strong>Human-Friendly:</strong> All files are human-readable, Obsidian-compatible, and persist across sessions</li>
+            <li>• <strong>Local:</strong> Every piece of knowledge lives as a markdown file with unique URI</li>
+            <li>• <strong>Transparent:</strong> Every thought, revision, decision visible in markdown</li>
+            <li>• <strong>Human-Friendly:</strong> Obsidian-compatible files persist across sessions</li>
           </ul>
         </div>
 
         <div class="p-6 bg-gray-50 dark:bg-gray-800 rounded-lg">
           <h3 class="text-2xl font-semibold mb-4">Graph Layer (SQLite + vectors) - Where Knowledge Emerges</h3>
-          <p class="mb-4">Automatic graph construction from <code>[[WikiLinks]]</code> with:</p>
+          <p class="mb-4">Automatic graph construction from <code>[[WikiLinks]]</code>:</p>
           <ul class="space-y-2">
             <li>• <strong>384-dimensional embeddings</strong> for semantic similarity</li>
-            <li>• <strong>Edge weights</strong> that strengthen with repeated mentions</li>
-            <li>• <strong>Concept clustering</strong> revealing emergent patterns</li>
-            <li>• <strong>Incremental sync</strong> keeping the graph current</li>
-            <li>• <strong>Hybrid RRF Search:</strong> Semantic + full-text fusion for optimal retrieval (not just embedding similarity)</li>
-            <li>• <strong>Graph Construction:</strong> No schema, no ontology — structure emerges from WikiLink usage</li>
+            <li>• <strong>Edge weights</strong> strengthen with repeated mentions</li>
+            <li>• <strong>Concept clustering</strong> reveals emergent patterns</li>
+            <li>• <strong>Incremental sync</strong> keeps graph current</li>
+            <li>• <strong>Hybrid RRF Search:</strong> Semantic + full-text fusion (not just embeddings)</li>
+            <li>• <strong>No schema:</strong> Structure emerges from WikiLink usage</li>
           </ul>
         </div>
       </div>
