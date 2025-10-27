@@ -1,0 +1,110 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+---
+
+<BaseLayout title="Technical Specifications - maenifold">
+  <div class="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
+    <h1 class="text-4xl font-light mb-8">Technical Specifications</h1>
+
+    <!-- Core Specs -->
+    <section class="mb-12">
+      <div class="grid md:grid-cols-2 gap-6">
+        <div class="p-6 border border-gray-200 dark:border-gray-700 rounded-lg">
+          <h3 class="text-xl font-semibold mb-4">Platform</h3>
+          <ul class="space-y-2">
+            <li><strong>Language:</strong> C# with .NET 9.0</li>
+            <li><strong>Database:</strong> SQLite with vector extension</li>
+            <li><strong>Memory Format:</strong> Markdown with YAML frontmatter</li>
+            <li><strong>URI Scheme:</strong> memory:// protocol</li>
+          </ul>
+        </div>
+
+        <div class="p-6 border border-gray-200 dark:border-gray-700 rounded-lg">
+          <h3 class="text-xl font-semibold mb-4">AI/ML</h3>
+          <ul class="space-y-2">
+            <li><strong>Vector Dimensions:</strong> 384 (all-MiniLM-L6-v2 via ONNX)</li>
+            <li><strong>Search Algorithm:</strong> Reciprocal Rank Fusion (k=60)</li>
+            <li><strong>Embeddings:</strong> Semantic similarity with 384-dimensional vectors</li>
+            <li><strong>Graph Sync:</strong> Incremental with file watching</li>
+          </ul>
+        </div>
+
+        <div class="p-6 border border-gray-200 dark:border-gray-700 rounded-lg">
+          <h3 class="text-xl font-semibold mb-4">Scale & Performance</h3>
+          <ul class="space-y-2">
+            <li><strong>Tested Scale:</strong> > 1.1 million relationships</li>
+            <li><strong>Edge Weights:</strong> Strengthen with repeated mentions</li>
+            <li><strong>Concept Clustering:</strong> Emergent patterns from usage</li>
+            <li><strong>Graph Construction:</strong> No schema, no ontology</li>
+          </ul>
+        </div>
+
+        <div class="p-6 border border-gray-200 dark:border-gray-700 rounded-lg">
+          <h3 class="text-xl font-semibold mb-4">Integration</h3>
+          <ul class="space-y-2">
+            <li><strong>MCP Compliance:</strong> Full tool annotation support</li>
+            <li><strong>CLI Access:</strong> Direct script/pipeline integration</li>
+            <li><strong>Concurrency:</strong> Multi-agent safe</li>
+            <li><strong>Compatibility:</strong> Obsidian-compatible markdown</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- Cognitive Stack -->
+    <section class="mb-12">
+      <h2 class="text-3xl font-light mb-6">The Cognitive Stack</h2>
+
+      <div class="space-y-8">
+        <div class="p-6 bg-gray-50 dark:bg-gray-800 rounded-lg">
+          <h3 class="text-2xl font-semibold mb-4">Reasoning Layer - Where Information is Processed</h3>
+          <p class="mb-4">Where test-time computation happens:</p>
+          <ul class="space-y-2">
+            <li>• <strong>Test-time Adaptive Reasoning:</strong> Sequential thinking with revision, branching, persistence and automatic graph construction</li>
+            <li>• <strong>Perspective Tuning:</strong> Rich role and color (six thinking hats) definitions provide tunable agent perspectives</li>
+            <li>• <strong>Intelligent Workflow Selection:</strong> Meta-cognitive system that analyzes problems and selects optimal reasoning approaches</li>
+            <li>• <strong>30 Distinct Methodologies:</strong> Complete taxonomy from deductive reasoning to design thinking, with sophisticated orchestration</li>
+            <li>• <strong>Assumption Ledger:</strong> Traceable skepticism for agent reasoning—capture, validate, and track assumptions without auto-inference</li>
+            <li>• <strong>Multi-agent Coordination:</strong> Wave-based execution with parallel agent dispatch with 'blue-hat' product manager orchestrating sub-agents</li>
+          </ul>
+        </div>
+
+        <div class="p-6 bg-gray-50 dark:bg-gray-800 rounded-lg">
+          <h3 class="text-2xl font-semibold mb-4">Memory Layer (memory://) - Where Data is Stored</h3>
+          <ul class="space-y-2">
+            <li>• <strong>Local:</strong> Every piece of knowledge lives as a markdown file on disk with a unique URI</li>
+            <li>• <strong>Transparent:</strong> Every thought, revision, and decision visible in markdown files</li>
+            <li>• <strong>Human-Friendly:</strong> All files are human-readable, Obsidian-compatible, and persist across sessions</li>
+          </ul>
+        </div>
+
+        <div class="p-6 bg-gray-50 dark:bg-gray-800 rounded-lg">
+          <h3 class="text-2xl font-semibold mb-4">Graph Layer (SQLite + vectors) - Where Knowledge Emerges</h3>
+          <p class="mb-4">Automatic graph construction from <code>[[WikiLinks]]</code> with:</p>
+          <ul class="space-y-2">
+            <li>• <strong>384-dimensional embeddings</strong> for semantic similarity</li>
+            <li>• <strong>Edge weights</strong> that strengthen with repeated mentions</li>
+            <li>• <strong>Concept clustering</strong> revealing emergent patterns</li>
+            <li>• <strong>Incremental sync</strong> keeping the graph current</li>
+            <li>• <strong>Hybrid RRF Search:</strong> Semantic + full-text fusion for optimal retrieval (not just embedding similarity)</li>
+            <li>• <strong>Graph Construction:</strong> No schema, no ontology — structure emerges from WikiLink usage</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- Tech Badges -->
+    <section class="text-center">
+      <div class="flex flex-wrap justify-center gap-3">
+        <span class="px-4 py-2 bg-primary dark:bg-primary-light text-white rounded-full text-sm">.NET 9.0</span>
+        <span class="px-4 py-2 bg-primary dark:bg-primary-light text-white rounded-full text-sm">SQLite</span>
+        <span class="px-4 py-2 bg-primary dark:bg-primary-light text-white rounded-full text-sm">ONNX</span>
+        <span class="px-4 py-2 bg-primary dark:bg-primary-light text-white rounded-full text-sm">384-dim vectors</span>
+        <span class="px-4 py-2 bg-primary dark:bg-primary-light text-white rounded-full text-sm">RRF k=60</span>
+        <span class="px-4 py-2 bg-primary dark:bg-primary-light text-white rounded-full text-sm">MCP</span>
+        <span class="px-4 py-2 bg-primary dark:bg-primary-light text-white rounded-full text-sm">&gt;1.1M relationships</span>
+        <span class="px-4 py-2 bg-primary dark:bg-primary-light text-white rounded-full text-sm">MIT License</span>
+      </div>
+    </section>
+  </div>
+</BaseLayout>

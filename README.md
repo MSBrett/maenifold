@@ -184,7 +184,7 @@ tool_timeout_sec = 600
 env = { MAENIFOLD_ROOT = "~/maenifold" }
 ```
 
-Try it: `"Write a memory about our [[architecture]] decisions"`
+Try it: `"Write a memory about our architecture decisions"`
 
 ### CLI Interface
 

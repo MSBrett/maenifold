@@ -1,0 +1,104 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+---
+
+<BaseLayout title="maenifold - Persistent Knowledge Graphs for AI Agents">
+  <!-- Hero -->
+  <section class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-20 text-center">
+    <img src="/logo.svg" alt="maenifold" class="h-32 mx-auto mb-8" />
+    <h1 class="text-4xl md:text-5xl font-light mb-6">
+      Your AI is ephemeral. Your knowledge shouldn't be.
+    </h1>
+  </section>
+
+  <!-- What it does -->
+  <section class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
+    <h2 class="text-3xl font-light mb-6">What maenifold does</h2>
+    <div class="prose prose-lg dark:prose-invert max-w-none">
+      <p class="text-xl mb-4">
+        <strong>maenifold</strong> enhances AI agents with persistent graphs of thought that compound over time.
+        Every tool creates <code>[[WikiLink]]</code> connections that survive conversations. Every session builds on the last.
+        Knowledge compounds instead of resets. <strong>It transforms ephemeral AI sessions into continuous collective intelligence.</strong>
+      </p>
+    </div>
+  </section>
+
+  <!-- Demo Results -->
+  <section class="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 py-12 bg-gray-50 dark:bg-gray-800 rounded-lg my-12">
+    <h2 class="text-3xl font-light mb-8 text-center">Demo Results</h2>
+    <div class="grid md:grid-cols-3 gap-8 text-center mb-8">
+      <div>
+        <div class="text-4xl font-bold text-primary dark:text-primary-light mb-2">25</div>
+        <div class="text-gray-600 dark:text-gray-400">AI Agents</div>
+      </div>
+      <div>
+        <div class="text-4xl font-bold text-primary dark:text-primary-light mb-2">68</div>
+        <div class="text-gray-600 dark:text-gray-400">Minutes</div>
+      </div>
+      <div>
+        <div class="text-4xl font-bold text-primary dark:text-primary-light mb-2">85%</div>
+        <div class="text-gray-600 dark:text-gray-400">Test Success</div>
+      </div>
+    </div>
+    <div class="text-center space-y-2">
+      <p class="text-xl font-semibold">Real production bug found</p>
+      <p class="text-xl font-semibold">Zero orchestration code written</p>
+      <p class="text-lg text-gray-600 dark:text-gray-400">171,506 concept relationships created</p>
+      <a href="/use-cases/sprint-testing" class="inline-block mt-4 px-6 py-2 bg-primary dark:bg-primary-light text-white rounded hover:opacity-90">
+        View Use Case
+      </a>
+    </div>
+  </section>
+
+  <!-- How it worked -->
+  <section class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
+    <h3 class="text-2xl font-light mb-6">How it worked</h3>
+    <ul class="space-y-3 text-lg">
+      <li>• Agents shared discoveries through <code>[[WikiLinks]]</code> in memory files</li>
+      <li>• Each wave of agents built on previous findings via search and context traversal</li>
+      <li>• The critical bug emerged from patterns across multiple test sessions</li>
+      <li>• 171,506 new concept relationships were created, connecting discoveries</li>
+    </ul>
+    <p class="mt-6 text-xl text-gray-600 dark:text-gray-400">
+      That's what maenifold does: It provides the substrate (WikiLinks, memory, graph) and steps back. Intelligence fills the space.
+    </p>
+  </section>
+
+  <!-- Quick Start -->
+  <section class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
+    <h2 class="text-3xl font-light mb-6">Quick Start</h2>
+    <div class="bg-gray-900 rounded-lg p-6 mb-6">
+      <pre class="text-green-400 font-mono"><code>npm install -g @ma-collective/maenifold</code></pre>
+    </div>
+    <a href="/installation" class="inline-block px-6 py-3 bg-primary dark:bg-primary-light text-white rounded hover:opacity-90">
+      Installation Guide
+    </a>
+  </section>
+
+  <!-- Feature Grid -->
+  <section class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
+    <div class="grid md:grid-cols-3 gap-8">
+      <div class="p-6 border border-gray-200 dark:border-gray-700 rounded-lg">
+        <h3 class="text-xl font-semibold mb-3">Cognitive Assets</h3>
+        <p class="text-gray-600 dark:text-gray-400 mb-4">
+          54 pre-configured frameworks: 28 workflows, 7 roles, 7 colors, 12 linguistic perspectives
+        </p>
+        <a href="/cognitive-assets" class="text-primary dark:text-primary-light hover:underline">Learn more →</a>
+      </div>
+      <div class="p-6 border border-gray-200 dark:border-gray-700 rounded-lg">
+        <h3 class="text-xl font-semibold mb-3">25+ Tools</h3>
+        <p class="text-gray-600 dark:text-gray-400 mb-4">
+          Memory system, graph operations, sequential thinking, workflow orchestration
+        </p>
+        <a href="/tools" class="text-primary dark:text-primary-light hover:underline">Browse tools →</a>
+      </div>
+      <div class="p-6 border border-gray-200 dark:border-gray-700 rounded-lg">
+        <h3 class="text-xl font-semibold mb-3">Technical Specs</h3>
+        <p class="text-gray-600 dark:text-gray-400 mb-4">
+          C# / .NET 9.0, SQLite, 384-dim vectors, tested at >1.1M relationships
+        </p>
+        <a href="/technical-specs" class="text-primary dark:text-primary-light hover:underline">View specs →</a>
+      </div>
+    </div>
+  </section>
+</BaseLayout>
