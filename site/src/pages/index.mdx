@@ -2,7 +2,7 @@
 layout: ../layouts/Landing.astro
 ---
 
-<p align="left">
+<p align="center">
   <img src="assets/branding/maenifold-logo.svg" alt="maenifold" />
 </p>
 
@@ -13,7 +13,7 @@ layout: ../layouts/Landing.astro
 - Every session builds on the last. Knowledge compounds instead of resets.
 - **It transforms ephemeral AI sessions into continuous collective intelligence.**
 
-<p align="left">
+<p align="center">
   <img src="assets/branding/graph.jpeg" alt="graph" width="800" />
 </p>
 
@@ -62,39 +62,9 @@ These aren't just templates - they combine with the knowledge graph to create em
 
 ### Tool Relationships
 
-```mermaid
-graph TD
-    subgraph OVERALL["maenifold"]
-        subgraph AGENT["AI Agent"]
-            LLM[🧠 LLM Agent]
-        end
-
-        subgraph PERSP["Perspectives"]
-            A[🎭 Adopt]
-        end
-
-        subgraph THINK["Thinking"]
-            ST[🌊 SequentialThinking]
-            WF[📋 Workflow]
-        end
-
-        subgraph MEMORY["Memory System"]
-            MEM[🗄️ Memory]
-                GRPH[🕸️ Graph]
-        end
-    end
-
-
-    A --> LLM
-    LLM --> WF
-    LLM --> ST
-    WF -.-> ST
-    ST --> MEM
-    WF --> MEM
-    MEM --> GRPH
-    GRPH --> LLM
-    MEM --> LLM
-```
+<p align="center">
+  <img src="assets/diagrams/cognitive-stack.svg" alt="Cognitive Stack Architecture" width="600" />
+</p>
 
 ### Reasoning Layer (Tools + Workflows) - Where Information is Processed
 
