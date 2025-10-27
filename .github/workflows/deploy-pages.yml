@@ -1,31 +1,63 @@
-Thanks — this updated workflow looks good and follows GitHub Pages best practices. Summary of the important changes you made and a few checks / small suggestions:
+name: Deploy GitHub Pages
 
-What changed and why it’s good
-- Trigger
-  - Restricted to main only and added workflow_dispatch so you can run it manually.
-- concurrency
-  - Added to cancel in‑progress pages runs (helps avoid duplicate deployments).
-- setup-node cache
-  - Switched cache-dependency-path to site/package-lock.json (better cache key if you use a lockfile).
-- configure-pages
-  - Added actions/configure-pages@v5 — required by the Pages deployment flow to create the correct environment and artifacts.
-- Install step
-  - Now uses npm ci (no fallback). This is deterministic and preferable in CI if you have a lockfile.
-- Upload / Deploy
-  - Still uses actions/upload-pages-artifact@v3 and actions/deploy-pages@v4 as recommended.
+on:
+  push:
+    branches: [ main ]
+    paths:
+      - 'site/**'
+      - 'README.md'
+      - 'assets/**'
+      - 'src/assets/usage/**'
+  workflow_dispatch:
 
-Quick checklist (things to verify)
-- Ensure site/package-lock.json actually exists. If you use yarn or pnpm, update cache-dependency-path accordingly.
-- Confirm your Astro output directory is site/dist (Astro default is dist, so this is usually correct).
-- Permissions: pages: write and id-token: write are present — required for deploy-pages. contents: read is fine.
-- If your repo still has a master branch, removing it from the push trigger is fine if you only intend to use main.
-- The environment url expression (${{ steps.deployment.outputs.page_url }}) is the pattern used in the Pages docs and will populate the environment URL after the deploy step runs.
+permissions:
+  contents: read
+  pages: write
+  id-token: write
 
-Optional suggestions
-- If you want to reduce noise from failed builds caused by transient npm registry errors, you could keep your original fallback (npm ci || npm i), but npm ci is better for reproducibility.
-- If you want to pin more strictly, you can choose specific action major.minor versions, but @v4 / @v5 are common and reasonable.
-- If you use a package manager other than npm, replace the install/build steps and cache path accordingly.
+concurrency:
+  group: 'pages'
+  cancel-in-progress: true
 
-If you’d like, I can:
-- Validate the workflow for any repo-specific differences (e.g., different lockfile or build output directory),
-- Produce a final YAML with any optional suggestions applied.
+jobs:
+  build:
+    name: Build
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v5
+
+      - name: Configure Pages
+        uses: actions/configure-pages@v5
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+          cache: 'npm'
+          cache-dependency-path: site/package-lock.json
+
+      - name: Install dependencies
+        working-directory: site
+        run: npm ci
+
+      - name: Build site
+        working-directory: site
+        run: npm run build
+
+      - name: Upload artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: site/dist
+
+  deploy:
+    name: Deploy
+    runs-on: ubuntu-latest
+    needs: build
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4

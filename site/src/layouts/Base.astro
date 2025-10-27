@@ -1,14 +1,11 @@
-```astro
 ---
-name: Base
 ---
-
 <html lang="en">
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width" />
     <meta name="theme-color" content="#0b1520" />
-    <link rel="icon" href="/assets/branding/maenifold-logo.svg" />
+    <link rel="icon" href={ `${import.meta.env.BASE_URL}assets/branding/maenifold-logo.svg` } />
     <style>
       :root{
         --bg: #0b1520; /* deep slate */
@@ -82,4 +79,3 @@ name: Base
     </footer>
   </body>
 </html>
-```
