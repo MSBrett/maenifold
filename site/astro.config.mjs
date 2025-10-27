@@ -4,8 +4,8 @@ import mdx from '@astrojs/mdx';
 import sitemap from '@astrojs/sitemap';
 
 export default defineConfig({
-  site: 'https://msbrett.github.io/maenifold/',
-  base: '/maenifold/',
+  site: 'https://www.maenifold.com/',
+  base: '/',
   integrations: [mdx(), sitemap()],
   output: 'static',
   markdown: {
