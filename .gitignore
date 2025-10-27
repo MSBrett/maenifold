@@ -1,0 +1,155 @@
+# Build outputs
+bin/
+obj/
+*.dll
+*.exe
+*.pdb
+*.nupkg
+*.snupkg
+
+# User-specific files
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Visual Studio / VS Code
+.vs/
+.vscode/
+*.code-workspace
+
+# Rider
+.idea/
+*.sln.iml
+
+# NuGet
+packages/
+project.lock.json
+project.fragment.lock.json
+artifacts/
+
+# Test Results
+TestResults/
+test-results/
+test-outputs/
+coverage-reports/
+coverage/
+*.trx
+*.coverage
+coverage-final.json
+
+# Test artifacts
+tests/artifacts/logs/*
+tests/artifacts/reports/*
+tests/artifacts/data/*
+!tests/artifacts/README.md
+
+# Memory database logs
+memory/*.db-shm
+memory/*.db-wal
+
+# Memory directory (user-specific thinking sessions and data)
+memory/
+
+# macOS
+.DS_Store
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Logs
+*.log
+logs/
+
+# Temporary files
+*.tmp
+*.temp
+*.swp
+*~
+*.bak
+*.bak2
+*.zip
+__pycache__/
+*.py[cod]
+.env
+.env.local
+
+# Node
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Python
+venv/
+.venv/
+*.egg-info/
+dist/
+build/
+*.whl
+
+# External dependencies
+external-libs/
+
+# Development scripts
+/debug-*
+/validate-*
+/test-*
+/fix-*
+
+# Documentation drafts (private)
+*.draft.md
+TODO.md
+AGENTS.md
+CLAUDE.md
+RTM.md
+implementation_plan.md
+
+# Documentation development artifacts (keep built site for GitHub Pages)
+docs/dev/
+docs/_next/server/
+docs/_next/static/development/
+
+# Test configuration
+test.runsettings
+
+# Code analysis
+.serena/
+.playwright-mcp/
+.bevel/
+.clinerules/
+.claude/
+.codenav/
+.obsidian/
+.aider*
+
+# Security scanning
+gitleaks-report.json
+trufflehog-report.json
+.gitleaks.toml
+
+# Release
+release/
+publish/
+
+# VSCode Extension (if applicable)
+vscode/node_modules/
+vscode/.vscode-test/
+vscode/.vscode-test-web/
+vscode/*.tsbuildinfo
+vscode/*.vsix
+vscode/out/
+vscode/dist/
+vscode/.test-workspace/
+
+# Any other extension projects
+visx/node_modules/
+visx/.vscode-test/
+visx/.vscode-test-web/
+visx/*.tsbuildinfo
+visx/*.vsix
+visx/out/
+visx/dist/
+visx/.test-workspace/

@@ -1,0 +1,90 @@
+{
+  "name": "maenifold - Constitutional C# Development",
+  "image": "mcr.microsoft.com/devcontainers/dotnet:8.0",
+
+  // Constitutional Development Environment
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        // Essential C# Development (Ma Philosophy - minimal sufficient)
+        "ms-dotnettools.csharp",
+        "ms-dotnettools.csdevkit",
+
+        // Constitutional Quality Enforcement
+        "ms-dotnettools.vscode-dotnet-runtime",
+        "ms-vscode.vscode-json",
+
+        // Real Infrastructure Support
+        "ms-mssql.mssql",
+        "alexcvzz.vscode-sqlite",
+
+        // Constitutional Validation
+        "streetsidesoftware.code-spell-checker",
+        "redhat.vscode-xml"
+      ],
+
+      "settings": {
+        // Constitutional C# Settings
+        "dotnet.completion.showCompletionItemsFromUnimportedNamespaces": false,
+        "dotnet.codeLens.enableReferencesCodeLens": true,
+        "dotnet.inlayHints.enableInlayHintsForLiteralParameters": true,
+        "dotnet.inlayHints.enableInlayHintsForIndexerParameters": true,
+        "dotnet.inlayHints.enableInlayHintsForObjectCreationParameters": true,
+        "dotnet.inlayHints.enableInlayHintsForOtherParameters": true,
+        "dotnet.inlayHints.suppressInlayHintsForParametersWithSameNameAsDestination": true,
+
+        // Constitutional Code Quality
+        "editor.formatOnSave": true,
+        "editor.codeActionsOnSave": {
+          "source.fixAll": true,
+          "source.organizeImports": true
+        },
+        "files.trimTrailingWhitespace": true,
+        "files.insertFinalNewline": true,
+
+        // Constitutional Documentation
+        "csharp.completion.showCompletionItemsFromUnimportedNamespaces": false,
+        "csharp.semanticHighlighting.enabled": true,
+
+        // Real Dependencies Enforcement
+        "editor.rulers": [120],
+        "workbench.editor.enablePreview": false
+      }
+    }
+  },
+
+  // Constitutional Development Features
+  "features": {
+    "ghcr.io/devcontainers/features/git:1": {},
+    "ghcr.io/devcontainers/features/github-cli:1": {}
+  },
+
+  // Real Infrastructure Ports
+  "forwardPorts": [],
+
+  // Constitutional Development Lifecycle
+  "postCreateCommand": [
+    "bash",
+    "-c",
+    "echo 'maenifold Constitutional Development Environment Ready' && dotnet --version && echo 'Constitutional principles: Ma Philosophy, No Fake AI, Preserved Agency'"
+  ],
+
+  // Essential Development Commands
+  "postStartCommand": "dotnet restore",
+
+  // Constitutional User Configuration
+  "remoteUser": "vscode",
+  "containerUser": "vscode",
+
+  // Essential Volume Mounts Only (Ma Philosophy)
+  "mounts": [
+    "source=${localWorkspaceFolder}/.nuget,target=/home/vscode/.nuget,type=bind,consistency=cached"
+  ],
+
+  // Constitutional Environment Variables
+  "containerEnv": {
+    "DOTNET_CLI_TELEMETRY_OPTOUT": "1",
+    "DOTNET_NOLOGO": "1",
+    "CONSTITUTIONAL_VALIDATION": "true"
+  }
+}

@@ -1,0 +1,7 @@
+name: "CodeQL Config"
+
+paths-ignore:
+  - 'docs/_next/**'
+  - 'docs/documentation/_next/**'
+  - '**/node_modules/**'
+  - '**/*.min.js'

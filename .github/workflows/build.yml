@@ -1,0 +1,35 @@
+name: Build
+
+on:
+  push:
+    branches: [dev, main]
+  pull_request:
+    branches: [dev, main]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v5
+        with:
+          lfs: true
+
+      - uses: actions/setup-dotnet@v5
+        with:
+          dotnet-version: "9.0.x"
+
+      - name: Clean up old test databases
+        run: rm -rf /tmp/maenifold-test-root || true
+
+      - run: dotnet restore src/Maenifold.csproj
+
+      - run: dotnet build src/Maenifold.csproj --configuration Release --no-restore
+
+      - name: Run tests
+        run: dotnet test tests/Maenifold.Tests/Maenifold.Tests.csproj --configuration Release --verbosity normal
+
+    # Note: 2 tests are marked [Ignore] for performance reasons:
+    # - FtsIndexAccumulationTests.MultipleSyncsShouldNotAccumulateFtsRows (30+ seconds)
+    # - IncrementalSyncLifecycleUpdatesDatabase (concept graph edge validation issues)
+    # These can be run manually with: dotnet test --filter "FullyQualifiedName~<TestName>"

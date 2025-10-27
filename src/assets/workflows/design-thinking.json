@@ -1,0 +1,48 @@
+{
+  "id": "design-thinking",
+  "name": "Design Thinking",
+  "emoji": "💡",
+  "shortDescription": "Human-centered approach to innovation and problem-solving",
+  "triggers": [
+    "design thinking",
+    "empathize",
+    "define",
+    "ideate",
+    "prototype",
+    "test",
+    "user-centered design",
+    "human-centered",
+    "design process"
+  ],
+  "enhancedThinkingEnabled": true,
+  "steps": [
+    {
+      "id": "empathize",
+      "name": "Empathize - Understand the user and their needs",
+      "description": "Deeply understand user perspectives, emotions, and needs\n\n🧠 ENHANCED THINKING REQUIRED: Use the SequentialThinking tool to work through this systematically.\n\nThink deeply by stepping into the shoes of different user personas. What are their hidden needs, fears, and motivations?\n\n• From the user's perspective: What would they really want here?\n• From the stakeholder's view: What concerns might they have?\n• From an outsider's perspective: What would they notice first?",
+      "requiresEnhancedThinking": true
+    },
+    {
+      "id": "define",
+      "name": "Define - Frame the problem statement",
+      "description": "Synthesize empathy insights into a clear, actionable problem statement that guides ideation\n\n🧠 ENHANCED THINKING REQUIRED: Use the SequentialThinking tool to work through this systematically.\n\nFrame the problem from the user's perspective. Create a problem statement that:\n• Focuses on the user (not the solution or technology)\n• Is broad enough to allow creativity\n• Is narrow enough to be manageable\n• Captures the core need or challenge discovered during empathy\n\nFormat: '[User] needs a way to [user's need] because [insight]'",
+      "requiresEnhancedThinking": true
+    },
+    {
+      "id": "ideate",
+      "name": "Ideate - Generate creative solutions",
+      "description": "Generate multiple creative and diverse solution approaches\n\n🧠 ENHANCED THINKING REQUIRED: Use the SequentialThinking tool to work through this systematically.\n\nThink deeply beyond obvious solutions. What wild, creative, or unconventional approaches might work?\n\n• Alternative approach: Consider breaking the problem into smaller, interconnected pieces\n• Unconventional solution: What if we approached this from the end result backwards?\n• Cross-domain inspiration: How might gaming, art, or storytelling principles apply here?",
+      "requiresEnhancedThinking": true
+    },
+    {
+      "id": "prototype",
+      "name": "Prototype - Build quick, testable versions",
+      "requiresEnhancedThinking": false
+    },
+    {
+      "id": "test",
+      "name": "Test - Validate with users and iterate",
+      "requiresEnhancedThinking": false
+    }
+  ]
+}

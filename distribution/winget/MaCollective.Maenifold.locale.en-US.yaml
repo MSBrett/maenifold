@@ -1,0 +1,67 @@
+# Locale manifest for WinGet
+# Package metadata and description
+
+PackageIdentifier: MaCollective.Maenifold
+PackageVersion: 1.0.0
+PackageLocale: en-US
+Publisher: MSBrett
+PublisherUrl: https://github.com/MSBrett
+PublisherSupportUrl: https://github.com/MSBrett/maenifold/issues
+# PrivacyUrl:
+Author: MSBrett
+PackageName: Maenifold
+PackageUrl: https://github.com/MSBrett/maenifold
+License: MIT
+LicenseUrl: https://github.com/MSBrett/maenifold/blob/main/LICENSE
+Copyright: Copyright (c) 2025 MSBrett
+# CopyrightUrl:
+ShortDescription: Persistent Graph-of-Thoughts for AI agents and multi-agent systems
+Description: |-
+  maenifold is a memory substrate for AI agents and multi-agent systems.
+
+  It provides persistent Graph-of-Thoughts where past reasoning informs future thinking.
+  Retrieve from HOW you thought, not just WHAT you know.
+
+  Features:
+  - Sequential thinking with revision/branching
+  - 47 orchestrated workflows for multi-agent coordination
+  - Graph-RAG retrieval from reasoning history
+  - MCP protocol support for Claude, GPT, and other LLMs
+  - .NET 9.0 with cross-platform support
+  - SQLite with 384-dim vector embeddings
+
+  Integration modes:
+  - .NET library (direct integration)
+  - MCP protocol (cross-language)
+  - CLI (scripting)
+Moniker: maenifold
+Tags:
+  - mcp
+  - mcp-server
+  - knowledge-graph
+  - graph-of-thoughts
+  - graph-rag
+  - ai
+  - llm
+  - multi-agent
+  - sequential-thinking
+  - cognitive-infrastructure
+ReleaseNotes: |-
+  Initial release of maenifold v1.0.0
+
+  Features:
+  - Persistent Graph-of-Thoughts implementation
+  - 47 orchestrated workflows
+  - MCP protocol support
+  - CLI and .NET library modes
+  - Cross-platform binaries (self-contained)
+ReleaseNotesUrl: https://github.com/MSBrett/maenifold/releases/tag/v1.0.0
+# PurchaseUrl:
+# InstallationNotes:
+Documentations:
+  - DocumentLabel: Documentation
+    DocumentUrl: https://github.com/MSBrett/maenifold/blob/main/docs/README.md
+  - DocumentLabel: Development Guide
+    DocumentUrl: https://github.com/MSBrett/maenifold/blob/main/docs/DEVELOPMENT.md
+ManifestType: defaultLocale
+ManifestVersion: 1.6.0

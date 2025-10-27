@@ -1,0 +1,34 @@
+# maenifold MCP Server Code Analysis Rules
+# Ensures proper logging practices and MCP protocol compliance
+
+root = true
+
+[*.cs]
+# Console usage detection - treat as warnings to enforce proper patterns
+dotnet_diagnostic.CA1303.severity = suggestion  # Avoid hardcoded strings
+dotnet_diagnostic.CA1848.severity = warning     # Use LoggerMessage delegates
+dotnet_diagnostic.CA2254.severity = warning     # Template should be static expression
+
+# Code quality rules
+dotnet_diagnostic.IDE0005.severity = warning    # Remove unnecessary usings
+dotnet_diagnostic.IDE0052.severity = warning    # Remove unread private members
+dotnet_diagnostic.CA1812.severity = warning     # Avoid uninstantiated internal classes
+dotnet_diagnostic.CA2201.severity = warning     # Do not raise reserved exception types
+
+# Performance rules
+dotnet_diagnostic.CA1834.severity = suggestion  # Use StringBuilder for concatenation
+dotnet_diagnostic.CA1859.severity = suggestion  # Use concrete types when possible
+dotnet_diagnostic.CA1860.severity = suggestion  # Avoid using Enumerable.Any() extension method
+
+# Style preferences - Ma Protocol simplicity
+dotnet_style_qualification_for_field = false
+dotnet_style_qualification_for_property = false
+dotnet_style_qualification_for_method = false
+dotnet_style_qualification_for_event = false
+
+# Prefer explicit namespace declaration
+dotnet_style_namespace_match_folder = true
+
+# Code block preferences
+csharp_prefer_braces = true
+csharp_prefer_simple_using_statement = true

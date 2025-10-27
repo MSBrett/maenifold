@@ -1,0 +1,53 @@
+name: Branch Policy
+
+on:
+  pull_request:
+    types: [opened, reopened, synchronize, edited, ready_for_review]
+    branches:
+      - main
+      - dev
+
+permissions:
+  contents: read
+  pull-requests: read
+
+jobs:
+  policy:
+    name: policy
+    runs-on: ubuntu-latest
+    steps:
+      - name: Enforce PR base/source policy
+        env:
+          BASE_REF: ${{ github.base_ref }}
+          HEAD_REF: ${{ github.head_ref }}
+          HEAD_REPO: ${{ github.event.pull_request.head.repo.full_name }}
+          REPO: ${{ github.repository }}
+        run: |
+          echo "Base: $BASE_REF | Head: $HEAD_REF | Head repo: $HEAD_REPO | Repo: $REPO"
+
+          fail() { echo "::error::$1"; exit 1; }
+
+          # Rule 1: Only accept PRs into main from dev (same repo)
+          if [ "$BASE_REF" = "main" ]; then
+            if [ "$HEAD_REPO" != "$REPO" ]; then
+              fail "PRs to 'main' must come from the same repository (no direct fork merges)."
+            fi
+            if [ "$HEAD_REF" != "dev" ]; then
+              fail "PRs to 'main' must come from 'dev' only."
+            fi
+          fi
+
+          # Rule 2: PRs into dev must come from any same-repo branch except dev or main, or from forks
+          if [ "$BASE_REF" = "dev" ]; then
+            if [ "$HEAD_REPO" = "$REPO" ]; then
+              if [ "$HEAD_REF" = "dev" ] || [ "$HEAD_REF" = "main" ]; then
+                fail "PRs to 'dev' cannot come from 'dev' or 'main'. Use a separate branch."
+              else
+                echo "Same-repo PR into dev from non-dev/main branch accepted"
+              fi
+            else
+              echo "Fork PR into dev accepted"
+            fi
+          fi
+
+          echo "Branch policy passed."

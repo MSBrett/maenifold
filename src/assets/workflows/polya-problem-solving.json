@@ -1,0 +1,42 @@
+{
+  "id": "polya-problem-solving",
+  "name": "Pólya Problem Solving",
+  "emoji": "🧩",
+  "shortDescription": "George Pólya's systematic four-step approach to mathematical and general problem-solving",
+  "triggers": [
+    "polya",
+    "how to solve it",
+    "problem solving",
+    "mathematical thinking",
+    "systematic problem solving",
+    "four step method",
+    "heuristic approach"
+  ],
+  "enhancedThinkingEnabled": true,
+  "steps": [
+    {
+      "id": "understand",
+      "name": "Understand the Problem - Clarify what you're solving",
+      "description": "Deeply understand what the problem is asking before attempting to solve it\n\n🧠 ENHANCED THINKING REQUIRED: Use the SequentialThinking tool to work through this systematically.\n\nSystematically explore the problem:\n• What is the unknown? What are we trying to find or prove?\n• What are the data? What information is given?\n• What is the condition? What constraints or requirements must be satisfied?\n• Can you restate the problem in your own words?\n• Can you think of a picture or diagram that might help?\n• Is there enough information to enable you to find a solution?\n• Is there redundant or contradictory information?\n• Have you seen a problem similar to this before?",
+      "requiresEnhancedThinking": true
+    },
+    {
+      "id": "devise",
+      "name": "Devise a Plan - Find the connection between data and unknown",
+      "description": "Develop a strategy for solving the problem using various heuristics\n\n🧠 ENHANCED THINKING REQUIRED: Use the SequentialThinking tool to work through this systematically.\n\nExplore solution strategies:\n• Have you seen this problem before in a slightly different form?\n• Do you know a related problem? A similar theorem or principle?\n• Look at the unknown! Think of a familiar problem with the same or similar unknown\n• Could you restate the problem differently? More general? More special? Analogous?\n• Could you solve a part of the problem? Keep only part of the condition?\n• Could you derive something useful from the data?\n• Could you change the unknown or data to get closer to a solution?\n• Did you use all the data? The whole condition?\n\nConsider these strategies:\n• Work backward from the desired result\n• Look for a pattern\n• Solve a simpler analogous problem\n• Use symmetry or special cases\n• Consider extreme cases\n• Make a systematic list\n• Draw a picture or diagram\n• Use a formula or known result",
+      "requiresEnhancedThinking": true
+    },
+    {
+      "id": "execute",
+      "name": "Carry Out the Plan - Implement your strategy with patience",
+      "description": "Execute your chosen strategy step by step\n\n🧠 ENHANCED THINKING REQUIRED: Use the SequentialThinking tool to work through this systematically.\n\nImplement the solution:\n• Execute each step of your plan carefully\n• Check each step - can you see clearly that it's correct?\n• Can you prove that each step is correct?\n• If the plan isn't working, be patient but willing to try another approach\n• Don't give up too quickly, but don't persist with a failing strategy\n• Keep track of what you've tried and why it didn't work\n• Look for computational errors or logical gaps\n• Maintain clear notation and organization",
+      "requiresEnhancedThinking": true
+    },
+    {
+      "id": "review",
+      "name": "Look Back - Review and extend your solution",
+      "description": "Examine the solution and consider improvements or generalizations\n\n🧠 ENHANCED THINKING REQUIRED: Use the SequentialThinking tool to work through this systematically.\n\nReflect on the solution:\n• Can you check the result? Can you verify it's correct?\n• Can you check the argument? Are all steps valid?\n• Can you derive the result differently? Can you see it at a glance?\n• Can you use the result or method for other problems?\n• What made this problem difficult? What was the key insight?\n• Could you have solved it more elegantly or efficiently?\n• What did you learn that could help with future problems?\n• Can you generalize the solution to a broader class of problems?\n• Are there related problems you could now solve?",
+      "requiresEnhancedThinking": true
+    }
+  ]
+}

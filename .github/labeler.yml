@@ -1,0 +1,74 @@
+# Configuration for actions/labeler
+# Automatically labels PRs based on file paths changed
+
+# Core source code changes
+core:
+  - changed-files:
+    - any-glob-to-any-file: 'src/**/*.cs'
+
+# Tool changes
+tools:
+  - changed-files:
+    - any-glob-to-any-file: 'src/Tools/**/*.cs'
+
+# Test changes
+tests:
+  - changed-files:
+    - any-glob-to-any-file: 'tests/**/*'
+    - any-glob-to-any-file: 'test-outputs/**/*'
+
+# Documentation changes
+documentation:
+  - changed-files:
+    - any-glob-to-any-file:
+      - '**/*.md'
+      - 'docs/**/*'
+
+# Configuration changes
+configuration:
+  - changed-files:
+    - any-glob-to-any-file:
+      - '**/*.json'
+      - '**/*.yml'
+      - '**/*.yaml'
+      - '**/*.toml'
+      - '**/*.props'
+      - '**/*.csproj'
+
+# GitHub Actions changes
+github-actions:
+  - changed-files:
+    - any-glob-to-any-file: '.github/**/*'
+
+# Security-related changes
+security:
+  - changed-files:
+    - any-glob-to-any-file:
+      - '**/MemoryTools.Write.cs'
+      - '**/*Security*.cs'
+      - '**/*Auth*.cs'
+      - '**/*Validation*.cs'
+
+# Performance-related changes
+performance:
+  - changed-files:
+    - any-glob-to-any-file:
+      - '**/PerformanceBenchmark.cs'
+      - '**/GraphTools.cs'
+      - '**/VectorTools.cs'
+
+# VSCode extension changes
+vscode:
+  - changed-files:
+    - any-glob-to-any-file:
+      - 'vscode/**/*'
+      - 'visx/**/*'
+
+# Dependencies
+dependencies:
+  - changed-files:
+    - any-glob-to-any-file:
+      - '**/packages.lock.json'
+      - '**/*.csproj'
+      - '**/package.json'
+      - '**/package-lock.json'

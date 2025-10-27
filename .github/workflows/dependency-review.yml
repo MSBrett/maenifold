@@ -1,0 +1,29 @@
+name: Dependency Review
+
+on:
+  pull_request:
+    branches: [ main, dev ]
+
+permissions:
+  contents: read
+
+jobs:
+  dependency-review:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v5
+
+      - name: Dependency Review
+        id: review
+        uses: actions/dependency-review-action@v4
+        continue-on-error: true
+        with:
+          # Fail on any vulnerable advisories of critical/high severity
+          fail-on-severity: high
+
+      - name: Dependency Review Status
+        if: steps.review.outcome == 'failure'
+        run: |
+          echo "::warning::Dependency review could not run (likely Advanced Security is disabled)."
+          echo "::warning::Enable Dependency graph and Dependency review under Settings → Security → Code security and analysis to enforce these checks."

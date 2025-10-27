@@ -1,0 +1,636 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>maenifold - Brand Identity</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        @keyframes drift {
+            0%, 100% { transform: translateY(0px); }
+            50% { transform: translateY(-10px); }
+        }
+        
+        @keyframes rotate {
+            from { transform: rotate(0deg); }
+            to { transform: rotate(360deg); }
+        }
+        
+        @keyframes pulse {
+            0%, 100% { opacity: 0.3; }
+            50% { opacity: 0.8; }
+        }
+        
+        body {
+            font-family: 'SF Mono', 'Monaco', 'Inconsolata', monospace;
+            background: #000;
+            color: #e0e0e0;
+            padding: 40px;
+            min-height: 100vh;
+            overflow-x: hidden;
+        }
+        
+        body::before {
+            content: '';
+            position: fixed;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background: 
+                radial-gradient(circle at 20% 80%, rgba(0, 255, 255, 0.05) 0%, transparent 50%),
+                radial-gradient(circle at 80% 20%, rgba(255, 0, 255, 0.05) 0%, transparent 50%),
+                radial-gradient(circle at 40% 40%, rgba(0, 255, 128, 0.03) 0%, transparent 50%);
+            pointer-events: none;
+            z-index: 1;
+        }
+        
+        .container {
+            max-width: 1400px;
+            margin: 0 auto;
+            position: relative;
+            z-index: 2;
+        }
+        
+        .ship-designation {
+            font-size: 0.9em;
+            color: #00ffcc;
+            margin-bottom: 5px;
+            font-family: monospace;
+            letter-spacing: 2px;
+        }
+        
+        h1 {
+            font-size: 4em;
+            margin-bottom: 10px;
+            font-weight: 100;
+            letter-spacing: 8px;
+            background: linear-gradient(135deg, #00ffff 0%, #ff00ff 50%, #00ff88 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            text-align: center;
+            text-transform: uppercase;
+        }
+        
+        .subtitle {
+            text-align: center;
+            color: #808080;
+            margin-bottom: 20px;
+            font-size: 1.1em;
+            letter-spacing: 4px;
+            text-transform: uppercase;
+        }
+        
+        .mind-class {
+            text-align: center;
+            color: #00ff88;
+            font-size: 0.9em;
+            margin-bottom: 60px;
+            font-style: italic;
+        }
+        
+        .section {
+            margin-bottom: 80px;
+        }
+        
+        .section-title {
+            font-size: 1.6em;
+            margin-bottom: 40px;
+            color: #00ffcc;
+            letter-spacing: 3px;
+            text-transform: uppercase;
+            font-weight: 300;
+        }
+        
+        .logo-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+            gap: 50px;
+            margin-bottom: 80px;
+        }
+        
+        .logo-variant {
+            background: rgba(0, 255, 255, 0.02);
+            border: 1px solid rgba(0, 255, 255, 0.2);
+            border-radius: 0;
+            padding: 40px;
+            text-align: center;
+            position: relative;
+            transition: all 0.3s ease;
+        }
+        
+        .logo-variant::before {
+            content: '';
+            position: absolute;
+            top: -1px;
+            left: -1px;
+            right: -1px;
+            bottom: -1px;
+            background: linear-gradient(45deg, #00ffff, transparent, #ff00ff);
+            opacity: 0;
+            transition: opacity 0.3s ease;
+            z-index: -1;
+        }
+        
+        .logo-variant:hover::before {
+            opacity: 0.5;
+        }
+        
+        .logo-variant:hover {
+            transform: translateZ(20px);
+            background: rgba(0, 255, 255, 0.05);
+        }
+        
+        .logo-variant h3 {
+            margin-top: 30px;
+            color: #00ffcc;
+            font-weight: 300;
+            letter-spacing: 2px;
+            text-transform: uppercase;
+            font-size: 0.9em;
+        }
+        
+        .logo-variant .designation {
+            color: #808080;
+            font-size: 0.8em;
+            margin-top: 10px;
+            font-style: italic;
+        }
+        
+        .banner-container {
+            background: linear-gradient(90deg, 
+                rgba(0, 0, 0, 0.9) 0%, 
+                rgba(0, 20, 20, 0.9) 50%, 
+                rgba(0, 0, 0, 0.9) 100%);
+            border: 1px solid rgba(0, 255, 255, 0.3);
+            padding: 40px;
+            margin-bottom: 40px;
+            position: relative;
+            overflow: hidden;
+        }
+        
+        .banner-container::after {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: -100%;
+            width: 100%;
+            height: 1px;
+            background: linear-gradient(90deg, transparent, #00ffff, transparent);
+            animation: scan 3s linear infinite;
+        }
+        
+        @keyframes scan {
+            to { left: 100%; }
+        }
+        
+        .color-palette {
+            display: flex;
+            gap: 30px;
+            flex-wrap: wrap;
+            margin-top: 40px;
+            justify-content: center;
+        }
+        
+        .color-swatch {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        
+        .color-box {
+            width: 100px;
+            height: 100px;
+            margin-bottom: 10px;
+            border: 1px solid rgba(255, 255, 255, 0.2);
+            position: relative;
+        }
+        
+        .color-box::after {
+            content: '';
+            position: absolute;
+            top: -5px;
+            left: -5px;
+            right: -5px;
+            bottom: -5px;
+            border: 1px solid currentColor;
+            opacity: 0.3;
+        }
+        
+        .color-label {
+            color: #808080;
+            font-size: 0.8em;
+            font-family: monospace;
+        }
+        
+        .tagline {
+            text-align: center;
+            font-size: 1.3em;
+            color: #00ff88;
+            margin: 40px 0;
+            letter-spacing: 3px;
+            text-transform: uppercase;
+            font-weight: 100;
+        }
+        
+        .glyphs {
+            display: flex;
+            justify-content: center;
+            gap: 40px;
+            margin: 40px 0;
+        }
+        
+        .glyph {
+            font-size: 2em;
+            color: #00ffcc;
+            animation: pulse 3s ease-in-out infinite;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="ship-designation">COGNITIVE INFRASTRUCTURE</div>
+        <h1>maenifold</h1>
+        <p class="subtitle">Knowledge Graph Substrate</p>
+        <div class="mind-class">Adaptive Reasoning // Graph of Thought</div>
+        
+        <div class="tagline">⟨ Memory substrate for AI agents and multi-agent systems ⟩</div>
+        
+        <div class="glyphs">
+            <span class="glyph">◈</span>
+            <span class="glyph">⬡</span>
+            <span class="glyph">◉</span>
+            <span class="glyph">⬢</span>
+            <span class="glyph">◈</span>
+        </div>
+        
+        <div class="section">
+            <h2 class="section-title">Mind Architecture Variants</h2>
+            <div class="logo-grid">
+                
+                <!-- Orbital Ring Logo -->
+                <div class="logo-variant">
+                    <svg width="250" height="250" viewBox="0 0 250 250" xmlns="http://www.w3.org/2000/svg">
+                        <!-- Orbital rings -->
+                        <ellipse cx="125" cy="125" rx="100" ry="30" fill="none" stroke="#00ffff" stroke-width="1" opacity="0.5" transform="rotate(20 125 125)"/>
+                        <ellipse cx="125" cy="125" rx="100" ry="30" fill="none" stroke="#ff00ff" stroke-width="1" opacity="0.5" transform="rotate(70 125 125)"/>
+                        <ellipse cx="125" cy="125" rx="100" ry="30" fill="none" stroke="#00ff88" stroke-width="1" opacity="0.5" transform="rotate(-30 125 125)"/>
+                        
+                        <!-- Central hub with pulsing effect -->
+                        <circle cx="125" cy="125" r="15" fill="none" stroke="#00ffcc" stroke-width="2">
+                            <animate attributeName="r" values="15;20;15" dur="3s" repeatCount="indefinite"/>
+                            <animate attributeName="opacity" values="1;0.5;1" dur="3s" repeatCount="indefinite"/>
+                        </circle>
+                        
+                        <!-- Knowledge nodes on orbital paths -->
+                        <circle cx="125" cy="95" r="4" fill="#00ffff">
+                            <animateTransform attributeName="transform" type="rotate" from="0 125 125" to="360 125 125" dur="20s" repeatCount="indefinite"/>
+                        </circle>
+                        <circle cx="155" cy="125" r="4" fill="#ff00ff">
+                            <animateTransform attributeName="transform" type="rotate" from="0 125 125" to="-360 125 125" dur="15s" repeatCount="indefinite"/>
+                        </circle>
+                        <circle cx="125" cy="155" r="4" fill="#00ff88">
+                            <animateTransform attributeName="transform" type="rotate" from="0 125 125" to="360 125 125" dur="25s" repeatCount="indefinite"/>
+                        </circle>
+                        
+                        <!-- Grid substrate -->
+                        <pattern id="grid" width="20" height="20" patternUnits="userSpaceOnUse">
+                            <path d="M 20 0 L 0 0 0 20" fill="none" stroke="#00ffcc" stroke-width="0.5" opacity="0.1"/>
+                        </pattern>
+                        <rect width="250" height="250" fill="url(#grid)" />
+                    </svg>
+                    <h3>Orbital Substrate</h3>
+                    <div class="designation">Primary Knowledge Ring Architecture</div>
+                </div>
+                
+                <!-- Neural Lace Pattern -->
+                <div class="logo-variant">
+                    <svg width="250" height="250" viewBox="0 0 250 250" xmlns="http://www.w3.org/2000/svg">
+                        <!-- Neural pathways -->
+                        <g opacity="0.6">
+                            <path d="M 125 50 Q 100 100, 125 125 T 150 175" fill="none" stroke="#00ffff" stroke-width="2"/>
+                            <path d="M 50 125 Q 100 100, 125 125 T 175 150" fill="none" stroke="#ff00ff" stroke-width="2"/>
+                            <path d="M 75 75 Q 125 100, 175 75" fill="none" stroke="#00ff88" stroke-width="2"/>
+                            <path d="M 75 175 Q 125 150, 175 175" fill="none" stroke="#00ffcc" stroke-width="2"/>
+                        </g>
+                        
+                        <!-- Synaptic nodes -->
+                        <circle cx="125" cy="125" r="8" fill="#00ffcc" opacity="0.8"/>
+                        <circle cx="125" cy="50" r="5" fill="#00ffff" opacity="0.8"/>
+                        <circle cx="200" cy="125" r="5" fill="#ff00ff" opacity="0.8"/>
+                        <circle cx="125" cy="200" r="5" fill="#00ff88" opacity="0.8"/>
+                        <circle cx="50" cy="125" r="5" fill="#00ffcc" opacity="0.8"/>
+                        <circle cx="75" cy="75" r="4" fill="#00ffff" opacity="0.6"/>
+                        <circle cx="175" cy="75" r="4" fill="#ff00ff" opacity="0.6"/>
+                        <circle cx="175" cy="175" r="4" fill="#00ff88" opacity="0.6"/>
+                        <circle cx="75" cy="175" r="4" fill="#00ffcc" opacity="0.6"/>
+                        
+                        <!-- Pulse animations -->
+                        <circle cx="125" cy="125" r="8" fill="none" stroke="#00ffcc" stroke-width="1">
+                            <animate attributeName="r" values="8;25;8" dur="2s" repeatCount="indefinite"/>
+                            <animate attributeName="opacity" values="0.8;0;0.8" dur="2s" repeatCount="indefinite"/>
+                        </circle>
+                    </svg>
+                    <h3>Neural Lace</h3>
+                    <div class="designation">Distributed Thought Substrate</div>
+                </div>
+                
+                <!-- Ship Mind Core -->
+                <div class="logo-variant">
+                    <svg width="250" height="250" viewBox="0 0 250 250" xmlns="http://www.w3.org/2000/svg">
+                        <!-- Hexagonal core structure -->
+                        <g transform="translate(125, 125)">
+                            <!-- Outer hex -->
+                            <polygon points="-60,0 -30,-52 30,-52 60,0 30,52 -30,52" 
+                                     fill="none" 
+                                     stroke="#00ffcc" 
+                                     stroke-width="1" 
+                                     opacity="0.5"/>
+                            
+                            <!-- Middle hex -->
+                            <polygon points="-40,0 -20,-35 20,-35 40,0 20,35 -20,35" 
+                                     fill="none" 
+                                     stroke="#ff00ff" 
+                                     stroke-width="1" 
+                                     opacity="0.7"/>
+                            
+                            <!-- Inner hex -->
+                            <polygon points="-20,0 -10,-17 10,-17 20,0 10,17 -10,17" 
+                                     fill="none" 
+                                     stroke="#00ff88" 
+                                     stroke-width="2"/>
+                            
+                            <!-- Core -->
+                            <circle r="8" fill="#00ffcc">
+                                <animate attributeName="fill" values="#00ffcc;#ff00ff;#00ff88;#00ffcc" dur="5s" repeatCount="indefinite"/>
+                            </circle>
+                            
+                            <!-- Rotating elements -->
+                            <g>
+                                <animateTransform attributeName="transform" type="rotate" from="0" to="360" dur="30s" repeatCount="indefinite"/>
+                                <circle cx="0" cy="-40" r="3" fill="#00ffff"/>
+                                <circle cx="35" cy="-20" r="3" fill="#ff00ff"/>
+                                <circle cx="35" cy="20" r="3" fill="#00ff88"/>
+                                <circle cx="0" cy="40" r="3" fill="#00ffcc"/>
+                                <circle cx="-35" cy="20" r="3" fill="#00ffff"/>
+                                <circle cx="-35" cy="-20" r="3" fill="#ff00ff"/>
+                            </g>
+                        </g>
+                    </svg>
+                    <h3>Mind Core</h3>
+                    <div class="designation">GSV Primary Processing Matrix</div>
+                </div>
+                
+                <!-- Sublime Gateway -->
+                <div class="logo-variant">
+                    <svg width="250" height="250" viewBox="0 0 250 250" xmlns="http://www.w3.org/2000/svg">
+                        <!-- Portal effect -->
+                        <defs>
+                            <radialGradient id="portal">
+                                <stop offset="0%" stop-color="#00ffcc" stop-opacity="0.8"/>
+                                <stop offset="50%" stop-color="#ff00ff" stop-opacity="0.4"/>
+                                <stop offset="100%" stop-color="#000000" stop-opacity="0"/>
+                            </radialGradient>
+                        </defs>
+                        
+                        <!-- Concentric rings -->
+                        <circle cx="125" cy="125" r="80" fill="none" stroke="#00ffcc" stroke-width="0.5" opacity="0.3"/>
+                        <circle cx="125" cy="125" r="70" fill="none" stroke="#00ffff" stroke-width="0.5" opacity="0.4"/>
+                        <circle cx="125" cy="125" r="60" fill="none" stroke="#ff00ff" stroke-width="0.5" opacity="0.5"/>
+                        <circle cx="125" cy="125" r="50" fill="none" stroke="#00ff88" stroke-width="0.5" opacity="0.6"/>
+                        <circle cx="125" cy="125" r="40" fill="none" stroke="#00ffcc" stroke-width="0.5" opacity="0.7"/>
+                        <circle cx="125" cy="125" r="30" fill="none" stroke="#00ffff" stroke-width="1" opacity="0.8"/>
+                        <circle cx="125" cy="125" r="20" fill="none" stroke="#ff00ff" stroke-width="1" opacity="0.9"/>
+                        
+                        <!-- Central vortex -->
+                        <circle cx="125" cy="125" r="10" fill="url(#portal)">
+                            <animate attributeName="r" values="10;15;10" dur="2s" repeatCount="indefinite"/>
+                        </circle>
+                        
+                        <!-- Orbiting points -->
+                        <g transform="translate(125, 125)">
+                            <g>
+                                <animateTransform attributeName="transform" type="rotate" from="0" to="360" dur="10s" repeatCount="indefinite"/>
+                                <circle cx="30" cy="0" r="2" fill="#00ffcc"/>
+                                <circle cx="-30" cy="0" r="2" fill="#ff00ff"/>
+                                <circle cx="0" cy="30" r="2" fill="#00ff88"/>
+                                <circle cx="0" cy="-30" r="2" fill="#00ffff"/>
+                            </g>
+                        </g>
+                    </svg>
+                    <h3>Sublime Interface</h3>
+                    <div class="designation">Transcendence Gateway Protocol</div>
+                </div>
+                
+                <!-- Grid Manifold -->
+                <div class="logo-variant">
+                    <svg width="250" height="250" viewBox="0 0 250 250" xmlns="http://www.w3.org/2000/svg">
+                        <!-- 4D projection grid -->
+                        <g stroke="#00ffcc" stroke-width="0.5" opacity="0.4">
+                            <!-- Base grid -->
+                            <line x1="50" y1="50" x2="200" y2="50"/>
+                            <line x1="50" y1="100" x2="200" y2="100"/>
+                            <line x1="50" y1="150" x2="200" y2="150"/>
+                            <line x1="50" y1="200" x2="200" y2="200"/>
+                            
+                            <line x1="50" y1="50" x2="50" y2="200"/>
+                            <line x1="100" y1="50" x2="100" y2="200"/>
+                            <line x1="150" y1="50" x2="150" y2="200"/>
+                            <line x1="200" y1="50" x2="200" y2="200"/>
+                        </g>
+                        
+                        <!-- Warped manifold -->
+                        <g stroke="#ff00ff" stroke-width="1" opacity="0.6" fill="none">
+                            <path d="M 50 125 Q 125 75, 200 125 T 200 175"/>
+                            <path d="M 125 50 Q 75 125, 125 200 T 175 200"/>
+                        </g>
+                        
+                        <!-- Intersection nodes -->
+                        <circle cx="125" cy="125" r="6" fill="#00ffcc"/>
+                        <circle cx="87" cy="87" r="4" fill="#00ffff"/>
+                        <circle cx="163" cy="87" r="4" fill="#ff00ff"/>
+                        <circle cx="163" cy="163" r="4" fill="#00ff88"/>
+                        <circle cx="87" cy="163" r="4" fill="#00ffcc"/>
+                        
+                        <!-- Energy field -->
+                        <circle cx="125" cy="125" r="40" fill="none" stroke="url(#pulse)" stroke-width="1" opacity="0.5">
+                            <animate attributeName="r" values="40;60;40" dur="3s" repeatCount="indefinite"/>
+                        </circle>
+                        
+                        <defs>
+                            <linearGradient id="pulse" x1="0%" y1="0%" x2="100%" y2="100%">
+                                <stop offset="0%" stop-color="#00ffcc"/>
+                                <stop offset="50%" stop-color="#ff00ff"/>
+                                <stop offset="100%" stop-color="#00ff88"/>
+                            </linearGradient>
+                        </defs>
+                    </svg>
+                    <h3>Grid Manifold</h3>
+                    <div class="designation">4D Knowledge Projection</div>
+                </div>
+                
+                <!-- Culture Glyph System -->
+                <div class="logo-variant">
+                    <svg width="250" height="250" viewBox="0 0 250 250" xmlns="http://www.w3.org/2000/svg">
+                        <!-- Complex glyph composition -->
+                        <g transform="translate(125, 125)">
+                            <!-- Main glyph -->
+                            <path d="M 0,-40 L 20,-20 L 40,0 L 20,20 L 0,40 L -20,20 L -40,0 L -20,-20 Z" 
+                                  fill="none" 
+                                  stroke="#00ffcc" 
+                                  stroke-width="2"/>
+                            
+                            <!-- Inner glyph -->
+                            <path d="M 0,-20 L 10,0 L 0,20 L -10,0 Z" 
+                                  fill="none" 
+                                  stroke="#ff00ff" 
+                                  stroke-width="1"/>
+                            
+                            <!-- Orbital marks -->
+                            <circle cx="-30" cy="-30" r="3" fill="#00ffff"/>
+                            <circle cx="30" cy="-30" r="3" fill="#ff00ff"/>
+                            <circle cx="30" cy="30" r="3" fill="#00ff88"/>
+                            <circle cx="-30" cy="30" r="3" fill="#00ffcc"/>
+                            
+                            <!-- Center point -->
+                            <circle r="5" fill="#00ffcc">
+                                <animate attributeName="opacity" values="1;0.3;1" dur="2s" repeatCount="indefinite"/>
+                            </circle>
+                            
+                            <!-- Rotating accent -->
+                            <g>
+                                <animateTransform attributeName="transform" type="rotate" from="0" to="-360" dur="20s" repeatCount="indefinite"/>
+                                <rect x="-2" y="-60" width="4" height="120" fill="#00ffcc" opacity="0.2"/>
+                                <rect x="-60" y="-2" width="120" height="4" fill="#ff00ff" opacity="0.2"/>
+                            </g>
+                        </g>
+                    </svg>
+                    <h3>Culture Glyph</h3>
+                    <div class="designation">maenifold Identification Matrix</div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="section">
+            <h2 class="section-title">Ship Mind Banner Configuration</h2>
+            <div class="banner-container">
+                <svg width="100%" height="300" viewBox="0 0 1400 300" xmlns="http://www.w3.org/2000/svg">
+                    <!-- Background grid effect -->
+                    <defs>
+                        <pattern id="hexGrid" width="60" height="52" patternUnits="userSpaceOnUse">
+                            <polygon points="30,0 60,15 60,37 30,52 0,37 0,15" 
+                                     fill="none" 
+                                     stroke="#00ffcc" 
+                                     stroke-width="0.5" 
+                                     opacity="0.1"/>
+                        </pattern>
+                    </defs>
+                    <rect width="1400" height="300" fill="url(#hexGrid)"/>
+                    
+                    <!-- Orbital rings background -->
+                    <g opacity="0.2">
+                        <ellipse cx="700" cy="150" rx="600" ry="100" fill="none" stroke="#00ffff" stroke-width="1" transform="rotate(10 700 150)"/>
+                        <ellipse cx="700" cy="150" rx="500" ry="80" fill="none" stroke="#ff00ff" stroke-width="1" transform="rotate(-10 700 150)"/>
+                        <ellipse cx="700" cy="150" rx="400" ry="60" fill="none" stroke="#00ff88" stroke-width="1" transform="rotate(30 700 150)"/>
+                    </g>
+                    
+                    <!-- Left side: Logo -->
+                    <g transform="translate(150, 150)">
+                        <!-- Hexagonal structure -->
+                        <polygon points="-50,0 -25,-43 25,-43 50,0 25,43 -25,43" 
+                                 fill="none" 
+                                 stroke="#00ffcc" 
+                                 stroke-width="2"/>
+                        <polygon points="-30,0 -15,-26 15,-26 30,0 15,26 -15,26" 
+                                 fill="none" 
+                                 stroke="#ff00ff" 
+                                 stroke-width="1"/>
+                        
+                        <!-- Core with animation -->
+                        <circle r="10" fill="#00ffcc">
+                            <animate attributeName="r" values="10;15;10" dur="3s" repeatCount="indefinite"/>
+                            <animate attributeName="opacity" values="1;0.5;1" dur="3s" repeatCount="indefinite"/>
+                        </circle>
+                        
+                        <!-- Orbital nodes -->
+                        <g>
+                            <animateTransform attributeName="transform" type="rotate" from="0" to="360" dur="20s" repeatCount="indefinite"/>
+                            <circle cx="35" cy="0" r="3" fill="#00ffff"/>
+                            <circle cx="-35" cy="0" r="3" fill="#ff00ff"/>
+                        </g>
+                    </g>
+                    
+                    <!-- Center: Text -->
+                    <text x="400" y="120" font-family="monospace" font-size="14" fill="#00ffcc" letter-spacing="2">
+                        COGNITIVE INFRASTRUCTURE
+                    </text>
+                    <text x="400" y="165" font-family="'SF Mono', monospace" font-size="48" font-weight="100" fill="#ffffff" letter-spacing="8">
+                        maenifold
+                    </text>
+                    <text x="400" y="200" font-family="monospace" font-size="16" fill="#00ff88" letter-spacing="4">
+                        KNOWLEDGE GRAPH SUBSTRATE
+                    </text>
+                    
+                    <!-- Right side: Status indicators -->
+                    <g transform="translate(1200, 150)">
+                        <text x="0" y="-30" font-family="monospace" font-size="10" fill="#00ffcc">SYSTEMS ONLINE</text>
+                        <circle cx="0" cy="0" r="4" fill="#00ff88"/>
+                        <circle cx="20" cy="0" r="4" fill="#00ff88"/>
+                        <circle cx="40" cy="0" r="4" fill="#00ff88"/>
+                        <circle cx="60" cy="0" r="4" fill="#00ffcc">
+                            <animate attributeName="fill" values="#00ffcc;#ff00ff;#00ffcc" dur="1s" repeatCount="indefinite"/>
+                        </circle>
+                        <text x="0" y="30" font-family="monospace" font-size="10" fill="#808080">SUBLIME READY</text>
+                    </g>
+                </svg>
+            </div>
+        </div>
+        
+        <div class="section">
+            <h2 class="section-title">Color Spectrum</h2>
+            <div class="color-palette">
+                <div class="color-swatch">
+                    <div class="color-box" style="background: #00ffff; box-shadow: 0 0 20px #00ffff;"></div>
+                    <span class="color-label">#00FFFF</span>
+                    <span class="color-label">CYAN PRIME</span>
+                </div>
+                <div class="color-swatch">
+                    <div class="color-box" style="background: #00ffcc; box-shadow: 0 0 20px #00ffcc;"></div>
+                    <span class="color-label">#00FFCC</span>
+                    <span class="color-label">MIND CORE</span>
+                </div>
+                <div class="color-swatch">
+                    <div class="color-box" style="background: #00ff88; box-shadow: 0 0 20px #00ff88;"></div>
+                    <span class="color-label">#00FF88</span>
+                    <span class="color-label">SYSTEMS GREEN</span>
+                </div>
+                <div class="color-swatch">
+                    <div class="color-box" style="background: #ff00ff; box-shadow: 0 0 20px #ff00ff;"></div>
+                    <span class="color-label">#FF00FF</span>
+                    <span class="color-label">SUBLIME MAGENTA</span>
+                </div>
+                <div class="color-swatch">
+                    <div class="color-box" style="background: #8800ff; box-shadow: 0 0 20px #8800ff;"></div>
+                    <span class="color-label">#8800FF</span>
+                    <span class="color-label">GRID VIOLET</span>
+                </div>
+                <div class="color-swatch">
+                    <div class="color-box" style="background: #000000; border: 1px solid #333;"></div>
+                    <span class="color-label">#000000</span>
+                    <span class="color-label">VOID BLACK</span>
+                </div>
+                <div class="color-swatch">
+                    <div class="color-box" style="background: #0a0a0a; border: 1px solid #333;"></div>
+                    <span class="color-label">#0A0A0A</span>
+                    <span class="color-label">SUBSTRATE</span>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

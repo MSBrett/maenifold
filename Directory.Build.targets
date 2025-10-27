@@ -1,0 +1,71 @@
+<Project>
+  <!-- 
+    Build target to enforce clean project root directory
+    Prevents accumulation of temporary files and scripts in root
+  -->
+  
+  <Target Name="EnforceCleanRoot" BeforeTargets="Build">
+    <PropertyGroup>
+      <RootDirectory>$(MSBuildThisFileDirectory)</RootDirectory>
+    </PropertyGroup>
+    
+    <!-- Get all files in root directory -->
+    <ItemGroup>
+      <RootFiles Include="$(RootDirectory)*" />
+      
+      <!-- Define allowed files in root -->
+      <AllowedRootFiles Include="$(RootDirectory)*.md" />
+      <AllowedRootFiles Include="$(RootDirectory)*.json" />
+      <AllowedRootFiles Include="$(RootDirectory)*.yml" />
+      <AllowedRootFiles Include="$(RootDirectory)*.yaml" />
+      <AllowedRootFiles Include="$(RootDirectory)*.sln" />
+      <AllowedRootFiles Include="$(RootDirectory).gitignore" />
+      <AllowedRootFiles Include="$(RootDirectory).gitattributes" />
+      <AllowedRootFiles Include="$(RootDirectory).dockerignore" />
+      <AllowedRootFiles Include="$(RootDirectory).editorconfig" />
+      <AllowedRootFiles Include="$(RootDirectory).env" />
+      <AllowedRootFiles Include="$(RootDirectory)LICENSE" />
+      <AllowedRootFiles Include="$(RootDirectory)Directory.Build.props" />
+      <AllowedRootFiles Include="$(RootDirectory)Directory.Build.targets" />
+      <AllowedRootFiles Include="$(RootDirectory)test.runsettings" />
+      
+      <!-- Find disallowed files -->
+      <DisallowedFiles Include="@(RootFiles)" Exclude="@(AllowedRootFiles)" />
+      
+      <!-- Exclude directories from check -->
+      <DisallowedFiles Remove="$(RootDirectory)src" />
+      <DisallowedFiles Remove="$(RootDirectory)tests" />
+      <DisallowedFiles Remove="$(RootDirectory)assets" />
+      <DisallowedFiles Remove="$(RootDirectory)scripts" />
+      <DisallowedFiles Remove="$(RootDirectory).git" />
+      <DisallowedFiles Remove="$(RootDirectory).github" />
+      <DisallowedFiles Remove="$(RootDirectory).vscode" />
+      <DisallowedFiles Remove="$(RootDirectory).vs" />
+      <DisallowedFiles Remove="$(RootDirectory)bin" />
+      <DisallowedFiles Remove="$(RootDirectory)obj" />
+    </ItemGroup>
+    
+    <!-- Error if disallowed files found: CI-enforced error, local warning -->
+    <Warning
+      Condition="'@(DisallowedFiles)' != ''"
+      Text="Project root contains disallowed files: @(DisallowedFiles->'%(Filename)%(Extension)', ', '). Move these files to appropriate subdirectories (e.g., /scripts for scripts, /docs for documentation)." />
+    <Error
+      Condition="'$(CI)' == 'true' and '@(DisallowedFiles)' != ''"
+      Text="Project root contains disallowed files (CI enforcement): @(DisallowedFiles->'%(Filename)%(Extension)', ', '). Please move these files to appropriate subdirectories." />
+  </Target>
+  
+  <!-- Target to clean common temporary files -->
+  <Target Name="CleanTemp" AfterTargets="Clean">
+    <ItemGroup>
+      <TempPatterns Include="$(RootDirectory)*.txt" />
+      <TempPatterns Include="$(RootDirectory)*.log" />
+      <TempPatterns Include="$(RootDirectory)*.tmp" />
+      <TempPatterns Include="$(RootDirectory)*.sh" Exclude="$(RootDirectory)scripts/*.sh" />
+      <TempPatterns Include="$(RootDirectory)*.cmd" Exclude="$(RootDirectory)scripts/*.cmd" />
+      <TempPatterns Include="$(RootDirectory)*.bat" Exclude="$(RootDirectory)scripts/*.bat" />
+    </ItemGroup>
+    
+    <Delete Files="@(TempPatterns)" ContinueOnError="true" />
+    <Message Text="Cleaned temporary files from project root" Importance="high" />
+  </Target>
+</Project>

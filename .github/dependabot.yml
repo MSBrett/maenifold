@@ -1,0 +1,40 @@
+version: 2
+updates:
+  - package-ecosystem: "nuget"
+    directory: "/"
+    schedule:
+      interval: "monthly"  # Changed to monthly to reduce notifications
+    open-pull-requests-limit: 3  # Reduced limit
+    labels: ["dependencies", "nuget"]
+    commit-message:
+      prefix: "deps(nuget):"
+    rebase-strategy: auto
+    groups:
+      nuget-all:  # Group all NuGet updates into single PR
+        patterns:
+          - "*"
+
+  - package-ecosystem: "github-actions"
+    directory: "/"
+    schedule:
+      interval: "monthly"  # Changed to monthly
+    labels: ["dependencies", "github-actions"]
+    commit-message:
+      prefix: "deps(actions):"
+    groups:
+      actions-all:  # Group all action updates
+        patterns:
+          - "*"
+
+  - package-ecosystem: "npm"
+    directory: "/"
+    schedule:
+      interval: "monthly"  # Changed to monthly
+    labels: ["dependencies", "npm"]
+    commit-message:
+      prefix: "deps(npm):"
+    groups:
+      npm-all:  # Group all npm updates
+        patterns:
+          - "*"
+

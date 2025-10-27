@@ -1,0 +1,61 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net9.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <OutputType>Exe</OutputType>
+    <UserSecretsId>f4af7c28-1fca-4f2f-b139-60ee5b0a27a6</UserSecretsId>
+
+    <!-- Package Information -->
+    <PackageId>Maenifold</PackageId>
+    <AssemblyName>Maenifold</AssemblyName>
+    <RootNamespace>Maenifold</RootNamespace>
+    <Version>1.0.0</Version>
+    <Authors>MSBrett</Authors>
+    <Company>MSBrett</Company>
+    <Product>Maenifold</Product>
+    <Description>Test-time adaptive reasoning infrastructure for AI agents. Maenifold enables persistent knowledge graphs that compound over time.</Description>
+    <PackageProjectUrl>https://github.com/MSBrett/Maenifold</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/MSBrett/Maenifold</RepositoryUrl>
+    <PackageTags>ai;agents;reasoning;knowledge-graph;mcp;llm;test-time-compute</PackageTags>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    
+    <!-- MCP Server Code Analysis -->
+    <TreatWarningsAsErrors>true</TreatWarningsAsErrors>
+    <WarningsAsErrors />
+    <WarningsNotAsErrors>CA1707</WarningsNotAsErrors>
+    
+    <!-- Console usage detection in MCP mode -->
+    <DefineConstants>$(DefineConstants);MCP_SERVER</DefineConstants>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.Extensions.Hosting" Version="9.0.9" />
+    <PackageReference Include="ModelContextProtocol" Version="0.3.0-preview.4" />
+    <PackageReference Include="Microsoft.Data.Sqlite" Version="9.0.9" />
+    <PackageReference Include="YamlDotNet" Version="16.3.0" />
+    <PackageReference Include="Markdig" Version="0.42.0" />
+    <PackageReference Include="Microsoft.ML.OnnxRuntime" Version="1.23.0" />
+    
+    <!-- Code Analysis for MCP Server (kept but disabled at build time) -->
+    <PackageReference Include="Microsoft.CodeAnalysis.NetAnalyzers" Version="9.0.0" PrivateAssets="all" IncludeAssets="runtime; build; native; contentfiles; analyzers" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <!-- Include all assets files and preserve directory structure -->
+    <Content Include="assets\\**\\*.*">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+
+  <!-- Build documentation after successful build -->
+  <Target Name="BuildDocs" AfterTargets="Build" Condition="'$(Configuration)' == 'Release'">
+    <Exec Command="bash $(MSBuildProjectDirectory)/../scripts/build-docs.sh"
+          WorkingDirectory="$(MSBuildProjectDirectory)/.."
+          Condition="'$(OS)' != 'Windows_NT'" />
+    <Exec Command="powershell -ExecutionPolicy Bypass -File $(MSBuildProjectDirectory)/../scripts/build-docs.ps1"
+          WorkingDirectory="$(MSBuildProjectDirectory)/.."
+          Condition="'$(OS)' == 'Windows_NT'" />
+    <Message Text="Documentation built successfully in /docs" Importance="high" />
+  </Target>
+</Project>

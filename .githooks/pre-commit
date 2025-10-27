@@ -1,0 +1,22 @@
+#!/bin/sh
+# Pre-commit hook for ma-core MCP - Security scanning
+# Abort commit if gitleaks finds potential leaks.
+
+if ! command -v gitleaks >/dev/null 2>&1; then
+  echo "⚠️  gitleaks is not installed. Install with 'brew install gitleaks' or see SECURITY.md"
+  echo "   Skipping secret scanning (not recommended for production commits)"
+  exit 0  # Allow commit but warn
+fi
+
+echo "🔍 Scanning for secrets with gitleaks..."
+gitleaks detect --source . --report-path gitleaks-report.json --redact --no-banner
+
+if [ $? -ne 0 ]; then
+  echo "❌ gitleaks detected potential secrets!"
+  echo "   Review gitleaks-report.json and resolve before committing."
+  echo "   If this is a false positive, update .gitleaks.toml with an allowlist rule."
+  exit 1
+fi
+
+echo "✅ No secrets detected"
+exit 0
