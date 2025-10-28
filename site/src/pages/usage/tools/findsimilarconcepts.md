@@ -1,7 +1,3 @@
----
-layout: ../../../layouts/DocsLayout.astro
----
-
 # FindSimilarConcepts
 
 Find [[concept|concepts]] semantically similar to a given concept using [[vector-embeddings]] and cosine similarity. This tool discovers related concepts based on semantic meaning rather than [[graph]] co-occurrence patterns, enabling knowledge exploration through conceptual relationships beyond explicit [[WikiLink]] connections.

@@ -1,7 +1,3 @@
----
-layout: ../../../layouts/DocsLayout.astro
----
-
 # ListWorkflows
 
 ## Purpose

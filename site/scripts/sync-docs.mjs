@@ -10,7 +10,7 @@ const siteRoot = resolve(__dirname, '..'); // /site
 const repoRoot = resolve(siteRoot, '..');  // repo root
 
 const mappings = [
-  { from: resolve(repoRoot, 'README.md'), to: resolve(siteRoot, 'src/pages/index.mdx'), transform: 'landing' },
+  { from: resolve(repoRoot, 'README.md'), to: resolve(siteRoot, 'src/pages/start.mdx'), transform: 'landing' },
   { from: resolve(repoRoot, 'assets'), to: resolve(siteRoot, 'public/assets') },
   { from: resolve(repoRoot, 'src/assets/usage'), to: resolve(siteRoot, 'src/pages/usage') },
 ];

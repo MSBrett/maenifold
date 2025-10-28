@@ -1,24 +1,38 @@
 ---
-layout: ../layouts/Base.astro
+layout: ../layouts/Landing.astro
 ---
 
-<main class="container" style="padding: 32px 0 80px;">
-<div style="max-width: 900px; margin: 0 auto; padding: 48px 56px; border-radius: 24px; border: 1px solid rgba(255, 255, 255, 0.08); background: linear-gradient(145deg, rgba(14, 27, 42, 0.85), rgba(11, 21, 32, 0.9)); box-shadow: 0 20px 60px rgba(0, 0, 0, 0.4);">
+<p align="center">
+  <img src="assets/branding/maenifold-logo.svg" alt="maenifold" />
+</p>
 
 <p align="center">
-  <img src="/assets/branding/maenifold-logo.svg" alt="maenifold" />
+  Your AI is ephemeral. Your knowledge shouldn't be.
 </p>
 
 ## What maenifold does
 
-- **maenifold** enhances AI agents with persistent graphs of thought that compound over time.
-- Every tool creates `[[WikiLink]]` connections that survive conversations.
-- Every session builds on the last. Knowledge compounds instead of resets.
-- **It transforms ephemeral AI sessions into continuous collective intelligence.**
+**maenifold** enhances AI agents with persistent graphs of thought that compound over time.  Every tool creates `[[WikiLink]]` connections that survive conversations. Every session builds on the last. Knowledge compounds instead of resets.  **It transforms ephemeral AI sessions into continuous collective intelligence.**
 
 <p align="center">
-  <img src="/assets/branding/graph.jpeg" alt="graph" width="800" />
+  <img src="assets/branding/graph.jpeg" alt="graph" />
 </p>
+
+[Our demo](assets/demo-artifacts/README.md) shows this at scale: 25 AI agents across 68 minutes discovered a critical production bug not through programmed coordination, but through emergent understanding. No orchestration code was written, yet agents perfectly orchestrated themselves across 4 waves, building on each other's discoveries through a shared knowledge graph.
+
+The critical move operation bug emerged from the intersection of multiple test patterns seen across different agent sessions - something no single agent could have found alone. This is maenifold's core: making every AI session additive rather than isolated.
+
+### How it worked:
+
+- Agents shared discoveries through `[[WikiLinks]]` in memory files
+- Each wave of agents built on previous findings via search and context traversal
+- The critical bug emerged from patterns across multiple test sessions
+- 171,506 new concept relationships were created, connecting discoveries
+- [Full orchestration logs](assets/demo-artifacts/part1-pm-lite/orchestration-session.md) and [test results](assets/demo-artifacts/part1-pm-lite/E2E_TEST_REPORT.md) available
+
+85% test success rate. Real production bug found. Zero orchestration code written.
+
+That's what maenifold does: It provides the substrate (WikiLinks, memory, graph) and steps back. Intelligence fills the space.
 
 ## Cognitive Assets
 
@@ -59,15 +73,45 @@ Language-influenced cognitive styles based on linguistic relativity:
 - **German**: Hierarchical precision
 - **And 9 more**: Each language brings unique reasoning patterns
 
-These aren't just templates - they combine with the knowledge graph to create emergent reasoning capabilities. An agent can start with strategic thinking, switch to red team perspective when finding vulnerabilities, then adopt the writer role to document findings - all while building on the persistent knowledge graph.
+These aren't just templates - they're cognitive substrates that combine with the knowledge graph to create emergent reasoning capabilities. An agent can start with strategic thinking, switch to red team perspective when finding vulnerabilities, then adopt the writer role to document findings - all while building on the persistent knowledge graph.
 
 ##  The Cognitive Stack
 
 ### Tool Relationships
 
-<p align="center">
-  <img src="/assets/diagrams/cognitive-stack.svg" alt="Cognitive Stack Architecture" width="600" />
-</p>
+```mermaid
+graph TD
+    subgraph OVERALL["maenifold"]
+        subgraph AGENT["AI Agent"]
+            LLM[🧠 LLM Agent]
+        end
+
+        subgraph PERSP["Perspectives"]
+            A[🎭 Adopt]
+        end
+
+        subgraph THINK["Thinking"]
+            ST[🌊 SequentialThinking]
+            WF[📋 Workflow]
+        end
+
+        subgraph MEMORY["Memory System"]
+            MEM[🗄️ Memory]
+                GRPH[🕸️ Graph]
+        end
+    end
+
+
+    A --> LLM
+    LLM --> WF
+    LLM --> ST
+    WF -.-> ST
+    ST --> MEM
+    WF --> MEM
+    MEM --> GRPH
+    GRPH --> LLM
+    MEM --> LLM
+```
 
 ### Reasoning Layer (Tools + Workflows) - Where Information is Processed
 
@@ -184,6 +228,3 @@ maenifold --tool SearchMemories --payload '{
 ---
 
 *Your AI's extended mind*
-
-</div>
-</main>

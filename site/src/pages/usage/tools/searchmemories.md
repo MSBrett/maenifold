@@ -1,7 +1,3 @@
----
-layout: ../../../layouts/DocsLayout.astro
----
-
 # SearchMemories
 
 Search memory FILES by content to discover your [[concepts]] and knowledge. This tool provides full-text search across your Maenifold knowledge base with intelligent scoring, snippet extraction, and flexible filtering options. Essential for knowledge discovery before creating new content or finding existing solutions.

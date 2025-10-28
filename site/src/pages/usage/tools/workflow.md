@@ -1,7 +1,3 @@
----
-layout: ../../../layouts/DocsLayout.astro
----
-
 # Workflow
 
 Execute structured workflow(s) for systematic problem-solving and complex orchestration.

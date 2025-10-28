@@ -1,7 +1,3 @@
----
-layout: ../../../layouts/DocsLayout.astro
----
-
 # Sequential Thinking
 
 A detailed tool for dynamic and reflective problem-solving through thoughts.
