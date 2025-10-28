@@ -2,23 +2,23 @@
   "nodes": [
     {
       "id": "WikiLink",
-      "val": 5.807354922057604
+      "val": 5.700439718141093
     },
     {
       "id": "WikiLinks",
-      "val": 5
+      "val": 4.807354922057604
     },
     {
       "id": "microservices",
-      "val": 3.584962500721156
+      "val": 3
     },
     {
       "id": "event-sourcing",
-      "val": 3.584962500721156
+      "val": 3
     },
     {
       "id": "audit-trails",
-      "val": 3.584962500721156
+      "val": 3
     },
     {
       "id": "Entity Name",
@@ -621,52 +621,52 @@
     {
       "source": "WikiLink",
       "target": "WikiLinks",
-      "value": 4
+      "value": 3
     },
     {
       "source": "WikiLink",
       "target": "microservices",
-      "value": 2
+      "value": 1
     },
     {
       "source": "WikiLink",
       "target": "event-sourcing",
-      "value": 2
+      "value": 1
     },
     {
       "source": "WikiLink",
       "target": "audit-trails",
-      "value": 2
+      "value": 1
     },
     {
       "source": "WikiLinks",
       "target": "microservices",
-      "value": 2
+      "value": 1
     },
     {
       "source": "WikiLinks",
       "target": "event-sourcing",
-      "value": 2
+      "value": 1
     },
     {
       "source": "WikiLinks",
       "target": "audit-trails",
-      "value": 2
+      "value": 1
     },
     {
       "source": "event-sourcing",
       "target": "microservices",
-      "value": 2
+      "value": 1
     },
     {
       "source": "audit-trails",
       "target": "microservices",
-      "value": 2
+      "value": 1
     },
     {
       "source": "audit-trails",
       "target": "event-sourcing",
-      "value": 2
+      "value": 1
     },
     {
       "source": "Entity Name",
