@@ -223,4 +223,6 @@ maenifold --tool SearchMemories --payload '{
 
 ---
 
-*Your AI's extended mind*
+## Stargazers over time
+
+[![Stargazers over time](https://starchart.cc/MSBrett/maenifold.svg?variant=adaptive)](https://starchart.cc/MSBrett/maenifold)
