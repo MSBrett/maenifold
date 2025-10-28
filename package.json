@@ -15,11 +15,13 @@
     "build": "dotnet publish src/Maenifold.csproj -c Release --self-contained -o bin && npm run build:docs",
     "build:docs": "./scripts/build-docs.sh",
     "prepublishOnly": "npm run build:all",
-    "build:all": "npm run build:linux && npm run build:osx && npm run build:osx-x64 && npm run build:win && npm run build:docs",
-    "build:linux": "dotnet publish src/Maenifold.csproj -c Release -r linux-x64 --self-contained -p:PublishSingleFile=true -o bin/linux-x64",
-    "build:osx": "dotnet publish src/Maenifold.csproj -c Release -r osx-arm64 --self-contained -p:PublishSingleFile=true -o bin/osx-arm64",
+    "build:all": "npm run build:linux-x64 && npm run build:linux-arm64 && npm run build:osx-arm64 && npm run build:osx-x64 && npm run build:win-x64 && npm run build:win-arm64 && npm run build:docs",
+    "build:linux-x64": "dotnet publish src/Maenifold.csproj -c Release -r linux-x64 --self-contained -p:PublishSingleFile=true -o bin/linux-x64",
+    "build:linux-arm64": "dotnet publish src/Maenifold.csproj -c Release -r linux-arm64 --self-contained -p:PublishSingleFile=true -o bin/linux-arm64",
+    "build:osx-arm64": "dotnet publish src/Maenifold.csproj -c Release -r osx-arm64 --self-contained -p:PublishSingleFile=true -o bin/osx-arm64",
     "build:osx-x64": "dotnet publish src/Maenifold.csproj -c Release -r osx-x64 --self-contained -p:PublishSingleFile=true -o bin/osx-x64",
-    "build:win": "dotnet publish src/Maenifold.csproj -c Release -r win-x64 --self-contained -p:PublishSingleFile=true -o bin/win-x64",
+    "build:win-x64": "dotnet publish src/Maenifold.csproj -c Release -r win-x64 --self-contained -p:PublishSingleFile=true -o bin/win-x64",
+    "build:win-arm64": "dotnet publish src/Maenifold.csproj -c Release -r win-arm64 --self-contained -p:PublishSingleFile=true -o bin/win-arm64",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -47,7 +49,6 @@
   },
   "homepage": "https://github.com/MSBrett/maenifold",
   "files": [
-    "bin/**/*",
     "scripts/postinstall.js",
     "scripts/maenifold.js",
     "README.md",
@@ -68,5 +69,13 @@
   },
   "dependencies": {
     "better-sqlite3": "^12.4.1"
+  },
+  "optionalDependencies": {
+    "@ma-collective/maenifold-linux-x64": "1.0.0",
+    "@ma-collective/maenifold-linux-arm64": "1.0.0",
+    "@ma-collective/maenifold-darwin-x64": "1.0.0",
+    "@ma-collective/maenifold-darwin-arm64": "1.0.0",
+    "@ma-collective/maenifold-win32-x64": "1.0.0",
+    "@ma-collective/maenifold-win32-arm64": "1.0.0"
   }
 }

@@ -1,0 +1,209 @@
+name: Release
+
+on:
+  push:
+    tags:
+      - 'v*.*.*'
+  workflow_dispatch:
+    inputs:
+      version:
+        description: 'Version to release (e.g., 1.0.0)'
+        required: true
+        type: string
+
+jobs:
+  build-all-platforms:
+    name: Build ${{ matrix.runtime }}
+    runs-on: ${{ matrix.os }}
+    strategy:
+      fail-fast: false
+      matrix:
+        include:
+          - os: ubuntu-latest
+            runtime: linux-x64
+            binary: Maenifold
+          - os: ubuntu-latest
+            runtime: linux-arm64
+            binary: Maenifold
+          - os: macos-latest
+            runtime: osx-arm64
+            binary: Maenifold
+          - os: macos-13
+            runtime: osx-x64
+            binary: Maenifold
+          - os: windows-latest
+            runtime: win-x64
+            binary: Maenifold.exe
+          - os: windows-latest
+            runtime: win-arm64
+            binary: Maenifold.exe
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Setup .NET
+        uses: actions/setup-dotnet@v4
+        with:
+          dotnet-version: '9.0.x'
+
+      - name: Restore dependencies
+        run: dotnet restore src/Maenifold.csproj
+
+      - name: Build ${{ matrix.runtime }}
+        run: |
+          dotnet publish src/Maenifold.csproj \
+            -c Release \
+            -r ${{ matrix.runtime }} \
+            --self-contained \
+            -p:PublishSingleFile=true \
+            -o bin/${{ matrix.runtime }}
+
+      - name: Create archive (Unix)
+        if: runner.os != 'Windows'
+        working-directory: bin/${{ matrix.runtime }}
+        run: |
+          tar -czf ../../maenifold-${{ matrix.runtime }}.tar.gz ${{ matrix.binary }}
+
+      - name: Create archive (Windows)
+        if: runner.os == 'Windows'
+        working-directory: bin/${{ matrix.runtime }}
+        run: |
+          Compress-Archive -Path ${{ matrix.binary }} -DestinationPath ../../maenifold-${{ matrix.runtime }}.zip
+
+      - name: Upload binary artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: binary-${{ matrix.runtime }}
+          path: bin/${{ matrix.runtime }}/${{ matrix.binary }}
+          if-no-files-found: error
+
+      - name: Upload archive artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: archive-${{ matrix.runtime }}
+          path: maenifold-${{ matrix.runtime }}.*
+          if-no-files-found: error
+
+  create-github-release:
+    name: Create GitHub Release
+    needs: build-all-platforms
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Download all archives
+        uses: actions/download-artifact@v4
+        with:
+          pattern: archive-*
+          path: archives
+          merge-multiple: true
+
+      - name: Get version
+        id: version
+        run: |
+          if [ "${{ github.event_name }}" = "workflow_dispatch" ]; then
+            echo "VERSION=${{ inputs.version }}" >> $GITHUB_OUTPUT
+            echo "TAG=v${{ inputs.version }}" >> $GITHUB_OUTPUT
+          else
+            echo "VERSION=${GITHUB_REF#refs/tags/v}" >> $GITHUB_OUTPUT
+            echo "TAG=${GITHUB_REF#refs/tags/}" >> $GITHUB_OUTPUT
+          fi
+
+      - name: Create Release
+        uses: softprops/action-gh-release@v1
+        with:
+          tag_name: ${{ steps.version.outputs.TAG }}
+          name: Release ${{ steps.version.outputs.VERSION }}
+          draft: false
+          prerelease: false
+          files: |
+            archives/maenifold-*.tar.gz
+            archives/maenifold-*.zip
+          body: |
+            ## maenifold ${{ steps.version.outputs.VERSION }}
+
+            ### Installation
+
+            #### Via npm (recommended for MCP):
+            ```bash
+            npm install -g @ma-collective/maenifold
+            ```
+
+            #### Direct binary download:
+            Download the archive for your platform below and extract it.
+
+            ### Supported Platforms
+            - Linux x64 (`linux-x64`)
+            - Linux ARM64 (`linux-arm64`)
+            - macOS ARM64 / Apple Silicon (`osx-arm64`)
+            - macOS x64 / Intel (`osx-x64`)
+            - Windows x64 (`win-x64`)
+            - Windows ARM64 (`win-arm64`)
+
+            ### Usage
+            See [documentation](https://www.maenifold.com/start/) for details.
+
+  publish-npm-packages:
+    name: Publish to npm
+    needs: build-all-platforms
+    runs-on: ubuntu-latest
+    if: github.event_name == 'push' && startsWith(github.ref, 'refs/tags/v')
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+          registry-url: 'https://registry.npmjs.org'
+
+      - name: Download all binaries
+        uses: actions/download-artifact@v4
+        with:
+          pattern: binary-*
+          path: bin-downloads
+
+      - name: Organize binaries
+        run: |
+          mkdir -p bin
+          for runtime in linux-x64 linux-arm64 osx-x64 osx-arm64 win-x64 win-arm64; do
+            mkdir -p bin/$runtime
+            if [ -f "bin-downloads/binary-$runtime/Maenifold" ]; then
+              cp bin-downloads/binary-$runtime/Maenifold bin/$runtime/
+            elif [ -f "bin-downloads/binary-$runtime/Maenifold.exe" ]; then
+              cp bin-downloads/binary-$runtime/Maenifold.exe bin/$runtime/
+            fi
+          done
+
+      - name: Create platform packages
+        run: |
+          chmod +x scripts/create-platform-packages.sh
+          ./scripts/create-platform-packages.sh
+
+      - name: Publish platform packages
+        env:
+          NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
+        run: |
+          for pkg in packages/*; do
+            if [ -d "$pkg" ]; then
+              echo "Publishing $(basename $pkg)..."
+              cd "$pkg"
+              npm publish --access public || echo "Failed to publish $(basename $pkg), continuing..."
+              cd ../..
+            fi
+          done
+
+      - name: Install dependencies
+        run: npm install
+
+      - name: Publish main package
+        env:
+          NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
+        run: npm publish --access public

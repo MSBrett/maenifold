@@ -15,34 +15,69 @@ function getBinaryPath() {
   const arch = os.arch();
 
   let binaryName = 'Maenifold';
-  let subDir = '';
+  let platformPackageName = '';
+  let runtimeId = '';
 
   if (platform === 'darwin') {
-    subDir = arch === 'arm64' ? 'osx-arm64' : 'osx-x64';
-  } else if (platform === 'linux') {
-    subDir = 'linux-x64';
-  } else if (platform === 'win32') {
-    subDir = 'win-x64';
-    binaryName = 'Maenifold.exe';
-  } else {
-    console.error(`Unsupported platform: ${platform}`);
-    process.exit(1);
-  }
-
-  const binaryPath = path.join(__dirname, '..', 'bin', subDir, binaryName);
-
-  // Fallback to generic binary if platform-specific not found
-  if (!fs.existsSync(binaryPath)) {
-    const fallbackPath = path.join(__dirname, '..', 'bin', binaryName);
-    if (fs.existsSync(fallbackPath)) {
-      return fallbackPath;
+    if (arch === 'arm64') {
+      platformPackageName = '@ma-collective/maenifold-darwin-arm64';
+      runtimeId = 'osx-arm64';
+    } else {
+      platformPackageName = '@ma-collective/maenifold-darwin-x64';
+      runtimeId = 'osx-x64';
     }
-    console.error(`Binary not found: ${binaryPath}`);
-    console.error('Please run: npm run build');
+  } else if (platform === 'linux') {
+    if (arch === 'arm64') {
+      platformPackageName = '@ma-collective/maenifold-linux-arm64';
+      runtimeId = 'linux-arm64';
+    } else {
+      platformPackageName = '@ma-collective/maenifold-linux-x64';
+      runtimeId = 'linux-x64';
+    }
+  } else if (platform === 'win32') {
+    binaryName = 'Maenifold.exe';
+    if (arch === 'arm64') {
+      platformPackageName = '@ma-collective/maenifold-win32-arm64';
+      runtimeId = 'win-arm64';
+    } else {
+      platformPackageName = '@ma-collective/maenifold-win32-x64';
+      runtimeId = 'win-x64';
+    }
+  } else {
+    console.error(`Unsupported platform: ${platform}-${arch}`);
     process.exit(1);
   }
 
-  return binaryPath;
+  // Try to find binary in optional platform package (node_modules)
+  try {
+    const platformPackagePath = require.resolve(`${platformPackageName}/package.json`);
+    const platformRoot = path.dirname(platformPackagePath);
+    const binaryPath = path.join(platformRoot, binaryName);
+
+    if (fs.existsSync(binaryPath)) {
+      return binaryPath;
+    }
+  } catch (err) {
+    // Platform package not found in node_modules, continue to fallback
+  }
+
+  // Fallback to local bin directory (for development or legacy installs)
+  const localBinaryPath = path.join(__dirname, '..', 'bin', runtimeId, binaryName);
+  if (fs.existsSync(localBinaryPath)) {
+    return localBinaryPath;
+  }
+
+  // Final fallback to generic binary
+  const fallbackPath = path.join(__dirname, '..', 'bin', binaryName);
+  if (fs.existsSync(fallbackPath)) {
+    return fallbackPath;
+  }
+
+  console.error(`Binary not found for ${platform}-${arch}`);
+  console.error(`Expected platform package: ${platformPackageName}`);
+  console.error('Please ensure the package is properly installed.');
+  console.error('Try running: npm install');
+  process.exit(1);
 }
 
 function main() {

@@ -11,16 +11,39 @@ if (os.platform() !== 'win32') {
   const platform = os.platform();
   const arch = os.arch();
 
-  let subDir = '';
+  let platformPackageName = '';
+  let runtimeId = '';
+
   if (platform === 'darwin') {
-    subDir = arch === 'arm64' ? 'osx-arm64' : 'osx-x64';
+    if (arch === 'arm64') {
+      platformPackageName = '@ma-collective/maenifold-darwin-arm64';
+      runtimeId = 'osx-arm64';
+    } else {
+      platformPackageName = '@ma-collective/maenifold-darwin-x64';
+      runtimeId = 'osx-x64';
+    }
   } else if (platform === 'linux') {
-    subDir = 'linux-x64';
+    if (arch === 'arm64') {
+      platformPackageName = '@ma-collective/maenifold-linux-arm64';
+      runtimeId = 'linux-arm64';
+    } else {
+      platformPackageName = '@ma-collective/maenifold-linux-x64';
+      runtimeId = 'linux-x64';
+    }
   }
 
-  const binaryPath = path.join(__dirname, '..', 'bin', subDir, 'Maenifold');
+  // Try to find binary in optional platform package
+  let binaryPath = null;
+  try {
+    const platformPackagePath = require.resolve(`${platformPackageName}/package.json`);
+    const platformRoot = path.dirname(platformPackagePath);
+    binaryPath = path.join(platformRoot, 'Maenifold');
+  } catch (err) {
+    // Platform package not found, try local bin directory (development)
+    binaryPath = path.join(__dirname, '..', 'bin', runtimeId, 'Maenifold');
+  }
 
-  if (fs.existsSync(binaryPath)) {
+  if (binaryPath && fs.existsSync(binaryPath)) {
     try {
       fs.chmodSync(binaryPath, '755');
       console.log('✓ Binary permissions set');
