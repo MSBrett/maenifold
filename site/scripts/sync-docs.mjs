@@ -10,7 +10,7 @@ const siteRoot = resolve(__dirname, '..'); // /site
 const repoRoot = resolve(siteRoot, '..');  // repo root
 
 const mappings = [
-  { from: resolve(repoRoot, 'README.md'), to: resolve(siteRoot, 'src/pages/start.mdx'), transform: 'landing' },
+  { from: resolve(repoRoot, 'README.md'), to: resolve(siteRoot, 'src/pages/start.mdx'), transform: 'base' },
   { from: resolve(repoRoot, 'assets'), to: resolve(siteRoot, 'public/assets') },
   { from: resolve(repoRoot, 'src/assets/usage'), to: resolve(siteRoot, 'src/pages/usage') },
 ];
@@ -70,6 +70,15 @@ async function run() {
       let raw = await fs.readFile(m.from, 'utf8');
       raw = selfCloseVoidTags(raw);
       const transformed = `---\nlayout: ../layouts/Landing.astro\n---\n\n${raw}`;
+      await fs.mkdir(dirname(m.to), { recursive: true });
+      await fs.writeFile(m.to, transformed, 'utf8');
+      continue;
+    }
+
+    if (m.transform === 'base') {
+      let raw = await fs.readFile(m.from, 'utf8');
+      raw = selfCloseVoidTags(raw);
+      const transformed = `---\nlayout: ../layouts/Base.astro\n---\n\n${raw}`;
       await fs.mkdir(dirname(m.to), { recursive: true });
       await fs.writeFile(m.to, transformed, 'utf8');
       continue;
