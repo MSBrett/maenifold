@@ -27,13 +27,14 @@ jobs:
 
           fail() { echo "::error::$1"; exit 1; }
 
-          # Rule 1: Only accept PRs into main from dev (same repo)
+          # Rule 1: Only accept PRs into main from dev (same repo) OR from dependabot branches
           if [ "$BASE_REF" = "main" ]; then
             if [ "$HEAD_REPO" != "$REPO" ]; then
               fail "PRs to 'main' must come from the same repository (no direct fork merges)."
             fi
-            if [ "$HEAD_REF" != "dev" ]; then
-              fail "PRs to 'main' must come from 'dev' only."
+            # Allow dependabot/* branches to target main directly
+            if [[ "$HEAD_REF" != "dev" && ! "$HEAD_REF" =~ ^dependabot/ ]]; then
+              fail "PRs to 'main' must come from 'dev' or dependabot branches only."
             fi
           fi
 
