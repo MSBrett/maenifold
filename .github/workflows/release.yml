@@ -51,13 +51,7 @@ jobs:
         run: dotnet restore src/Maenifold.csproj
 
       - name: Build ${{ matrix.runtime }}
-        run: |
-          dotnet publish src/Maenifold.csproj \
-            -c Release \
-            -r ${{ matrix.runtime }} \
-            --self-contained \
-            -p:PublishSingleFile=true \
-            -o bin/${{ matrix.runtime }}
+        run: dotnet publish src/Maenifold.csproj -c Release -r ${{ matrix.runtime }} --self-contained -p:PublishSingleFile=true -o bin/${{ matrix.runtime }}
 
       - name: Create archive (Unix)
         if: runner.os != 'Windows'
