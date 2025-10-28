@@ -1,12 +1,5 @@
 ---
 import Base from '../layouts/Base.astro';
-
-const pages = await Astro.glob('./tools/*.md');
-const sortedPages = pages.sort((a, b) => {
-  const nameA = a.file.split('/').pop()?.replace('.md','') || '';
-  const nameB = b.file.split('/').pop()?.replace('.md','') || '';
-  return nameA.localeCompare(nameB);
-});
 ---
 
 <Base>
@@ -67,15 +60,6 @@ const sortedPages = pages.sort((a, b) => {
         <p>Complete documentation for all maenifold MCP tools</p>
       </div>
       <div class="tools-grid">
-        {sortedPages.map(p => {
-          const name = p.file.split('/').pop()?.replace('.md','') || '';
-          return (
-            <a href={p.url} class="tool-card">
-              <div class="tool-name">{name}</div>
-              <div class="tool-category">Tool Documentation</div>
-            </a>
-          );
-        })}
       </div>
     </div>
   </main>
