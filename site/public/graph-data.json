@@ -1,26 +1,6 @@
 {
   "nodes": [
     {
-      "id": "WikiLink",
-      "val": 5.700439718141093
-    },
-    {
-      "id": "WikiLinks",
-      "val": 4.807354922057604
-    },
-    {
-      "id": "microservices",
-      "val": 3
-    },
-    {
-      "id": "event-sourcing",
-      "val": 3
-    },
-    {
-      "id": "audit-trails",
-      "val": 3
-    },
-    {
       "id": "Entity Name",
       "val": 3.584962500721156
     },
@@ -43,6 +23,10 @@
     {
       "id": "maenifold",
       "val": 3
+    },
+    {
+      "id": "WikiLinks",
+      "val": 4.584962500721156
     },
     {
       "id": "Entity Names",
@@ -143,6 +127,10 @@
     {
       "id": "fragmentation",
       "val": 3.584962500721156
+    },
+    {
+      "id": "WikiLink",
+      "val": 5.584962500721156
     },
     {
       "id": "tools",
@@ -618,56 +606,6 @@
     }
   ],
   "links": [
-    {
-      "source": "WikiLink",
-      "target": "WikiLinks",
-      "value": 3
-    },
-    {
-      "source": "WikiLink",
-      "target": "microservices",
-      "value": 1
-    },
-    {
-      "source": "WikiLink",
-      "target": "event-sourcing",
-      "value": 1
-    },
-    {
-      "source": "WikiLink",
-      "target": "audit-trails",
-      "value": 1
-    },
-    {
-      "source": "WikiLinks",
-      "target": "microservices",
-      "value": 1
-    },
-    {
-      "source": "WikiLinks",
-      "target": "event-sourcing",
-      "value": 1
-    },
-    {
-      "source": "WikiLinks",
-      "target": "audit-trails",
-      "value": 1
-    },
-    {
-      "source": "event-sourcing",
-      "target": "microservices",
-      "value": 1
-    },
-    {
-      "source": "audit-trails",
-      "target": "microservices",
-      "value": 1
-    },
-    {
-      "source": "audit-trails",
-      "target": "event-sourcing",
-      "value": 1
-    },
     {
       "source": "Entity Name",
       "target": "Software Architecture Patterns",
@@ -1997,6 +1935,11 @@
       "source": "WikiLink",
       "target": "agent-system",
       "value": 1
+    },
+    {
+      "source": "WikiLink",
+      "target": "WikiLinks",
+      "value": 2
     },
     {
       "source": "MCP Tools",
