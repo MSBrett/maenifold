@@ -158,28 +158,102 @@ import Base from './Base.astro';
                 padding: 32px 28px;
             }
         }
+        .assets {
+            padding: 48px 0;
+        }
+        .assets-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 24px;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+        .asset-card {
+            background: linear-gradient(
+                145deg,
+                rgba(14, 27, 42, 0.85),
+                rgba(11, 21, 32, 0.9)
+            );
+            border: 1px solid rgba(255, 255, 255, 0.08);
+            border-radius: 16px;
+            padding: 32px;
+            text-align: center;
+        }
+        .asset-emoji {
+            font-size: 48px;
+            margin-bottom: 16px;
+        }
+        .asset-title {
+            font-size: 20px;
+            font-weight: 600;
+            margin-bottom: 8px;
+            color: var(--text);
+        }
+        .asset-description {
+            font-size: 14px;
+            color: rgba(200, 214, 230, 0.92);
+            line-height: 1.6;
+        }
     </style>
 
     <section class="hero container">
         <div class="hero-card">
-            <div class="eyebrow">Persistent Graph-of-Thoughts</div>
-            <h1 class="title">Your Agent is ephemeral.</h1>
-            <h1 class="title">Knowledge persists.</h1>
+            <img
+                src={`${import.meta.env.BASE_URL}assets/branding/maenifold-logo.svg`}
+                alt="maenifold"
+            />
             <p class="subtitle">
-                maenifold transforms isolated AI sessions into a persistent
-                knowledge graph with WikiLinks, vectors, and emergent structure.
-                Test-time reasoning that compounds.
+                <strong>maenifold</strong> provides tools that transform thoughts
+                into a persistent, interconnected knowledge graph using WikiLinks
+                and vectors - knowledge compounds over time rather than resetting
+                with each session
             </p>
             <div class="cta">
-                <a href="#wow">Get Started</a>
+                <a href={`${import.meta.env.BASE_URL}start/`}>Get Started</a>
                 <a href={`${import.meta.env.BASE_URL}usage/`}>Usage & Docs</a>
             </div>
         </div>
     </section>
-
-    <section class="content-section container" id="wow">
-        <div class="content-card">
-            <slot />
+    <section class="assets container">
+        <div class="assets-grid">
+            <div class="asset-card">
+                <div class="asset-emoji">🔄</div>
+                <div class="asset-title">30 Structured Workflows</div>
+                <div class="asset-description">
+                    From deductive reasoning to design thinking, agile
+                    development to strategic planning - systematic methodologies
+                    for every cognitive task
+                </div>
+            </div>
+            <div class="asset-card">
+                <div class="asset-emoji">🎭</div>
+                <div class="asset-title">7 Roles</div>
+                <div class="asset-description">
+                    Professional perspectives from Product Manager to Red Team -
+                    each with personality, principles, and context-aware
+                    transitions
+                </div>
+            </div>
+            <div class="asset-card">
+                <div class="asset-emoji">🎨</div>
+                <div class="asset-title">7 Colors</div>
+                <div class="asset-description">
+                    De Bono's Six Thinking Hats plus Gray - cognitive modes for
+                    facts, emotions, caution, optimism, creativity, and
+                    skeptical inquiry
+                </div>
+            </div>
+            <div class="asset-card">
+                <div class="asset-emoji">🗣️</div>
+                <div class="asset-title">12 Perspectives</div>
+                <div class="asset-description">
+                    Sapir-Whorf linguistic patterns - language-influenced
+                    reasoning styles from Arabic root analysis to Japanese
+                    contextual thinking
+                </div>
+            </div>
         </div>
     </section>
+
+    <slot />
 </Base>
