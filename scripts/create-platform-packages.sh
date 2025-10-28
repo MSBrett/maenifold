@@ -56,7 +56,8 @@ for platform in "${PLATFORMS[@]}"; do
   "license": "MIT",
   "files": [
     "$binary_name",
-    "index.js"
+    "index.js",
+    "README.md"
   ]
 }
 EOF
@@ -67,6 +68,14 @@ EOF
 // The binary is executed by the main @ma-collective/maenifold package
 module.exports = {};
 EOF
+
+  # Copy main README.md
+  if [ -f "$REPO_ROOT/README.md" ]; then
+    cp "$REPO_ROOT/README.md" "$PKG_DIR/README.md"
+    echo "  ✓ Copied README.md"
+  else
+    echo "  ⚠ README.md not found"
+  fi
 
   # Copy binary if it exists
   BIN_SOURCE="$REPO_ROOT/bin/$runtime_id/$binary_name"
