@@ -67,7 +67,7 @@ Returns memory:// URI for future reference, checksum for safe editing, confirms 
 
         // BUG-DUP-H1-001: Prevent duplicate H1 headings
         var trimmedContent = content.TrimStart();
-        var hasH1 = trimmedContent.StartsWith("# ");
+        var hasH1 = trimmedContent.StartsWith("# ", StringComparison.Ordinal);
         var fullContent = hasH1
             ? content  // Content already has H1, use as-is
             : $"# {title}\n\n{content}";  // No H1, prepend title
