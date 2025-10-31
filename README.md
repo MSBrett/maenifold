@@ -9,8 +9,8 @@
 <p align="center">
   <a href="https://www.npmjs.com/package/maenifold"><img src="https://img.shields.io/npm/v/maenifold.svg?style=flat-square" alt="npm version"></a>
   <a href="https://github.com/msbrettorg/maenifold/blob/main/LICENSE"><img src="https://img.shields.io/github/license/msbrettorg/maenifold?style=flat-square" alt="MIT License"></a>
-  <a href="https://vscodemcp.com/install?server=maenifold"><img src="https://img.shields.io/badge/Install_in-VS_Code-blue?style=flat-square&logo=visualstudiocode" alt="Install in VS Code"></a>
-  <a href="https://vscodemcp.com/install?server=maenifold&insiders=true"><img src="https://img.shields.io/badge/Install_in-VS_Code_Insiders-blue?style=flat-square&logo=visualstudiocode" alt="Install in VS Code Insiders"></a>
+  <a href="vscode:mcp/install?%7B%22name%22%3A%22maenifold%22%2C%22type%22%3A%22stdio%22%2C%22command%22%3A%22maenifold%22%2C%22args%22%3A%5B%22--mcp%22%5D%2C%22env%22%3A%7B%22MAENIFOLD_ROOT%22%3A%22~%2Fmaenifold%22%7D%7D"><img src="https://img.shields.io/badge/Install_in-VS_Code-0098FF?style=flat-square&logo=visualstudiocode" alt="Install in VS Code"></a>
+  <a href="vscode-insiders:mcp/install?%7B%22name%22%3A%22maenifold%22%2C%22type%22%3A%22stdio%22%2C%22command%22%3A%22maenifold%22%2C%22args%22%3A%5B%22--mcp%22%5D%2C%22env%22%3A%7B%22MAENIFOLD_ROOT%22%3A%22~%2Fmaenifold%22%7D%7D"><img src="https://img.shields.io/badge/Install_in-VS_Code_Insiders-0098FF?style=flat-square&logo=visualstudiocode" alt="Install in VS Code Insiders"></a>
 </p>
 
 ## What maenifold does
